@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selaras Wangi — Find your scent</title>
+  <style>
+    :root { color-scheme: light; --ink: #18231c; --paper: #fff; --muted: #777c73; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body { font-family: Arial, Helvetica, sans-serif; background: var(--paper); color: var(--ink); overflow: hidden; }
+    button, input { font: inherit; }
+    .app { position: relative; width: 100vw; height: var(--app-height, 100svh); min-height: 520px; overflow: hidden; isolation: isolate; background: #fff; }
+    .wordmark { margin: 0 auto 27px; font-size: 14px; font-weight: 600; letter-spacing: .32em; white-space: nowrap; }
+    .orbit { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+    .orbit::before { content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none; background: radial-gradient(ellipse 34% 44% at 50% 51%, rgba(255,255,255,1) 0%, rgba(255,255,255,.98) 48%, rgba(255,255,255,.72) 77%, rgba(255,255,255,0) 100%); }
+    .bottle { position: absolute; left: 0; top: 0; width: var(--size); transform-origin: center; will-change: transform; opacity: 0; transition: opacity 420ms ease-out; filter: drop-shadow(0 17px 14px rgba(52,47,36,.18)); }
+    .orbit.is-visible .bottle { opacity: var(--opacity, 1); }
+    .app.search-active .orbit.is-visible .bottle { opacity: calc(var(--opacity, 1) * .42); }
+    .bottle img { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .bottle.soft { filter: blur(1.5px) drop-shadow(0 16px 13px rgba(52,47,36,.12)); }
+    .bottle.far { filter: blur(3px) drop-shadow(0 12px 10px rgba(52,47,36,.08)); }
+    .center { position: absolute; z-index: 20; left: 50%; top: 51%; transform: translate(-50%, -50%); width: min(700px, calc(100vw - 44px)); text-align: center; }
+    @keyframes question-enter { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: scale(1); } }
+    @keyframes search-enter { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    .center.is-entering h1 { animation: question-enter 430ms ease-out both; }
+    .center.is-entering .search-wrap { animation: search-enter 350ms ease-out 180ms both; }
+    .center.is-exiting h1, .center.is-exiting .search-wrap, .center.is-exiting .selected-target, .center.is-exiting .favorites, .center.is-exiting .continue, .center.is-exiting .back { opacity: 0; transform: translateY(-8px); transition: opacity 160ms ease-in, transform 160ms ease-in; }
+    h1 { margin: 0 auto 31px; max-width: 700px; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(42px, 5.5vw, 76px); line-height: .98; letter-spacing: -.057em; font-weight: 400; text-wrap: balance; }
+    .step-two h1 { max-width: 770px; }
+    .selected-target { display: none; align-items: center; gap: 10px; width: fit-content; max-width: min(100%, 360px); margin: 0 auto 16px; padding: 6px 13px 6px 7px; border: 1px solid rgba(24,35,28,.2); border-radius: 18px; background: rgba(255,255,255,.72); color: #526151; font-size: 12px; text-align: left; }
+    .step-two .selected-target { display: flex; }
+    .selected-target img { width: 38px; height: 38px; flex: none; object-fit: contain; border-radius: 10px; background: #eff1e9; }
+    .selected-target-copy { min-width: 0; overflow: hidden; }
+    .selected-target-copy small { display: block; color: #71806f; font-size: 10px; letter-spacing: .07em; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .selected-target-copy span { display: block; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    @keyframes selected-enter { from { opacity: 0; transform: translateY(8px) scale(.96); } to { opacity: 1; transform: translateY(0) scale(1); } }
+    .step-two.is-entering .selected-target { animation: selected-enter 380ms ease-out 100ms both; }
+    .search-wrap { position: relative; width: min(680px, 100%); margin: 0 auto; }
+    .search { display: flex; align-items: center; gap: 17px; min-height: 78px; padding: 0 27px; border: 1.5px solid var(--ink); border-radius: 999px; background: rgba(255,253,248,.93); box-shadow: 0 18px 45px rgba(48,44,34,.065); transition: box-shadow .2s, background .2s, border-color .2s; }
+    .search:focus-within { background: #fffdf9; box-shadow: 0 0 0 4px rgba(99,119,91,.13), 0 20px 50px rgba(48,44,34,.08); }
+    .search svg { width: 28px; height: 28px; flex: none; stroke: var(--ink); }
+    .search input { border: 0; outline: 0; background: transparent; color: var(--ink); width: 100%; min-width: 0; font-size: clamp(17px, 1.7vw, 22px); }
+    .search input::placeholder { color: #7e827b; opacity: 1; }
+    .clear { display: none; border: 0; background: transparent; color: #7e827b; font-size: 23px; cursor: pointer; padding: 5px; }
+    .clear.visible { display: block; }
+    .suggestions { position: absolute; z-index: 5; top: calc(100% + 10px); left: 0; right: 0; margin: 0; padding: 8px; list-style: none; border: 1px solid rgba(24,35,28,.13); border-radius: 20px; background: rgba(255,253,248,.98); box-shadow: 0 25px 55px rgba(28,39,30,.15); text-align: left; max-height: min(310px, var(--suggestions-room, 36vh)); overflow: auto; }
+    .suggestions[hidden] { display: none; }
+    .suggestions li + li { border-top: 1px solid rgba(24,35,28,.075); }
+    .suggestions button { display: grid; grid-template-columns: 52px minmax(0,1fr) auto; align-items: center; gap: 12px; width: 100%; padding: 9px 10px; border: 0; border-radius: 12px; background: transparent; color: var(--ink); text-align: left; cursor: pointer; font-size: 17px; }
+    .suggestions button:hover, .suggestions button[aria-selected="true"] { background: #eff0e7; }
+    .suggestion-image { width: 52px; height: 52px; border-radius: 10px; object-fit: contain; background: #f1f1eb; }
+    .suggestion-copy { min-width: 0; }
+    .suggestion-copy small { display: block; color: #71806f; font-size: 11px; margin-bottom: 2px; letter-spacing: .055em; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .suggestion-name { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .suggestion-meta { display: block; margin-top: 3px; color: #81877e; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .suggestions .arrow { color: #7d8979; font-size: 20px; }
+    .empty { padding: 16px; color: #686f66; font-size: 15px; }
+    .favorites { display: none; justify-content: center; align-items: center; flex-wrap: wrap; gap: 8px; max-width: 680px; margin: 18px auto 0; }
+    .step-two .favorites { display: flex; }
+    .favorites button { display: inline-flex; align-items: center; gap: 7px; border: 1px solid rgba(24,35,28,.2); background: rgba(255,253,248,.82); padding: 5px 10px 5px 6px; border-radius: 999px; color: var(--ink); cursor: pointer; }
+    .favorites button:hover { background: #eff0e7; }
+    .favorites button span:not(.favorite-remove) { max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .favorite-image { width: 27px; height: 27px; object-fit: contain; border-radius: 50%; background: #eff1e9; }
+    .favorite-remove { color: #7d8979; font-size: 16px; line-height: 1; }
+    .continue { display: none; margin: 18px auto 0; border: 1px solid var(--ink); border-radius: 999px; padding: 12px 19px; background: var(--ink); color: #fffdf8; cursor: pointer; font: inherit; }
+    .continue.visible { display: inline-flex; }
+    .continue:hover { background: #2f4a38; }
+    .step-two .continue { margin-top: 16px; }
+    .step-two .search-wrap.limit-reached { opacity: .6; pointer-events: none; }
+    .step-two .search-wrap.limit-reached::after { content: 'Five references selected'; position: absolute; inset: 0; display: grid; place-items: center; color: var(--ink); font-size: 13px; font-weight: 600; }
+    .back { display: none; margin: 24px auto 0; padding: 8px 10px; border: 0; background: transparent; color: #656f63; text-decoration: underline; text-underline-offset: 4px; cursor: pointer; font-size: 14px; }
+    .step-two .back { display: block; }
+    @media (max-width: 700px) {
+      .app { min-height: 0; }
+      .orbit::before { background: radial-gradient(ellipse 57% 39% at 50% 49%, rgba(255,255,255,1) 0%, rgba(255,255,255,.98) 48%, rgba(255,255,255,.72) 77%, rgba(255,255,255,0) 100%); }
+      .wordmark { margin-bottom: 22px; font-size: 11px; letter-spacing: .25em; }
+      .center { top: 49%; width: min(540px, calc(100vw - 34px)); }
+      h1 { font-size: clamp(39px, 9vw, 60px); margin-bottom: 25px; }
+      .search { min-height: 65px; padding: 0 19px; gap: 12px; }
+      .search svg { width: 23px; height: 23px; }
+      .suggestions button { font-size: 15px; }
+      .bottle[data-mobile-hide="true"] { display: none; }
+      .app.keyboard-open .center { top: 12px; transform: translateX(-50%); }
+      .app.keyboard-open .wordmark { margin-bottom: 10px; }
+      .app.keyboard-open h1 { font-size: clamp(30px, 7vw, 38px); margin-bottom: 13px; }
+      .app.keyboard-open .selected-target { margin-bottom: 8px; padding: 5px 10px; }
+      .app.keyboard-open .search { min-height: 54px; }
+      .app.keyboard-open .favorites { margin-top: 10px; }
+      .app.keyboard-open .continue { margin-top: 10px; padding: 10px 16px; }
+    }
+    @media (max-height: 640px) { .center { top: 52%; } h1 { font-size: clamp(36px, 5vw, 60px); margin-bottom: 20px; } .search { min-height: 62px; } }
+    @media (prefers-reduced-motion: reduce) { .bottle { will-change: auto; transition: none; } .center.is-entering h1, .center.is-entering .search-wrap, .step-two.is-entering .selected-target { animation: none; } .center.is-exiting h1, .center.is-exiting .search-wrap, .center.is-exiting .selected-target, .center.is-exiting .favorites, .center.is-exiting .back { transition: none; } }
+  </style>
+</head>
+<body>
+  <main class="app" id="app">
+    <div class="orbit" id="orbit" aria-hidden="true"></div>
+    <section class="center is-entering" id="center" aria-label="Perfume matcher">
+      <div class="wordmark">SELARAS WANGI</div>
+      <div class="selected-target" id="selectedTarget"></div>
+      <h1 id="question" aria-live="polite">Which perfume are you thinking of buying?</h1>
+      <div class="search-wrap">
+        <div class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="10.8" cy="10.8" r="7.2"/><path d="m16.2 16.2 5 5"/></svg>
+          <input id="searchInput" type="search" placeholder="Search Indonesian perfumes" aria-label="Search Indonesian perfumes" aria-autocomplete="list" aria-controls="suggestions" aria-expanded="false" autocomplete="off" />
+          <button class="clear" id="clearSearch" type="button" aria-label="Clear search">×</button>
+        </div>
+        <ul class="suggestions" id="suggestions" role="listbox" hidden></ul>
+      </div>
+      <div class="favorites" id="favorites" aria-label="Perfumes you love"></div>
+      <button class="continue" id="continueButton" type="button">Find my match</button>
+      <button class="back" id="back" type="button">Change the perfume I’m considering</button>
+    </section>
+  </main>
+  <script src="data/app/catalog.js"></script>
+  <script>
+    const perfumes = window.SELARAS_WANGI_CATALOG?.perfumes ?? [];
+    const app = document.getElementById('app');
+    const orbit = document.getElementById('orbit');
+    const center = document.getElementById('center');
+    const question = document.getElementById('question');
+    const input = document.getElementById('searchInput');
+    const suggestions = document.getElementById('suggestions');
+    const clearSearch = document.getElementById('clearSearch');
+    const selectedTarget = document.getElementById('selectedTarget');
+    const favoritesEl = document.getElementById('favorites');
+    const back = document.getElementById('back');
+    const continueButton = document.getElementById('continueButton');
+    const searchWrap = document.querySelector('.search-wrap');
+    const maxFavorites = 5;
+    let step = 1, target = null, favorites = [], activeIndex = -1, matches = [];
+    let userEngaged = false;
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let transitionTimer;
+    let entranceTimer;
+    function updateFocusState() {
+      app.classList.toggle('search-active', userEngaged && document.activeElement === input);
+    }
+    function focusSearch() {
+      if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) input.focus({preventScroll:true});
+      updateFocusState();
+    }
+    function transitionQuestion(update) {
+      clearTimeout(transitionTimer);
+      clearTimeout(entranceTimer);
+      closeSuggestions();
+      if (reducedMotion.matches) { update(); focusSearch(); return; }
+      center.classList.remove('is-entering');
+      center.classList.add('is-exiting');
+      transitionTimer = setTimeout(() => {
+        update();
+        center.classList.remove('is-exiting');
+        center.classList.add('is-entering');
+        transitionTimer = setTimeout(() => center.classList.remove('is-entering'), 500);
+        focusSearch();
+      }, 160);
+    }
+    entranceTimer = setTimeout(() => { center.classList.remove('is-entering'); focusSearch(); }, 580);
+    const visualViewport = window.visualViewport;
+    let viewportWidth = window.innerWidth;
+    let fullViewportHeight = Math.max(window.innerHeight, visualViewport?.height || 0);
+    function updateSuggestionsRoom() {
+      const bottom = searchWrap.getBoundingClientRect().bottom - app.getBoundingClientRect().top;
+      app.style.setProperty('--suggestions-room', `${Math.max(60,Math.floor(app.clientHeight-bottom-14))}px`);
+    }
+    function updateMobileViewport() {
+      const visibleHeight = visualViewport?.height || window.innerHeight;
+      if (window.innerWidth !== viewportWidth) {
+        viewportWidth = window.innerWidth;
+        fullViewportHeight = Math.max(window.innerHeight, visibleHeight);
+      }
+      const keyboardOpen = window.innerWidth < 700 && document.activeElement === input && fullViewportHeight - visibleHeight > 120;
+      app.classList.toggle('keyboard-open', keyboardOpen);
+      if (keyboardOpen) app.style.setProperty('--app-height', `${Math.floor(visibleHeight)}px`);
+      else {
+        app.style.removeProperty('--app-height');
+        if (document.activeElement !== input) fullViewportHeight = Math.max(window.innerHeight, visibleHeight);
+      }
+      requestAnimationFrame(updateSuggestionsRoom);
+    }
+    visualViewport?.addEventListener('resize', updateMobileViewport);
+    window.addEventListener('resize', updateMobileViewport);
+    updateMobileViewport();
+
+    // Original transparent bottle assets; designs are documented in PROMPTS.md.
+    const bottleImages = [
+      'assets/generated-bottles/01-pine-ribbed.png',
+      'assets/generated-bottles/02-amber-square.png',
+      'assets/generated-bottles/03-clear-oval.png',
+      'assets/generated-bottles/04-sage-cylinder.png',
+      'assets/generated-bottles/05-ivory-teardrop.png',
+      'assets/generated-bottles/06-oxblood-rectangle.png',
+      'assets/generated-bottles/07-cobalt-arch.png',
+      'assets/generated-bottles/08-honey-fluted.png',
+      'assets/generated-bottles/09-amethyst-prism.png',
+      'assets/generated-bottles/10-obsidian-orb.png',
+      'assets/generated-bottles/11-terracotta-amphora.png',
+      'assets/generated-bottles/12-seafoam-fan.png',
+      'assets/generated-bottles/13-ruby-pyramid.png',
+      'assets/generated-bottles/14-clear-twist.png',
+      'assets/generated-bottles/15-blush-pebble.png',
+      'assets/generated-bottles/16-copper-column.png'
+    ];
+    // Alternate the original and new designs around the outer ring.
+    const bottleOrder = [0,8,1,9,2,10,3,11,4,12,5,13,6,14,7,15];
+    const ringDefinitions = [
+      {ring:0,count:16,offset:.12,speed:.055,opacity:1,sizes:[157,113,128,95,130,104,139,130,114,100,125,129,104,92,119,105]},
+      {ring:1,count:11,offset:.34,speed:-.068,opacity:.86,sizes:[102,89,108,77,96,112,84,103,76,99,87]},
+      {ring:2,count:8,offset:.15,speed:.082,opacity:.58,sizes:[79,68,85,72,81,64,88,70]}
+    ];
+    const bottleSpecs = ringDefinitions.flatMap(ring => Array.from({length:ring.count},(_,slot)=>({
+      ring:ring.ring, slot, size:ring.sizes[slot],
+      angle:ring.offset + slot * Math.PI * 2 / ring.count,
+      speed:ring.speed, opacity:ring.opacity,
+      tilt:[-13,18,8,-17,12,-20,15][slot % 7],
+      far:ring.ring===2,
+      soft:ring.ring===1 && slot % 4===0
+    })));
+    const bottleEls = bottleSpecs.map((b,i)=>{
+      const el = document.createElement('div');
+      el.className = 'bottle' + (b.far ? ' far' : '') + (b.soft ? ' soft' : '');
+      el.style.setProperty('--size', b.size+'px');
+      el.style.setProperty('--opacity', b.opacity);
+      el.style.height = Math.round(b.size * 1.6) + 'px';
+      el.dataset.mobileHide = (b.ring===0 && b.slot%2===0) || (b.ring===1 && b.slot%2!==0) || (b.ring===2 && b.slot%3!==0) ? 'true' : 'false';
+      const img = document.createElement('img');
+      img.src = bottleImages[bottleOrder[i % bottleOrder.length]];
+      img.alt = '';
+      img.decoding = 'async';
+      img.draggable = false;
+      el.appendChild(img);
+      orbit.appendChild(el);
+      return el;
+    });
+    const orbitEntranceDelay = 620;
+    let start = performance.now();
+    let lastFrame = start, orbitalPhase = 0, motionRate = 1;
+    const ringScale = [{x:1,y:1},{x:.74,y:.72},{x:.48,y:.45}];
+    function animate(now) {
+      const w = app.clientWidth, h = app.clientHeight;
+      const mobile = w < 700;
+      const outerRx = mobile ? w * .56 : Math.min(w * .49, 900);
+      const outerRy = mobile ? h * .48 : Math.min(h * .49, 510);
+      const orbitElapsed = Math.max(0, (now - start - orbitEntranceDelay) / 1000);
+      if (reducedMotion.matches || now - start >= orbitEntranceDelay) orbit.classList.add('is-visible');
+      const dt = Math.min((now - lastFrame) / 1000, .05);
+      lastFrame = now;
+      if (!reducedMotion.matches && now - start >= orbitEntranceDelay) {
+        const targetRate = app.classList.contains('search-active') ? .18 : 1;
+        motionRate += (targetRate - motionRate) * (1 - Math.exp(-dt / .32));
+        // Enter quickly, then settle; searching gently slows every ring.
+        orbitalPhase += dt * (1 + 3 * Math.exp(-orbitElapsed / .45)) * motionRate;
+      }
+      bottleSpecs.forEach((b,i)=>{
+        const a = b.angle + orbitalPhase * b.speed * 3;
+        const depth = .89 + .11 * Math.sin(a);
+        const x = w / 2 + outerRx * ringScale[b.ring].x * Math.cos(a);
+        const y = h / 2 + outerRy * ringScale[b.ring].y * Math.sin(a);
+        const scale = (mobile ? .68 : 1) * depth;
+        bottleEls[i].style.transform = `translate3d(${x - b.size/2}px, ${y - b.size*.62}px, 0) rotate(${b.tilt + Math.sin(orbitalPhase*.5+i)*3}deg) scale(${scale})`;
+      });
+      requestAnimationFrame(animate);
+    }
+    requestAnimationFrame(animate);
+
+    function label(p) { return `${p.brand} — ${p.name}`; }
+    function formatPrice(price) {
+      return price ? new Intl.NumberFormat('id-ID',{style:'currency',currency:'IDR',maximumFractionDigits:0}).format(price) : 'Price unavailable';
+    }
+    function normalize(text) {
+      return text.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/&/g,' and ').replace(/[^a-z0-9]+/g,' ').trim();
+    }
+    function editDistance(a,b) {
+      if (Math.abs(a.length-b.length)>2) return 3;
+      let row = Array.from({length:b.length+1},(_,i)=>i);
+      for (let i=1;i<=a.length;i++) {
+        const next=[i];
+        for (let j=1;j<=b.length;j++) next[j]=Math.min(next[j-1]+1,row[j]+1,row[j-1]+(a[i-1]===b[j-1]?0:1));
+        row=next;
+      }
+      return row[b.length];
+    }
+    function matchScore(p,q) {
+      const name=normalize(p.name), full=normalize(`${p.brand} ${p.name}`);
+      if (name===q || full===q) return 0;
+      if (name.startsWith(q)) return 1;
+      if (full.startsWith(q)) return 2;
+      if (name.includes(q)) return 3;
+      if (full.includes(q)) return 4;
+      const words=full.split(' ');
+      const parts=q.split(' ');
+      if (parts.every(part=>words.some(word=>word.startsWith(part)))) return 5;
+      if (parts.every(part=>words.some(word=>word.includes(part) || (part.length>=4 && editDistance(part,word)<=(part.length>=7?2:1))))) return 6;
+      return null;
+    }
+    function renderTarget() {
+      selectedTarget.replaceChildren();
+      if (!target) return;
+      const image = document.createElement('img'); image.src = target.image_url; image.alt = '';
+      const copy = document.createElement('span'); copy.className = 'selected-target-copy';
+      const caption = document.createElement('small'); caption.textContent = 'Considering';
+      const name = document.createElement('span'); name.textContent = label(target);
+      copy.append(caption,name); selectedTarget.append(image,copy);
+    }
+    function renderFavorites() {
+      favoritesEl.innerHTML = '';
+      favorites.forEach(p=>{
+        const chip = document.createElement('button');
+        chip.type = 'button'; chip.className = 'favorite-chip';
+        chip.setAttribute('aria-label', `Remove ${label(p)}`);
+        const image = document.createElement('img'); image.className = 'favorite-image'; image.src = p.image_url; image.alt = '';
+        const name = document.createElement('span'); name.textContent = p.name;
+        const remove = document.createElement('span'); remove.className = 'favorite-remove'; remove.textContent = '×'; remove.setAttribute('aria-hidden','true');
+        chip.append(image,name,remove);
+        chip.addEventListener('click',()=>{
+          favorites = favorites.filter(x=>x.id!==p.id);
+          renderFavorites();
+          input.placeholder = 'Search a perfume you love';
+          input.focus();
+        });
+        favoritesEl.appendChild(chip);
+      });
+      const full = favorites.length >= maxFavorites;
+      searchWrap.classList.toggle('limit-reached', step===2 && full);
+      input.disabled = step===2 && full;
+      input.placeholder = full ? 'Five references selected' : (favorites.length ? 'Add another perfume you love' : 'Search a perfume you love');
+      continueButton.classList.toggle('visible', step===2 && favorites.length > 0);
+    }
+    function closeSuggestions() { suggestions.hidden = true; input.setAttribute('aria-expanded','false'); activeIndex = -1; }
+    function renderSuggestions() {
+      const q = normalize(input.value);
+      clearSearch.classList.toggle('visible', !!input.value.trim());
+      if (!q) { closeSuggestions(); return; }
+      matches = perfumes.map((p,index)=>({p,index,score:matchScore(p,q)}))
+        .filter(result=>result.score!==null && !(step===2 && (result.p===target || favorites.includes(result.p))))
+        .sort((a,b)=>a.score-b.score || a.index-b.index).slice(0,6).map(result=>result.p);
+      suggestions.innerHTML = '';
+      if (!matches.length) { const li=document.createElement('li'); li.className='empty'; li.textContent='No match. Try a brand or a shorter name.'; suggestions.appendChild(li); }
+      matches.forEach((p,i)=>{
+        const li=document.createElement('li'); const button=document.createElement('button');
+        button.type='button'; button.setAttribute('role','option'); button.setAttribute('aria-selected',String(i===activeIndex));
+        const image=document.createElement('img'); image.className='suggestion-image'; image.src=p.image_url; image.alt=''; image.loading='lazy';
+        const names=document.createElement('span'); names.className='suggestion-copy';
+        const brand=document.createElement('small'); brand.textContent=p.brand;
+        const name=document.createElement('span'); name.className='suggestion-name'; name.textContent=p.name;
+        const meta=document.createElement('span'); meta.className='suggestion-meta'; meta.textContent=[p.concentration,formatPrice(p.price_idr)].filter(Boolean).join(' · ');
+        names.append(brand,name,meta);
+        const arrow=document.createElement('span'); arrow.className='arrow'; arrow.textContent='↗'; arrow.setAttribute('aria-hidden','true');
+        button.append(image,names,arrow); button.addEventListener('click',()=>selectPerfume(p)); li.appendChild(button); suggestions.appendChild(li);
+      });
+      suggestions.hidden=false; input.setAttribute('aria-expanded','true');
+      updateSuggestionsRoom();
+    }
+    function selectPerfume(p) {
+      userEngaged=false; updateFocusState();
+      if (step===1) {
+        input.value=''; clearSearch.classList.remove('visible');
+        transitionQuestion(() => {
+          target=p; step=2; center.classList.add('step-two');
+          renderTarget();
+          question.textContent='Which perfumes do you already love?';
+          input.placeholder='Search a perfume you love'; input.setAttribute('aria-label','Search a perfume you love'); input.disabled=false;
+          renderFavorites();
+        });
+      } else {
+        if (favorites.length >= maxFavorites) return;
+        favorites.push(p); renderFavorites();
+        input.value=''; clearSearch.classList.remove('visible'); closeSuggestions();
+        if (favorites.length < maxFavorites) input.focus();
+      }
+    }
+    searchWrap.addEventListener('pointerdown',()=>{ userEngaged=true; });
+    document.querySelector('.search').addEventListener('click',e=>{ if (!e.target.closest('button')) input.focus(); });
+    input.addEventListener('focus',()=>{ updateFocusState(); updateMobileViewport(); });
+    input.addEventListener('blur',()=>{ updateFocusState(); setTimeout(updateMobileViewport,80); });
+    input.addEventListener('input',()=>{ userEngaged=true; updateFocusState(); activeIndex=-1; renderSuggestions(); updateMobileViewport(); });
+    input.addEventListener('keydown',e=>{
+      userEngaged=true; updateFocusState();
+      if (e.key==='Escape') { closeSuggestions(); return; }
+      if (e.key==='ArrowDown' && !suggestions.hidden && matches.length) { e.preventDefault(); activeIndex=(activeIndex+1)%matches.length; renderSuggestions(); }
+      if (e.key==='ArrowUp' && !suggestions.hidden && matches.length) { e.preventDefault(); activeIndex=(activeIndex-1+matches.length)%matches.length; renderSuggestions(); }
+      if (e.key==='Enter' && !suggestions.hidden && matches.length) { e.preventDefault(); selectPerfume(matches[Math.max(activeIndex,0)]); }
+    });
+    clearSearch.addEventListener('click',()=>{ input.value=''; renderSuggestions(); input.focus(); });
+    document.addEventListener('pointerdown',e=>{ if (!e.target.closest('.search-wrap')) closeSuggestions(); });
+    back.addEventListener('click',()=>{
+      userEngaged=false; updateFocusState();
+      transitionQuestion(() => {
+        target=null; favorites=[]; step=1; center.classList.remove('step-two'); question.textContent='Which perfume are you thinking of buying?';
+        input.placeholder='Search Indonesian perfumes'; input.setAttribute('aria-label','Search Indonesian perfumes'); input.value=''; input.disabled=false; renderTarget(); renderFavorites();
+      });
+    });
+    continueButton.addEventListener('click',()=>{
+      if (!target || favorites.length===0) return;
+      document.dispatchEvent(new CustomEvent('selaras:match-requested',{detail:{target,favorites:[...favorites]}}));
+    });
+  </script>
+</body>
+</html>
+
