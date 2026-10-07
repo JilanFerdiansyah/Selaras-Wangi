@@ -3,30 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Selaras Wangi — Find your scent</title>
+  <title>Selaras Wangi: Find your scent</title>
   <style>
-    :root { color-scheme: light; --ink: #18231c; --paper: #fff; --muted: #777c73; }
+    :root { color-scheme: light; --ink: #18231c; --paper: #fff; --muted: #657064; --accent: #60754f; --wash: #f3f4ee; }
     * { box-sizing: border-box; }
     html, body { margin: 0; min-height: 100%; }
     body { font-family: Arial, Helvetica, sans-serif; background: var(--paper); color: var(--ink); overflow: hidden; }
     button, input { font: inherit; }
-    .app { position: relative; width: 100vw; height: var(--app-height, 100svh); min-height: 520px; overflow: hidden; isolation: isolate; background: #fff; }
+    .app { position: relative; width: 100vw; height: var(--app-height, 100svh); min-height: 520px; overflow: clip; isolation: isolate; background: #fff; }
     .wordmark { margin: 0 auto 27px; font-size: 14px; font-weight: 600; letter-spacing: .32em; white-space: nowrap; }
     .orbit { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
     .orbit::before { content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none; background: radial-gradient(ellipse 34% 44% at 50% 51%, rgba(255,255,255,1) 0%, rgba(255,255,255,.98) 48%, rgba(255,255,255,.72) 77%, rgba(255,255,255,0) 100%); }
-    .bottle { position: absolute; left: 0; top: 0; width: var(--size); transform-origin: center; will-change: transform; opacity: 0; transition: opacity 420ms ease-out; filter: drop-shadow(0 17px 14px rgba(52,47,36,.18)); }
-    .orbit.is-visible .bottle { opacity: var(--opacity, 1); }
-    .app.search-active .orbit.is-visible .bottle { opacity: calc(var(--opacity, 1) * .42); }
+    .bottle { position: absolute; left: 0; top: 0; width: var(--size); transform-origin: center; will-change: transform; opacity: 0; filter: drop-shadow(0 10px 12px rgba(52,47,36,.09)); }
+    .orbit.is-visible .bottle { opacity:calc(var(--opacity,1) * var(--entrance,0) * var(--scene-opacity,1)); }
     .bottle img { display: block; width: 100%; height: 100%; object-fit: contain; }
-    .bottle.soft { filter: blur(1.5px) drop-shadow(0 16px 13px rgba(52,47,36,.12)); }
-    .bottle.far { filter: blur(3px) drop-shadow(0 12px 10px rgba(52,47,36,.08)); }
+    .bottle.soft { filter: blur(.8px) drop-shadow(0 9px 11px rgba(52,47,36,.055)); }
+    .bottle.far { filter: blur(1.5px) drop-shadow(0 7px 9px rgba(52,47,36,.03)); }
     .center { position: absolute; z-index: 20; left: 50%; top: 51%; transform: translate(-50%, -50%); width: min(700px, calc(100vw - 44px)); text-align: center; }
     @keyframes question-enter { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: scale(1); } }
     @keyframes search-enter { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
     .center.is-entering h1 { animation: question-enter 430ms ease-out both; }
     .center.is-entering .search-wrap { animation: search-enter 350ms ease-out 180ms both; }
-    .center.is-exiting h1, .center.is-exiting .search-wrap, .center.is-exiting .selected-target, .center.is-exiting .favorites, .center.is-exiting .continue, .center.is-exiting .back { opacity: 0; transform: translateY(-8px); transition: opacity 160ms ease-in, transform 160ms ease-in; }
-    h1 { margin: 0 auto 31px; max-width: 700px; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(42px, 5.5vw, 76px); line-height: .98; letter-spacing: -.057em; font-weight: 400; text-wrap: balance; }
+    .center.is-exiting h1, .center.is-exiting .search-wrap, .center.is-exiting .selected-target, .center.is-exiting .favorites, .center.is-exiting .back { opacity: 0; transform: translateY(-8px); transition: opacity 160ms ease-in, transform 160ms ease-in; }
+    h1 { margin: 0 auto 31px; max-width: 700px; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(42px, 5.5vw, 76px); line-height: .98; letter-spacing: -.04em; font-weight: 400; text-wrap: balance; }
     .step-two h1 { max-width: 770px; }
     .selected-target { display: none; align-items: center; gap: 10px; width: fit-content; max-width: min(100%, 360px); margin: 0 auto 16px; padding: 6px 13px 6px 7px; border: 1px solid rgba(24,35,28,.2); border-radius: 18px; background: rgba(255,255,255,.72); color: #526151; font-size: 12px; text-align: left; }
     .step-two .selected-target { display: flex; }
@@ -37,40 +36,177 @@
     @keyframes selected-enter { from { opacity: 0; transform: translateY(8px) scale(.96); } to { opacity: 1; transform: translateY(0) scale(1); } }
     .step-two.is-entering .selected-target { animation: selected-enter 380ms ease-out 100ms both; }
     .search-wrap { position: relative; width: min(680px, 100%); margin: 0 auto; }
-    .search { display: flex; align-items: center; gap: 17px; min-height: 78px; padding: 0 27px; border: 1.5px solid var(--ink); border-radius: 999px; background: rgba(255,253,248,.93); box-shadow: 0 18px 45px rgba(48,44,34,.065); transition: box-shadow .2s, background .2s, border-color .2s; }
-    .search:focus-within { background: #fffdf9; box-shadow: 0 0 0 4px rgba(99,119,91,.13), 0 20px 50px rgba(48,44,34,.08); }
-    .search svg { width: 28px; height: 28px; flex: none; stroke: var(--ink); }
-    .search input { border: 0; outline: 0; background: transparent; color: var(--ink); width: 100%; min-width: 0; font-size: clamp(17px, 1.7vw, 22px); }
-    .search input::placeholder { color: #7e827b; opacity: 1; }
-    .clear { display: none; border: 0; background: transparent; color: #7e827b; font-size: 23px; cursor: pointer; padding: 5px; }
+    .search { display: flex; align-items: center; gap: 17px; min-height: 78px; padding: 0 27px; border: 1.5px solid #8a8a8a; border-radius: 999px; background: #fff; box-shadow: 0 18px 45px rgba(48,44,34,.065); transition: box-shadow .2s, background .2s, border-color .2s; }
+    .search:focus-within { background: #fff; border-color: #707070; box-shadow: 0 0 0 2px #707070, 0 20px 50px rgba(48,44,34,.08); }
+    .search svg { width: 28px; height: 28px; flex: none; stroke: #333; }
+    .search input { border: 0; outline: 0; background: transparent; color: #242424; width: 100%; min-width: 0; font-size: clamp(17px, 1.7vw, 22px); }
+    .search input::placeholder { color: #666; opacity: 1; }
+    .search input::-webkit-search-cancel-button { display:none; }
+    .clear { display: none; flex:none; min-width:44px; min-height:44px; margin-right:-10px; border: 0; background: transparent; color: #666; font-size: 23px; cursor: pointer; padding: 5px; border-radius:8px; }
     .clear.visible { display: block; }
-    .suggestions { position: absolute; z-index: 5; top: calc(100% + 10px); left: 0; right: 0; margin: 0; padding: 8px; list-style: none; border: 1px solid rgba(24,35,28,.13); border-radius: 20px; background: rgba(255,253,248,.98); box-shadow: 0 25px 55px rgba(28,39,30,.15); text-align: left; max-height: min(310px, var(--suggestions-room, 36vh)); overflow: auto; }
+    .suggestions { position: absolute; z-index: 5; top: calc(100% + 10px); left: 0; right: 0; margin: 0; padding: 8px; list-style: none; border: 1px solid rgba(24,35,28,.13); border-radius: 20px; background: #fffdf8; box-shadow: 0 25px 55px rgba(28,39,30,.15); text-align: left; max-height: min(430px, var(--suggestions-room, 60vh)); overflow: auto; }
     .suggestions[hidden] { display: none; }
     .suggestions li + li { border-top: 1px solid rgba(24,35,28,.075); }
-    .suggestions button { display: grid; grid-template-columns: 52px minmax(0,1fr) auto; align-items: center; gap: 12px; width: 100%; padding: 9px 10px; border: 0; border-radius: 12px; background: transparent; color: var(--ink); text-align: left; cursor: pointer; font-size: 17px; }
+    .suggestions button { display: grid; grid-template-columns: 44px minmax(0,1fr); align-items: center; gap: 10px; width: 100%; padding: 6px 10px; border: 0; border-radius: 12px; background: transparent; color: var(--ink); text-align: left; cursor: pointer; font-size: 16px; }
     .suggestions button:hover, .suggestions button[aria-selected="true"] { background: #eff0e7; }
-    .suggestion-image { width: 52px; height: 52px; border-radius: 10px; object-fit: contain; background: #f1f1eb; }
+    .suggestion-image { width: 44px; height: 44px; border-radius: 10px; object-fit: contain; background: #f1f1eb; }
     .suggestion-copy { min-width: 0; }
-    .suggestion-copy small { display: block; color: #71806f; font-size: 11px; margin-bottom: 2px; letter-spacing: .055em; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .suggestion-copy small { display: block; color: #606a5d; font-size: 11px; margin-bottom: 2px; letter-spacing: .055em; text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .suggestion-name { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .suggestion-meta { display: block; margin-top: 3px; color: #81877e; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .suggestions .arrow { color: #7d8979; font-size: 20px; }
+    .suggestion-meta { display: block; margin-top: 3px; color: #606a5d; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .empty { padding: 16px; color: #686f66; font-size: 15px; }
     .favorites { display: none; justify-content: center; align-items: center; flex-wrap: wrap; gap: 8px; max-width: 680px; margin: 18px auto 0; }
     .step-two .favorites { display: flex; }
-    .favorites button { display: inline-flex; align-items: center; gap: 7px; border: 1px solid rgba(24,35,28,.2); background: rgba(255,253,248,.82); padding: 5px 10px 5px 6px; border-radius: 999px; color: var(--ink); cursor: pointer; }
+    .favorites button { display: inline-flex; align-items: center; gap: 7px; min-height:44px; border: 1px solid #858b80; background: #fffdf8; padding: 7px 10px 7px 6px; border-radius: 12px; color: var(--ink); cursor: pointer; }
     .favorites button:hover { background: #eff0e7; }
     .favorites button span:not(.favorite-remove) { max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .favorite-image { width: 27px; height: 27px; object-fit: contain; border-radius: 50%; background: #eff1e9; }
-    .favorite-remove { color: #7d8979; font-size: 16px; line-height: 1; }
-    .continue { display: none; margin: 18px auto 0; border: 1px solid var(--ink); border-radius: 999px; padding: 12px 19px; background: var(--ink); color: #fffdf8; cursor: pointer; font: inherit; }
-    .continue.visible { display: inline-flex; }
-    .continue:hover { background: #2f4a38; }
-    .step-two .continue { margin-top: 16px; }
-    .step-two .search-wrap.limit-reached { opacity: .6; pointer-events: none; }
-    .step-two .search-wrap.limit-reached::after { content: 'Five references selected'; position: absolute; inset: 0; display: grid; place-items: center; color: var(--ink); font-size: 13px; font-weight: 600; }
-    .back { display: none; margin: 24px auto 0; padding: 8px 10px; border: 0; background: transparent; color: #656f63; text-decoration: underline; text-underline-offset: 4px; cursor: pointer; font-size: 14px; }
+    .favorite-remove { color: #606a5d; font-size: 16px; line-height: 1; }
+    .step-two .search-wrap.limit-reached { pointer-events: none; }
+    .limit-reached .search { background:#f2f2f2; box-shadow:none; }
+    .back { display: none; min-height:44px; margin: 20px auto 0; padding: 12px 10px; border: 0; background: transparent; color: #656f63; text-decoration: underline; text-underline-offset: 4px; cursor: pointer; font-size: 14px; }
     .step-two .back { display: block; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+    .promise { margin: -12px auto 27px; color: var(--muted); font-size: 15px; line-height: 1.5; text-wrap: balance; }
+    .step-label { display:none; margin:0 0 16px; color:var(--accent); font-size:11px; letter-spacing:.15em; text-transform:uppercase; }
+    .step-two .step-label { display:block; }
+    .center.step-two { top:24px; transform:translateX(-50%); max-height:calc(100% - 48px); overflow-y:auto; padding:0 4px 20px; scrollbar-width:thin; }
+    .step-two .wordmark { margin-bottom:18px; }
+    .step-two h1 { font-size:clamp(30px,3.3vw,44px); margin-bottom:24px; }
+    .step-two .selected-target { display:none; }
+    .scent-scene { display:none; position:relative; height:260px; width:min(420px,100%); margin:0 auto 12px; }
+    .step-two .scent-scene { display:block; }
+    .scene-track { position:absolute; inset:16px 18px; border:1px solid #60754f20; border-radius:50%; transform:rotate(-9deg); }
+    .scene-target { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:196px; height:196px; padding:0; background:#fafbf7; border-radius:50%; overflow:hidden; }
+    .scene-target img { width:100%; height:100%; object-fit:contain; transform:scale(1.08); }
+    .scene-favorite { position:absolute; width:50px; height:50px; padding:4px; background:#fff; border:1px solid #60754f20; border-radius:50%; box-shadow:0 6px 15px #18231c08; transform:translate(-50%,-50%); }
+    .scene-favorite img { width:100%; height:100%; object-fit:contain; border-radius:50%; }
+    .scene-caption { display:none; max-width:420px; margin:0 auto 24px; font-size:15px; line-height:1.4; overflow-wrap:anywhere; }
+    .step-two .scene-caption { display:block; }
+    .scene-caption small { display:block; margin-bottom:4px; color:var(--muted); font-size:12px; }
+    .product-image { position:relative; display:inline-block; flex:none; overflow:hidden; vertical-align:middle; }
+    .product-image img { display:block; width:100%; height:100%; object-fit:contain; }
+    .product-image:not(.is-loaded) img { visibility:hidden; }
+    .image-fallback { position:absolute; inset:0; background:var(--wash); }
+    .is-error .image-fallback { background-image:url('assets/perfume-placeholder-subtle.png'); background-position:center; background-repeat:no-repeat; background-size:auto 88%; }
+    .is-loaded .image-fallback { display:none; }
+    .scene-target .product-image { width:100%; height:100%; }
+    .scene-favorite .product-image { width:100%; height:100%; border-radius:50%; }
+    .scene-target, .scene-favorite { animation:selected-enter 500ms cubic-bezier(.2,.7,.2,1) both; }
+    .scene-target { animation-name:scene-arrive; }
+    @keyframes scene-arrive { from { opacity:0; transform:translate(-50%,-30%) scale(.8); } to { opacity:1; transform:translate(-50%,-50%) scale(1); } }
+    .scene-favorite { animation-name:scene-arrive; }
+    .scent-scene.is-restored .scene-target, .scent-scene.is-restored .scene-favorite { animation:none; }
+    .compare-action { display:none; min-height:48px; margin:18px auto 0; padding:12px 26px; border:0; border-radius:999px; background:var(--ink); color:#fff; cursor:pointer; }
+    .step-two .compare-action:not([hidden]) { display:block; }
+    .compare-action[hidden], .results[hidden] { display:none; }
+    .center.step-three { top:24px; transform:translateX(-50%); width:min(1320px,calc(100vw - 80px)); height:calc(100% - 48px); max-height:none; overflow:visible; padding:0; display:flex; flex-direction:column; }
+    .step-three .wordmark { height:44px; line-height:44px; margin:0; flex:none; }
+    .step-three .step-label { display:none; }
+    .step-three > #question, .step-three > .promise, .step-three > .search-wrap { display:none; }
+    .result-back { display:none; position:absolute; top:0; left:0; min-width:44px; min-height:44px; text-align:left; padding:10px 0; border:0; background:transparent; color:var(--muted); text-decoration:underline; text-underline-offset:4px; cursor:pointer; font-size:14px; }
+    .step-three .result-back { display:block; }
+    .results { flex:1; min-height:0; display:flex; flex-direction:column; text-align:left; }
+    .result-body { flex:1; min-height:0; display:grid; grid-template-columns:minmax(0,55fr) minmax(0,45fr); align-items:center; gap:clamp(28px,4vw,64px); }
+    .result-exhibit { min-width:0; text-align:center; }
+    .result-visual { display:flex; flex-direction:column; align-items:center; position:relative; width:100%; margin:0 auto; }
+    .result-perfume { --bottle-size:min(25vw,35vh,320px); margin:0; min-width:0; width:100%; }
+    .result-bottle { position:relative; width:var(--bottle-size); height:var(--bottle-size); margin:0 auto 16px; }
+    .profile-percentage { position:absolute; top:-10px; right:-28px; margin:0; text-align:center; font-family:Georgia, serif; font-size:32px; line-height:1; color:var(--ink); }
+    .profile-percentage small { display:block; margin-top:6px; font-family:Arial, sans-serif; font-size:10px; line-height:1.3; color:var(--muted); }
+    .result-perfume .product-image { display:block; width:100%; height:100%; margin:0; border:1px solid #e3e7df; border-radius:50%; background:#fafbf7; }
+    .result-perfume img { transform:scale(1.08); }
+    .result-perfume figcaption { max-width:340px; margin:0 auto; font-size:14px; line-height:1.4; overflow-wrap:anywhere; }
+    .result-perfume figcaption small { display:block; color:var(--muted); font-size:12px; margin-bottom:4px; }
+    .collection-heading { margin:24px 0 12px; color:var(--muted); font-size:13px; line-height:1.4; }
+    .result-collection { display:flex; justify-content:center; gap:12px; width:100%; max-width:500px; }
+    .collection-perfume { flex:1; min-width:0; max-width:96px; margin:0; }
+    .collection-perfume .product-image { display:block; width:56px; height:56px; margin:0 auto 8px; border:1px solid #e3e7df; border-radius:50%; background:var(--wash); }
+    .collection-perfume img { transform:scale(1.08); }
+    .collection-perfume figcaption { font-size:11px; line-height:1.35; color:var(--muted); display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+    .result-summary { min-width:0; max-width:490px; }
+    .results h1 { font-size:clamp(32px,3.8vw,54px); margin:0 0 20px; text-wrap:initial; }
+    .result-explanation { margin:0 0 28px; font-size:16px; line-height:1.55; color:var(--muted); }
+    .note-comparison { display:grid; gap:24px; text-align:left; border-top:1px solid #d8ded3; padding-top:20px; }
+    .note-group h2 { font-family:inherit; font-size:14px; font-weight:600; margin:0 0 10px; line-height:1.4; }
+    .note-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px; padding:0; margin:0; list-style:none; }
+    .note-list li { padding:6px 10px; background:#f3f4ee; border-radius:6px; font-size:13px; line-height:1.4; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; min-width:0; }
+    .shared-group .note-list li { background:#e7eddf; }
+    .note-empty, .note-more { color:var(--muted); font-size:12px; margin:8px 0 0; line-height:1.5; }
+    .result-footer { display:flex; align-items:center; justify-content:space-between; gap:24px; flex:none; padding-top:20px; }
+    .result-footnote { color:var(--muted); font-size:12px; line-height:1.5; margin:0; }
+    .result-actions { display:flex; justify-content:center; gap:10px; flex:none; }
+    .result-actions button { min-height:44px; padding:10px 16px; border:1px solid #858b80; border-radius:10px; background:#fff; color:var(--ink); cursor:pointer; font-size:14px; }
+    @media(min-width:701px) and (max-height:700px), (min-width:701px) and (max-width:1000px) {
+      .center.step-three { top:16px; height:calc(100% - 32px); width:calc(100vw - 48px); }
+      .result-body { gap:24px; }
+      .collection-heading { margin-top:16px; }
+      .result-collection { gap:8px; }
+      .collection-perfume .product-image { width:48px; height:48px; }
+      .result-perfume figcaption { font-size:12px; }
+      .results h1 { font-size:clamp(30px,3.5vw,44px); margin-bottom:12px; }
+      .result-explanation { font-size:14px; margin-bottom:16px; line-height:1.45; }
+      .note-comparison { gap:16px; padding-top:14px; }
+      .note-group h2 { margin-bottom:6px; font-size:13px; }
+      .note-list li { padding:5px 8px; font-size:12px; }
+      .result-footer { padding-top:12px; gap:12px; }
+      .result-actions button { padding:10px 12px; font-size:13px; }
+    }
+    .is-entering .result-visual { animation:selected-enter 450ms ease-out both; }
+    .center.is-comparing { opacity:0; pointer-events:none; }
+    .comparison-transition { position:absolute; inset:0; z-index:30; background:var(--paper); overflow:hidden; }
+    .comparison-bottle { position:absolute; left:0; top:0; border:1px solid #e3e7df; border-radius:50%; background:#fafbf7; overflow:hidden; will-change:transform; }
+    .comparison-bottle .product-image { display:block; width:100%; height:100%; }
+    .comparison-bottle img { transform:scale(1.08); }
+    .favorites-transition { background:transparent; pointer-events:none; }
+    .center.is-returning .result-visual .product-image,
+    .center.is-returning .scene-target, .center.is-returning .scene-favorite { visibility:hidden; animation:none; }
+    .comparison-status { position:absolute; left:20px; right:20px; margin:0; text-align:center; color:var(--muted); font-size:14px; }
+    .comparison-status:focus { outline:none; }
+    @keyframes result-reveal { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
+    .results.is-revealing .result-perfume figcaption { animation:result-reveal 600ms ease-out both; }
+    .results.is-revealing h1 { animation:result-reveal 700ms ease-out 120ms both; }
+    .results.is-revealing .result-explanation { animation:result-reveal 700ms ease-out 240ms both; }
+    .results.is-revealing .profile-percentage, .results.is-revealing .collection-heading, .results.is-revealing .collection-perfume figcaption,
+    .results.is-revealing .note-comparison, .results.is-revealing .result-footnote,
+    .results.is-revealing .result-actions { animation:result-reveal 700ms ease-out 360ms both; }
+    @media(max-width:700px) {
+      .center.step-three { top:16px; width:calc(100vw - 28px); height:auto; max-height:calc(100% - 32px); overflow-y:auto; display:block; padding-bottom:16px; }
+      .step-three .wordmark { margin-bottom:20px; font-size:11px; }
+      .result-back { font-size:12px; }
+      .results { display:block; text-align:center; }
+      .result-body { display:block; }
+      .result-exhibit { margin-bottom:28px; }
+      .result-visual { margin-bottom:20px; }
+      .result-perfume { --bottle-size:clamp(176px,52vw,240px); }
+      .profile-percentage { font-size:28px; right:-24px; }
+      .result-collection { gap:6px; }
+      .collection-perfume .product-image { width:46px; height:46px; }
+      .result-perfume figcaption { font-size:12px; }
+      .result-summary { max-width:490px; margin:0 auto; }
+      .results h1 { font-size:36px; }
+      .result-explanation { font-size:14px; margin-bottom:20px; }
+      .note-comparison { gap:18px; }
+      .result-footer { display:block; padding-top:20px; }
+      .result-footnote { margin-bottom:14px; }
+      .result-actions { flex-wrap:wrap; }
+    }
+    @media(prefers-reduced-motion:reduce) { .is-entering .result-visual, .results.is-revealing * { animation:none; } }
+    @media(max-width:700px) {
+      .promise { font-size:13px; margin:-9px auto 22px; max-width:290px; }
+      .center.step-two { top:16px; max-height:calc(100% - 32px); }
+      .step-two h1 { font-size:clamp(28px,7.7vw,32px); }
+      .step-two .wordmark { margin-bottom:12px; }
+      .step-label { margin-bottom:8px; }
+      .scent-scene { height:220px; }
+      .scene-target { width:176px; height:176px; }
+      .scene-favorite { width:43px; height:43px; }
+      .app.keyboard-open .scent-scene, .app.keyboard-open .step-label { display:none; }
+      .app.keyboard-open .scene-caption { margin-bottom:16px; }
+      .app.keyboard-open .promise { margin-bottom:12px; }
+    }
+    @media(prefers-reduced-motion:reduce) { .scene-target, .scene-favorite { animation:none; } }
     @media (max-width: 700px) {
       .app { min-height: 0; }
       .orbit::before { background: radial-gradient(ellipse 57% 39% at 50% 49%, rgba(255,255,255,1) 0%, rgba(255,255,255,.98) 48%, rgba(255,255,255,.72) 77%, rgba(255,255,255,0) 100%); }
@@ -87,9 +223,50 @@
       .app.keyboard-open .selected-target { margin-bottom: 8px; padding: 5px 10px; }
       .app.keyboard-open .search { min-height: 54px; }
       .app.keyboard-open .favorites { margin-top: 10px; }
-      .app.keyboard-open .continue { margin-top: 10px; padding: 10px 16px; }
     }
     @media (max-height: 640px) { .center { top: 52%; } h1 { font-size: clamp(36px, 5vw, 60px); margin-bottom: 20px; } .search { min-height: 62px; } }
+    .selection-form, .form-content { display:contents; }
+    .step-three .selection-form { display:none; }
+    .search-close { display:none; }
+    @media(min-width:701px) {
+      .center:not(.step-two):not(.step-three) h1 { font-size:clamp(36px,3.5vw,44px); }
+      .center.step-two { top:24px; width:min(1180px,calc(100vw - 64px)); height:calc(100% - 48px); max-height:none; overflow:visible; padding:0; display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.08fr); grid-template-rows:44px 28px minmax(0,1fr) 60px; column-gap:clamp(28px,5vw,72px); }
+      .step-two .wordmark { grid-column:1 / -1; grid-row:1; margin:0; line-height:44px; }
+      .step-two .step-label { grid-column:1 / -1; grid-row:2; margin:0; }
+      .step-two .scent-scene { grid-column:1; grid-row:3; align-self:center; width:100%; height:min(52vh,400px); margin:0; }
+      .step-two .scene-target { width:clamp(176px,23vw,280px); height:clamp(176px,23vw,280px); }
+      .step-two .scene-caption { grid-column:1; grid-row:3; margin:0; align-self:center; transform:translateY(calc(min(52vh,400px)/2 + 36px)); }
+      .step-two .selection-form { display:block; grid-column:2; grid-row:3; position:relative; min-width:0; }
+      .step-two .form-content { display:block; position:absolute; top:50%; transform:translateY(-50%); width:100%; }
+      .step-two .form-content > h1 { text-align:left; margin:0 0 16px; font-size:clamp(30px,3.3vw,44px); }
+      .step-two .form-content > .promise { text-align:left; margin:0 0 20px; }
+      .step-two .search-wrap { z-index:6; margin:0; }
+      .step-two .search { min-height:64px; padding:0 20px; gap:12px; }
+      .step-two .search input { font-size:18px; }
+      .step-two .favorites { justify-content:flex-start; margin:16px 0 0; }
+      .step-two .compare-action { margin:16px 0 0; }
+      .step-two .back { margin:12px 0 0; padding-left:0; text-align:left; }
+      .app.search-open .step-two .favorites, .app.search-open .step-two .compare-action, .app.search-open .step-two .back { visibility:hidden; pointer-events:none; }
+    }
+    @media(min-width:701px) and (max-height:640px) {
+      .center.step-two { top:16px; height:calc(100% - 32px); grid-template-rows:44px 22px minmax(0,1fr) 52px; }
+      .step-two .form-content > h1 { font-size:28px; margin:0 0 12px; }
+      .step-two .form-content > .promise { font-size:13px; margin-bottom:14px; }
+      .step-two .search { min-height:56px; }
+      .step-two .favorites { margin-top:8px; }
+      .step-two .compare-action { margin-top:8px; }
+    }
+    @media(max-width:700px) {
+      .app.search-open .orbit { visibility:hidden; }
+      .app.search-open .center:not(.step-three) { top:0; transform:translateX(-50%); width:100%; height:100%; max-height:none; padding:16px; overflow:hidden; background:var(--paper); }
+      .app.search-open .center > :not(.selection-form):not(.wordmark), .app.search-open .form-content > :not(.search-wrap) { display:none; }
+      .app.search-open .center .wordmark { margin:0 52px 24px 0; height:28px; line-height:28px; text-align:left; }
+      .app.search-open .search-wrap { width:100%; margin:0; }
+      .app.search-open .search { min-height:56px; }
+      .app.search-open .search-close { display:block; position:absolute; right:0; top:-56px; min-height:44px; min-width:44px; border:0; background:transparent; color:var(--ink); font-size:26px; cursor:pointer; }
+      .app.search-open .suggestions { max-height:var(--suggestions-room); box-shadow:none; overscroll-behavior:contain; }
+    }
+    @media(prefers-reduced-motion:reduce) { .center, .center h1, .center .wordmark, .center .promise, .step-two .form-content { transition:none !important; } }
     @media (prefers-reduced-motion: reduce) { .bottle { will-change: auto; transition: none; } .center.is-entering h1, .center.is-entering .search-wrap, .step-two.is-entering .selected-target { animation: none; } .center.is-exiting h1, .center.is-exiting .search-wrap, .center.is-exiting .selected-target, .center.is-exiting .favorites, .center.is-exiting .back { transition: none; } }
   </style>
 </head>
@@ -98,22 +275,50 @@
     <div class="orbit" id="orbit" aria-hidden="true"></div>
     <section class="center is-entering" id="center" aria-label="Perfume matcher">
       <div class="wordmark">SELARAS WANGI</div>
+      <p class="step-label" id="stepLabel">02 · Your favorites</p>
+      <div class="scent-scene" id="scentScene" role="img" aria-label="Your selected perfume and favorites"></div>
+      <p class="scene-caption" id="sceneCaption"></p>
       <div class="selected-target" id="selectedTarget"></div>
-      <h1 id="question" aria-live="polite">Which perfume are you thinking of buying?</h1>
+      <div class="selection-form"><div class="form-content">
+      <h1 id="question" aria-live="polite">Which perfume caught your eye?</h1>
+      <p class="promise" id="promise">See how it fits the perfumes you already love.</p>
       <div class="search-wrap">
         <div class="search">
           <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="10.8" cy="10.8" r="7.2"/><path d="m16.2 16.2 5 5"/></svg>
-          <input id="searchInput" type="search" placeholder="Search Indonesian perfumes" aria-label="Search Indonesian perfumes" aria-autocomplete="list" aria-controls="suggestions" aria-expanded="false" autocomplete="off" />
+          <input id="searchInput" type="search" role="combobox" aria-haspopup="listbox" placeholder="Search Indonesian perfumes" aria-label="Search Indonesian perfumes" aria-autocomplete="list" aria-controls="suggestions" aria-expanded="false" autocomplete="off" />
           <button class="clear" id="clearSearch" type="button" aria-label="Clear search">×</button>
         </div>
-        <ul class="suggestions" id="suggestions" role="listbox" hidden></ul>
+        <button class="search-close" id="closePerfumeSearch" type="button" aria-label="Close perfume search">×</button>
+        <ul class="suggestions" id="suggestions" role="listbox" aria-label="Perfume suggestions" hidden></ul>
       </div>
       <div class="favorites" id="favorites" aria-label="Perfumes you love"></div>
-      <button class="continue" id="continueButton" type="button">Find my match</button>
+      <button class="compare-action" id="compareAction" type="button" hidden>See comparison</button>
       <button class="back" id="back" type="button">Change the perfume I’m considering</button>
+      </div></div>
+      <button class="result-back" id="resultBack" type="button" aria-label="Back to favorites">Back</button>
+      <section class="results" id="results" aria-label="Perfume comparison" hidden>
+        <div class="result-body">
+          <div class="result-exhibit">
+            <div class="result-visual" id="resultVisual"></div>
+          </div>
+          <div class="result-summary">
+            <h1 id="resultTitle" aria-live="polite"></h1>
+            <p class="result-explanation" id="resultExplanation" aria-live="polite" aria-atomic="true"></p>
+            <div class="note-comparison" id="noteComparison"></div>
+          </div>
+        </div>
+        <div class="result-footer">
+          <p class="result-footnote" id="resultFootnote">Based on listed notes. Try on skin to judge the scent.</p>
+          <div class="result-actions">
+            <button id="editFavorites" type="button">Edit favorites</button>
+            <button id="changeResultTarget" type="button">Compare another perfume</button>
+          </div>
+        </div>
+      </section>
     </section>
   </main>
   <script src="data/app/catalog.js"></script>
+  <script src="matching.js?v=profile-3"></script>
   <script>
     const perfumes = window.SELARAS_WANGI_CATALOG?.perfumes ?? [];
     const app = document.getElementById('app');
@@ -126,30 +331,46 @@
     const selectedTarget = document.getElementById('selectedTarget');
     const favoritesEl = document.getElementById('favorites');
     const back = document.getElementById('back');
-    const continueButton = document.getElementById('continueButton');
     const searchWrap = document.querySelector('.search-wrap');
+    const promise = document.getElementById('promise');
+    const scentScene = document.getElementById('scentScene');
+    const sceneCaption = document.getElementById('sceneCaption');
+    const compareAction = document.getElementById('compareAction');
+    const results = document.getElementById('results');
+    const resultVisual = document.getElementById('resultVisual');
+    const resultTitle = document.getElementById('resultTitle');
+    const resultExplanation = document.getElementById('resultExplanation');
+    const resultFootnote = document.getElementById('resultFootnote');
+    const noteComparison = document.getElementById('noteComparison');
+    const noteNames = new Map((window.SELARAS_WANGI_CATALOG?.note_index || []).map(note=>[ScentMatcher.normalizeNote(note.key),note.name]));
+    let profileResult = null, comparing = false;
+    let sceneFavorites = [];
     const maxFavorites = 5;
     let step = 1, target = null, favorites = [], activeIndex = -1, matches = [];
     let userEngaged = false;
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
     let transitionTimer;
     let entranceTimer;
+    let revealTimer;
     function updateFocusState() {
       app.classList.toggle('search-active', userEngaged && document.activeElement === input);
     }
     function focusSearch() {
-      if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) input.focus({preventScroll:true});
+      if(step===3) { resultTitle.focus({preventScroll:true}); return; }
+      if(input.disabled) { favoritesEl.querySelector('button')?.focus({preventScroll:true}); return; }
+      if (window.innerWidth>700 && window.matchMedia('(hover: hover) and (pointer: fine)').matches) input.focus({preventScroll:true});
       updateFocusState();
     }
     function transitionQuestion(update) {
       clearTimeout(transitionTimer);
       clearTimeout(entranceTimer);
       closeSuggestions();
-      if (reducedMotion.matches) { update(); focusSearch(); return; }
+      if (reducedMotion.matches) { update(); app.scrollTop=0; center.scrollTop=0; focusSearch(); return; }
       center.classList.remove('is-entering');
       center.classList.add('is-exiting');
       transitionTimer = setTimeout(() => {
         update();
+        app.scrollTop=0; center.scrollTop=0;
         center.classList.remove('is-exiting');
         center.classList.add('is-entering');
         transitionTimer = setTimeout(() => center.classList.remove('is-entering'), 500);
@@ -161,7 +382,7 @@
     let viewportWidth = window.innerWidth;
     let fullViewportHeight = Math.max(window.innerHeight, visualViewport?.height || 0);
     function updateSuggestionsRoom() {
-      const bottom = searchWrap.getBoundingClientRect().bottom - app.getBoundingClientRect().top;
+      const bottom = searchWrap.querySelector('.search').getBoundingClientRect().bottom - app.getBoundingClientRect().top;
       app.style.setProperty('--suggestions-room', `${Math.max(60,Math.floor(app.clientHeight-bottom-14))}px`);
     }
     function updateMobileViewport() {
@@ -185,34 +406,47 @@
 
     // Original transparent bottle assets; designs are documented in PROMPTS.md.
     const bottleImages = [
-      'assets/generated-bottles/01-pine-ribbed.png',
-      'assets/generated-bottles/02-amber-square.png',
-      'assets/generated-bottles/03-clear-oval.png',
-      'assets/generated-bottles/04-sage-cylinder.png',
-      'assets/generated-bottles/05-ivory-teardrop.png',
-      'assets/generated-bottles/06-oxblood-rectangle.png',
-      'assets/generated-bottles/07-cobalt-arch.png',
-      'assets/generated-bottles/08-honey-fluted.png',
-      'assets/generated-bottles/09-amethyst-prism.png',
-      'assets/generated-bottles/10-obsidian-orb.png',
-      'assets/generated-bottles/11-terracotta-amphora.png',
-      'assets/generated-bottles/12-seafoam-fan.png',
-      'assets/generated-bottles/13-ruby-pyramid.png',
-      'assets/generated-bottles/14-clear-twist.png',
-      'assets/generated-bottles/15-blush-pebble.png',
-      'assets/generated-bottles/16-copper-column.png'
+      'assets/generated-bottles/01-pine-ribbed.webp',
+      'assets/generated-bottles/02-amber-square.webp',
+      'assets/generated-bottles/03-clear-oval.webp',
+      'assets/generated-bottles/04-sage-cylinder.webp',
+      'assets/generated-bottles/05-ivory-teardrop.webp',
+      'assets/generated-bottles/06-oxblood-rectangle.webp',
+      'assets/generated-bottles/07-cobalt-arch.webp',
+      'assets/generated-bottles/08-honey-fluted.webp',
+      'assets/generated-bottles/09-amethyst-prism.webp',
+      'assets/generated-bottles/10-obsidian-orb.webp',
+      'assets/generated-bottles/11-terracotta-amphora.webp',
+      'assets/generated-bottles/12-seafoam-fan.webp',
+      'assets/generated-bottles/13-ruby-pyramid.webp',
+      'assets/generated-bottles/14-clear-twist.webp',
+      'assets/generated-bottles/15-blush-pebble.webp',
+      'assets/generated-bottles/16-copper-column.webp'
     ];
-    // Alternate the original and new designs around the outer ring.
-    const bottleOrder = [0,8,1,9,2,10,3,11,4,12,5,13,6,14,7,15];
     const ringDefinitions = [
-      {ring:0,count:16,offset:.12,speed:.055,opacity:1,sizes:[157,113,128,95,130,104,139,130,114,100,125,129,104,92,119,105]},
-      {ring:1,count:11,offset:.34,speed:-.068,opacity:.86,sizes:[102,89,108,77,96,112,84,103,76,99,87]},
-      {ring:2,count:8,offset:.15,speed:.082,opacity:.58,sizes:[79,68,85,72,81,64,88,70]}
+      {ring:0,count:12,offset:3.55,speed:.045,
+        imageOrder:[0,8,1,9,2,10,3,11,4,12,5,13],
+        spacing:[0,-.09,.07,.14,-.06,.03,.1,-.08,.04,.12,-.04,.08],
+        opacities:[.4,.36,.3,.44,.5,.4,.32,.42,.48,.3,.4,.34],
+        sizes:[96,86,102,76,104,83,105,96,101,74,94,84]},
+      {ring:1,count:8,offset:.34,speed:-.037,
+        imageOrder:[14,15,6,7,8,9,10,11],
+        spacing:[.04,-.12,.1,-.05,.14,-.08,.03,.12],
+        opacities:[.24,.2,.28,.2,.18,.26,.2,.24],
+        sizes:[92,79,98,77,86,102,74,93]},
+      {ring:2,count:5,offset:.15,speed:.028,
+        imageOrder:[12,13,7,14,15],
+        spacing:[-.06,.13,-.1,.08,-.03],
+        opacities:[.14,.1,.18,.12,.1],
+        sizes:[67,58,72,61,69]}
     ];
     const bottleSpecs = ringDefinitions.flatMap(ring => Array.from({length:ring.count},(_,slot)=>({
-      ring:ring.ring, slot, size:ring.sizes[slot],
-      angle:ring.offset + slot * Math.PI * 2 / ring.count,
-      speed:ring.speed, opacity:ring.opacity,
+      ring:ring.ring, slot, size:ring.sizes[slot], imageIndex:ring.imageOrder[slot],
+      lead:ring.ring===0 && slot===0,
+      entryDelay:ring.ring===0?(slot===0?0:.38+((slot*5)%ring.count)*.07):ring.ring===1?.75+slot*.09:1.05+slot*.11,
+      entryDuration:ring.ring===0?1.55:1.4, readyAt:null,
+      angle:ring.offset + slot * Math.PI * 2 / ring.count + ring.spacing[slot],
+      speed:ring.speed, opacity:ring.opacities[slot],
       tilt:[-13,18,8,-17,12,-20,15][slot % 7],
       far:ring.ring===2,
       soft:ring.ring===1 && slot % 4===0
@@ -223,48 +457,108 @@
       el.style.setProperty('--size', b.size+'px');
       el.style.setProperty('--opacity', b.opacity);
       el.style.height = Math.round(b.size * 1.6) + 'px';
-      el.dataset.mobileHide = (b.ring===0 && b.slot%2===0) || (b.ring===1 && b.slot%2!==0) || (b.ring===2 && b.slot%3!==0) ? 'true' : 'false';
+      el.dataset.mobileHide = !b.lead && ((b.ring===0 && b.slot%2===0) || (b.ring===1 && b.slot%2!==0) || (b.ring===2 && b.slot%3!==0)) ? 'true' : 'false';
       const img = document.createElement('img');
-      img.src = bottleImages[bottleOrder[i % bottleOrder.length]];
+      img.src = bottleImages[b.imageIndex];
       img.alt = '';
       img.decoding = 'async';
+      img.fetchPriority=b.lead?'high':'low';
+      img.decode().then(()=>{ b.readyAt=performance.now(); }).catch(()=>{ b.failed=true; });
       img.draggable = false;
       el.appendChild(img);
       orbit.appendChild(el);
       return el;
     });
-    const orbitEntranceDelay = 620;
     let start = performance.now();
-    let lastFrame = start, orbitalPhase = 0, motionRate = 1;
+    let lastFrame = start, orbitalPhase = 0, favoritePhase = 0, motionRate = 1, sceneOpacity = 1;
     const ringScale = [{x:1,y:1},{x:.74,y:.72},{x:.48,y:.45}];
     function animate(now) {
       const w = app.clientWidth, h = app.clientHeight;
       const mobile = w < 700;
       const outerRx = mobile ? w * .56 : Math.min(w * .49, 900);
       const outerRy = mobile ? h * .48 : Math.min(h * .49, 510);
-      const orbitElapsed = Math.max(0, (now - start - orbitEntranceDelay) / 1000);
-      if (reducedMotion.matches || now - start >= orbitEntranceDelay) orbit.classList.add('is-visible');
+      orbit.classList.add('is-visible');
       const dt = Math.min((now - lastFrame) / 1000, .05);
       lastFrame = now;
-      if (!reducedMotion.matches && now - start >= orbitEntranceDelay) {
-        const targetRate = app.classList.contains('search-active') ? .18 : 1;
+      if (!reducedMotion.matches) {
+        const targetRate = target ? 0 : app.classList.contains('search-active') ? .18 : 1;
         motionRate += (targetRate - motionRate) * (1 - Math.exp(-dt / .32));
-        // Enter quickly, then settle; searching gently slows every ring.
-        orbitalPhase += dt * (1 + 3 * Math.exp(-orbitElapsed / .45)) * motionRate;
+        orbitalPhase += dt * motionRate;
       }
+      const opacityTarget=target?0:app.classList.contains('search-active')?.42:1;
+      sceneOpacity=reducedMotion.matches?opacityTarget:sceneOpacity+(opacityTarget-sceneOpacity)*(1-Math.exp(-dt/.28));
+      orbit.style.setProperty('--scene-opacity',sceneOpacity);
+      if (target && step===2 && !comparing && !reducedMotion.matches) favoritePhase += dt * .08;
       bottleSpecs.forEach((b,i)=>{
-        const a = b.angle + orbitalPhase * b.speed * 3;
-        const depth = .89 + .11 * Math.sin(a);
-        const x = w / 2 + outerRx * ringScale[b.ring].x * Math.cos(a);
-        const y = h / 2 + outerRy * ringScale[b.ring].y * Math.sin(a);
-        const scale = (mobile ? .68 : 1) * depth;
-        bottleEls[i].style.transform = `translate3d(${x - b.size/2}px, ${y - b.size*.62}px, 0) rotate(${b.tilt + Math.sin(orbitalPhase*.5+i)*3}deg) scale(${scale})`;
+        const elapsed=b.readyAt===null?0:Math.max(0,(now-Math.max(start+b.entryDelay*1000,b.readyAt))/1000);
+        const progress=b.failed?0:reducedMotion.matches?(b.readyAt===null?0:1):Math.min(elapsed/b.entryDuration,1);
+        const ease=progress*progress*(3-2*progress);
+        const drift=(1-ease)*(b.ring===0?Math.max(w,h)*(b.lead?.075:.16):b.ring===1?70:28);
+        const sweep=(1-ease)*(b.ring===0?.13:.06)*Math.sign(b.speed);
+        const a=b.angle+orbitalPhase*b.speed*3-sweep;
+        const depth=.89+.11*Math.sin(a);
+        const x=w/2+(outerRx*ringScale[b.ring].x+drift)*Math.cos(a);
+        const y=h/2+(outerRy*ringScale[b.ring].y+drift)*Math.sin(a);
+        const scale=(mobile?.68:1)*depth*(.94+.06*ease);
+        bottleEls[i].style.setProperty('--entrance',ease);
+        bottleEls[i].style.transform=`translate3d(${x-b.size/2}px,${y-b.size*.62}px,0) rotate(${b.tilt+Math.sin(orbitalPhase*.5+i)*3}deg) scale(${scale})`;
+      });
+      sceneFavorites.forEach((el,i)=>{
+        const angle = -Math.PI/2 + i*Math.PI*2/Math.max(sceneFavorites.length,1) + (reducedMotion.matches ? 0 : favoritePhase);
+        el.style.left = (50+43*Math.cos(angle))+'%';
+        el.style.top = (50+43*Math.sin(angle))+'%';
       });
       requestAnimationFrame(animate);
     }
     requestAnimationFrame(animate);
 
-    function label(p) { return `${p.brand} — ${p.name}`; }
+    function label(p) { return `${p.brand} · ${p.name}`; }
+    function element(tag, className, text) {
+      const el=document.createElement(tag);
+      if(className) el.className=className;
+      if(text!==undefined) el.textContent=text;
+      return el;
+    }
+    function productImage(p,className='') {
+      const frame=element('span',`product-image ${className}`);
+      frame.setAttribute('role','img');
+      frame.setAttribute('aria-label',`${label(p)}: image loading`);
+      const fallback=element('span','image-fallback');
+      fallback.setAttribute('aria-hidden','true');
+      const img=element('img'); img.alt=''; img.decoding='async';
+      img.addEventListener('load',()=>{
+        frame.classList.add('is-loaded'); frame.setAttribute('aria-label',label(p));
+      });
+      const showUnavailable=()=>{
+        frame.classList.add('is-error');
+        frame.setAttribute('aria-label',`${label(p)}: image unavailable`);
+        if(frame.isConnected && frame.closest('.scene-target')) scentScene.setAttribute('aria-label',`${label(p)}: image unavailable, surrounded by ${favorites.length} favorite perfumes`);
+      };
+      img.addEventListener('error',showUnavailable);
+      frame.append(img,fallback);
+      if(p.image_url) img.src=p.image_url;
+      else showUnavailable();
+      return frame;
+    }
+    function populateScene(scene) {
+      scene.classList.remove('is-restored');
+      scene.replaceChildren();
+      scene.setAttribute('aria-label',`${label(target)}, surrounded by ${favorites.length} favorite perfumes`);
+      scene.append(element('div','scene-track'));
+      const main=element('div','scene-target');main.append(productImage(target));scene.append(main);
+      const refs=favorites.map((p,i)=>{
+        const el=element('div','scene-favorite');el.append(productImage(p));
+        const angle=-Math.PI/2+i*Math.PI*2/Math.max(favorites.length,1)+(reducedMotion.matches?0:favoritePhase);
+        el.style.left=(50+43*Math.cos(angle))+'%';el.style.top=(50+43*Math.sin(angle))+'%';
+        scene.append(el); return el;
+      });
+      sceneCaption.replaceChildren(element('small','','Considering'),element('span','',label(target)));
+      return refs;
+    }
+    function renderScene() {
+      if(!target) { scentScene.replaceChildren(); sceneCaption.replaceChildren(); sceneFavorites=[]; return; }
+      sceneFavorites=populateScene(scentScene);
+    }
     function formatPrice(price) {
       return price ? new Intl.NumberFormat('id-ID',{style:'currency',currency:'IDR',maximumFractionDigits:0}).format(price) : 'Price unavailable';
     }
@@ -297,7 +591,7 @@
     function renderTarget() {
       selectedTarget.replaceChildren();
       if (!target) return;
-      const image = document.createElement('img'); image.src = target.image_url; image.alt = '';
+      const image = productImage(target);
       const copy = document.createElement('span'); copy.className = 'selected-target-copy';
       const caption = document.createElement('small'); caption.textContent = 'Considering';
       const name = document.createElement('span'); name.textContent = label(target);
@@ -309,47 +603,206 @@
         const chip = document.createElement('button');
         chip.type = 'button'; chip.className = 'favorite-chip';
         chip.setAttribute('aria-label', `Remove ${label(p)}`);
-        const image = document.createElement('img'); image.className = 'favorite-image'; image.src = p.image_url; image.alt = '';
+        const image = productImage(p,'favorite-image');
         const name = document.createElement('span'); name.textContent = p.name;
         const remove = document.createElement('span'); remove.className = 'favorite-remove'; remove.textContent = '×'; remove.setAttribute('aria-hidden','true');
         chip.append(image,name,remove);
         chip.addEventListener('click',()=>{
           favorites = favorites.filter(x=>x.id!==p.id);
           renderFavorites();
-          input.placeholder = 'Search a perfume you love';
           input.focus();
         });
         favoritesEl.appendChild(chip);
       });
       const full = favorites.length >= maxFavorites;
+      compareAction.hidden = step!==2 || favorites.length<2;
+      if(step===2) promise.textContent=favorites.length===1?'Add one more favorite to build your profile.':'Choose two to five scents you love.';
       searchWrap.classList.toggle('limit-reached', step===2 && full);
       input.disabled = step===2 && full;
-      input.placeholder = full ? 'Five references selected' : (favorites.length ? 'Add another perfume you love' : 'Search a perfume you love');
-      continueButton.classList.toggle('visible', step===2 && favorites.length > 0);
+      input.placeholder = step===1 ? 'Search Indonesian perfumes' : full ? 'Five favorites selected' : (favorites.length ? 'Add another perfume you love' : 'Search a perfume you love');
+      renderScene();
+      if(full) input.blur();
     }
-    function closeSuggestions() { suggestions.hidden = true; input.setAttribute('aria-expanded','false'); activeIndex = -1; }
+    function noteName(key) { return noteNames.get(key) || key; }
+    function resultPerfume(perfume,caption,className='') {
+      const figure=element('figure',`result-perfume ${className}`);
+      const copy=element('figcaption');
+      copy.append(element('small','',caption),element('span','',label(perfume)));
+      const bottle=element('div','result-bottle'); bottle.append(productImage(perfume));
+      figure.append(bottle,copy); return figure;
+    }
+    function noteGroup(title,keys,className,emptyText) {
+      const group=element('section',`note-group ${className}`);
+      group.append(element('h2','',title));
+      if(keys.length) {
+        const list=element('ul','note-list'); keys.slice(0,4).forEach(key=>{
+          const item=element('li','',noteName(key)); item.title=noteName(key); list.append(item);
+        }); group.append(list);
+        if(keys.length>4) group.append(element('p','note-more',`+${keys.length-4} more listed`));
+      } else group.append(element('p','note-empty',emptyText));
+      return group;
+    }
+    function renderResult() {
+      resultVisual.replaceChildren(resultPerfume(target,'Considering'));
+      if(profileResult.percentage!==null) {
+        const percentage=element('p','profile-percentage',`${profileResult.percentage}%`);
+        percentage.append(element('small','','profile overlap'));
+        resultVisual.querySelector('.result-bottle').append(percentage);
+      }
+      const count=favorites.length;
+      const heading=element('p','collection-heading',profileResult.contributingCount===count?`Based on your ${count} favorites`:`Your ${count} favorites`);
+      const collection=element('div','result-collection'); collection.setAttribute('aria-label','Your selected favorites');
+      favorites.forEach(perfume=>{
+        const figure=element('figure','collection-perfume');
+        const caption=element('figcaption','',perfume.name); caption.title=label(perfume);
+        figure.append(productImage(perfume),caption); collection.append(figure);
+      });
+      resultVisual.append(heading,collection);
+      resultTitle.textContent=profileResult.title; resultTitle.tabIndex=-1;
+      resultExplanation.textContent=ScentMatcher.explain(profileResult,noteName);
+      noteComparison.replaceChildren();
+      if(profileResult.available) noteComparison.append(
+        noteGroup('Shared with your favorites',profileResult.shared,'shared-group','No shared notes listed.'),
+        noteGroup('New in this perfume',profileResult.different,'','All its listed notes appear somewhere in your favorites.')
+      );
+      const omitted=profileResult.profile.excluded.length;
+      resultFootnote.textContent=omitted?`Based on ${profileResult.contributingCount} favorites with listed notes; ${omitted} ${omitted===1?'favorite has':'favorites have'} no note data. Try on skin to judge the scent.`:
+        'Based on listed notes. Try on skin to judge the scent.';
+    }
+    function prepareResults() {
+      step=3; center.classList.remove('step-two'); center.classList.add('step-three');
+      document.getElementById('stepLabel').textContent='03 · Your comparison';
+      results.hidden=false; compareAction.hidden=true; sceneFavorites=[]; renderResult();
+      app.scrollTop=0; center.scrollTop=0;
+    }
+    function motionFrames(duration,draw) {
+      return new Promise(resolve=>{
+        let began;
+        function frame(now) {
+          if(began===undefined) began=now;
+          const progress=reducedMotion.matches?1:Math.min((now-began)/duration,1);
+          draw(progress);
+          if(progress<1) requestAnimationFrame(frame); else resolve();
+        }
+        requestAnimationFrame(frame);
+      });
+    }
+    async function showResults() {
+      if(comparing || !target || favorites.length<2) return;
+      profileResult=ScentMatcher.assess(target,favorites);
+      if(profileResult.selectedCount<2) return;
+      if(reducedMotion.matches) { prepareResults(); focusSearch(); return; }
+      comparing=true;
+      clearTimeout(transitionTimer); clearTimeout(entranceTimer);
+      closeSuggestions(); input.blur();
+      center.classList.remove('is-entering','is-exiting');
+      clearTimeout(revealTimer); results.classList.remove('is-revealing');
+      const overlay=element('div','comparison-transition');
+      const status=element('p','comparison-status','Comparing notes');
+      status.setAttribute('role','status'); status.tabIndex=-1;
+      const bounds=app.getBoundingClientRect();
+      const sourceNodes=[scentScene.querySelector('.scene-target'),...sceneFavorites];
+      const bottles=sourceNodes.map((source,index)=>{
+        const rect=source.getBoundingClientRect();
+        const bottle=element('div','comparison-bottle'); bottle.setAttribute('aria-hidden','true');
+        const image=source.querySelector('.product-image');
+        bottle.append(image.matches('.is-loaded, .is-error')?image.cloneNode(true):productImage(index===0?target:favorites[index-1]));
+        overlay.append(bottle);
+        return {el:bottle,x:rect.left-bounds.left+rect.width/2,y:rect.top-bounds.top+rect.height/2,size:rect.width};
+      });
+      function position(bottle,x,y,size,opacity=1) {
+        bottle.el.style.width=size+'px'; bottle.el.style.height=size+'px';
+        bottle.el.style.transform=`translate3d(${x-size/2}px,${y-size/2}px,0)`;
+        bottle.el.style.opacity=opacity;
+        bottle.x=x; bottle.y=y; bottle.size=size;
+      }
+      bottles.forEach(bottle=>position(bottle,bottle.x,bottle.y,bottle.size));
+      const origins=bottles.map(({x,y,size})=>({x,y,size}));
+      const cx=app.clientWidth/2, cy=app.clientHeight*.4;
+      const rx=Math.min(app.clientWidth*.4,180), ry=Math.min(app.clientHeight*.15,112);
+      const phase=favoritePhase;
+      overlay.append(status); app.append(overlay);
+      center.inert=true; center.classList.add('is-comparing'); status.focus({preventScroll:true});
+      status.style.top=(cy+ry+52)+'px';
+      try {
+        await motionFrames(2800,progress=>{
+          const ease=progress*progress*(3-2*progress);
+          const arrive=Math.min(progress/.3,1);
+          const blend=arrive*arrive*(3-2*arrive);
+          position(bottles[0],origins[0].x+(cx-origins[0].x)*blend,origins[0].y+(cy-origins[0].y)*blend,origins[0].size);
+          bottles.slice(1).forEach((bottle,index)=>{
+            const angle=-Math.PI/2+index*Math.PI*2/favorites.length+phase+ease*Math.PI*1.2;
+            const origin=origins[index+1];
+            position(bottle,origin.x+(cx+rx*Math.cos(angle)-origin.x)*blend,origin.y+(cy+ry*Math.sin(angle)-origin.y)*blend,origin.size);
+          });
+        });
+        prepareResults();
+        const destinations=[...resultVisual.querySelectorAll('.product-image')].map(image=>{
+          const rect=image.getBoundingClientRect();
+          return {x:rect.left-bounds.left+rect.width/2,y:rect.top-bounds.top+rect.height/2,size:rect.width};
+        });
+        const settled=bottles.map(({x,y,size})=>({x,y,size}));
+        await motionFrames(1100,progress=>{
+          const ease=progress*progress*(3-2*progress);
+          status.style.opacity=1-progress;
+          bottles.forEach((bottle,index)=>{
+            const destination=destinations[index];
+            const origin=settled[index];
+            if(destination) position(bottle,origin.x+(destination.x-origin.x)*ease,origin.y+(destination.y-origin.y)*ease,origin.size+(destination.size-origin.size)*ease);
+            else position(bottle,origin.x,origin.y,origin.size,1-progress);
+          });
+        });
+      } finally {
+        overlay.remove(); center.inert=false; center.classList.remove('is-comparing'); comparing=false;
+        if(step!==3) prepareResults();
+        if(!reducedMotion.matches) {
+          results.classList.add('is-revealing');
+          revealTimer=setTimeout(()=>results.classList.remove('is-revealing'),1100);
+        }
+        focusSearch();
+      }
+    }
+    let searchLayoutFrame;
+    function setSearchOpen(open) {
+      if(app.classList.contains('search-open')===open) return;
+      app.classList.toggle('search-open',open);
+      cancelAnimationFrame(searchLayoutFrame);
+      const began=performance.now();
+      function measure(now) {
+        updateSuggestionsRoom();
+        if(!reducedMotion.matches && now-began<600) searchLayoutFrame=requestAnimationFrame(measure);
+      }
+      searchLayoutFrame=requestAnimationFrame(measure);
+    }
+    function closeSuggestions() { setSearchOpen(false); suggestions.hidden = true; input.setAttribute('aria-expanded','false'); input.removeAttribute('aria-activedescendant'); activeIndex = -1; }
     function renderSuggestions() {
       const q = normalize(input.value);
       clearSearch.classList.toggle('visible', !!input.value.trim());
-      if (!q) { closeSuggestions(); return; }
-      matches = perfumes.map((p,index)=>({p,index,score:matchScore(p,q)}))
+      if (!q && window.innerWidth>700) { closeSuggestions(); return; }
+      matches = perfumes.map((p,index)=>({p,index,score:q?matchScore(p,q):0}))
         .filter(result=>result.score!==null && !(step===2 && (result.p===target || favorites.includes(result.p))))
         .sort((a,b)=>a.score-b.score || a.index-b.index).slice(0,6).map(result=>result.p);
       suggestions.innerHTML = '';
-      if (!matches.length) { const li=document.createElement('li'); li.className='empty'; li.textContent='No match. Try a brand or a shorter name.'; suggestions.appendChild(li); }
+      if (!matches.length) { const li=document.createElement('li'); li.className='empty'; li.textContent=perfumes.length?'No match. Try a brand or a shorter name.':'The perfume catalog couldn’t load. Reload to try again.'; suggestions.appendChild(li); }
       matches.forEach((p,i)=>{
         const li=document.createElement('li'); const button=document.createElement('button');
-        button.type='button'; button.setAttribute('role','option'); button.setAttribute('aria-selected',String(i===activeIndex));
-        const image=document.createElement('img'); image.className='suggestion-image'; image.src=p.image_url; image.alt=''; image.loading='lazy';
+        button.type='button'; button.id=`perfume-option-${i}`; button.setAttribute('role','option'); button.setAttribute('aria-selected',String(i===activeIndex));
+        const image=productImage(p,'suggestion-image');
         const names=document.createElement('span'); names.className='suggestion-copy';
         const brand=document.createElement('small'); brand.textContent=p.brand;
         const name=document.createElement('span'); name.className='suggestion-name'; name.textContent=p.name;
         const meta=document.createElement('span'); meta.className='suggestion-meta'; meta.textContent=[p.concentration,formatPrice(p.price_idr)].filter(Boolean).join(' · ');
         names.append(brand,name,meta);
-        const arrow=document.createElement('span'); arrow.className='arrow'; arrow.textContent='↗'; arrow.setAttribute('aria-hidden','true');
-        button.append(image,names,arrow); button.addEventListener('click',()=>selectPerfume(p)); li.appendChild(button); suggestions.appendChild(li);
+        button.append(image,names); button.addEventListener('click',()=>selectPerfume(p)); li.appendChild(button); suggestions.appendChild(li);
       });
-      suggestions.hidden=false; input.setAttribute('aria-expanded','true');
+      suggestions.hidden=false; setSearchOpen(true); input.setAttribute('aria-expanded','true');
+      if(activeIndex>=0) {
+        input.setAttribute('aria-activedescendant',`perfume-option-${activeIndex}`);
+        const option=document.getElementById(`perfume-option-${activeIndex}`).parentElement;
+        if(option.offsetTop<suggestions.scrollTop) suggestions.scrollTop=option.offsetTop;
+        else if(option.offsetTop+option.offsetHeight>suggestions.scrollTop+suggestions.clientHeight) suggestions.scrollTop=option.offsetTop+option.offsetHeight-suggestions.clientHeight;
+      }
+      else input.removeAttribute('aria-activedescendant');
       updateSuggestionsRoom();
     }
     function selectPerfume(p) {
@@ -357,9 +810,11 @@
       if (step===1) {
         input.value=''; clearSearch.classList.remove('visible');
         transitionQuestion(() => {
-          target=p; step=2; center.classList.add('step-two');
+          target=p; favorites=favorites.filter(favorite=>favorite.id!==p.id); favoritePhase=0; step=2; center.classList.add('step-two'); app.classList.add('has-selection');
+          document.getElementById('stepLabel').textContent='02 · Your favorites';
           renderTarget();
           question.textContent='Which perfumes do you already love?';
+          promise.textContent='Choose two to five scents you love.';
           input.placeholder='Search a perfume you love'; input.setAttribute('aria-label','Search a perfume you love'); input.disabled=false;
           renderFavorites();
         });
@@ -367,35 +822,92 @@
         if (favorites.length >= maxFavorites) return;
         favorites.push(p); renderFavorites();
         input.value=''; clearSearch.classList.remove('visible'); closeSuggestions();
-        if (favorites.length < maxFavorites) input.focus();
+        if (favorites.length < maxFavorites && window.innerWidth>700) input.focus({preventScroll:true});
+        else input.blur();
       }
     }
     searchWrap.addEventListener('pointerdown',()=>{ userEngaged=true; });
-    document.querySelector('.search').addEventListener('click',e=>{ if (!e.target.closest('button')) input.focus(); });
-    input.addEventListener('focus',()=>{ updateFocusState(); updateMobileViewport(); });
+    document.querySelector('.search').addEventListener('click',e=>{ if (!e.target.closest('button')) { input.focus(); if(window.innerWidth<=700) { renderSuggestions(); updateMobileViewport(); } } });
+    input.addEventListener('focus',()=>{ if(window.innerWidth<=700) { setSearchOpen(true); renderSuggestions(); } updateFocusState(); updateMobileViewport(); });
     input.addEventListener('blur',()=>{ updateFocusState(); setTimeout(updateMobileViewport,80); });
     input.addEventListener('input',()=>{ userEngaged=true; updateFocusState(); activeIndex=-1; renderSuggestions(); updateMobileViewport(); });
     input.addEventListener('keydown',e=>{
       userEngaged=true; updateFocusState();
-      if (e.key==='Escape') { closeSuggestions(); return; }
+      if (e.key==='Escape') { closeSuggestions(); input.blur(); return; }
       if (e.key==='ArrowDown' && !suggestions.hidden && matches.length) { e.preventDefault(); activeIndex=(activeIndex+1)%matches.length; renderSuggestions(); }
       if (e.key==='ArrowUp' && !suggestions.hidden && matches.length) { e.preventDefault(); activeIndex=(activeIndex-1+matches.length)%matches.length; renderSuggestions(); }
       if (e.key==='Enter' && !suggestions.hidden && matches.length) { e.preventDefault(); selectPerfume(matches[Math.max(activeIndex,0)]); }
     });
+    document.getElementById('closePerfumeSearch').addEventListener('click',()=>{ closeSuggestions(); input.blur(); question.tabIndex=-1; question.focus({preventScroll:true}); });
     clearSearch.addEventListener('click',()=>{ input.value=''; renderSuggestions(); input.focus(); });
     document.addEventListener('pointerdown',e=>{ if (!e.target.closest('.search-wrap')) closeSuggestions(); });
-    back.addEventListener('click',()=>{
+    function changeTarget() {
       userEngaged=false; updateFocusState();
       transitionQuestion(() => {
-        target=null; favorites=[]; step=1; center.classList.remove('step-two'); question.textContent='Which perfume are you thinking of buying?';
+        target=null; step=1; results.hidden=true; center.classList.remove('step-two','step-three'); app.classList.remove('has-selection'); question.textContent='Which perfume caught your eye?';
+        promise.textContent='See how it fits the perfumes you already love.';
         input.placeholder='Search Indonesian perfumes'; input.setAttribute('aria-label','Search Indonesian perfumes'); input.value=''; input.disabled=false; renderTarget(); renderFavorites();
       });
-    });
-    continueButton.addEventListener('click',()=>{
-      if (!target || favorites.length===0) return;
-      document.dispatchEvent(new CustomEvent('selaras:match-requested',{detail:{target,favorites:[...favorites]}}));
-    });
+    }
+    back.addEventListener('click',changeTarget);
+    document.getElementById('changeResultTarget').addEventListener('click',changeTarget);
+    compareAction.addEventListener('click',showResults);
+    function prepareFavorites() {
+      step=2; results.hidden=true; center.classList.remove('step-three'); center.classList.add('step-two');
+      document.getElementById('stepLabel').textContent='02 · Your favorites'; renderFavorites();
+      scentScene.classList.add('is-restored');
+      app.scrollTop=0; center.scrollTop=0;
+    }
+    async function editFavorites() {
+      if(comparing || step!==3) return;
+      clearTimeout(transitionTimer); clearTimeout(entranceTimer); clearTimeout(revealTimer);
+      center.classList.remove('is-entering','is-exiting'); results.classList.remove('is-revealing');
+      closeSuggestions();
+      if(reducedMotion.matches) { prepareFavorites(); focusSearch(); return; }
+      comparing=true;
+      const bounds=app.getBoundingClientRect();
+      const overlay=element('div','comparison-transition favorites-transition');
+      overlay.setAttribute('aria-hidden','true');
+      const bottles=[...resultVisual.querySelectorAll('.product-image')].map((image,index)=>{
+        const rect=image.getBoundingClientRect();
+        const bottle=element('div','comparison-bottle');
+        bottle.append(image.matches('.is-loaded, .is-error')?image.cloneNode(true):productImage(index===0?target:favorites[index-1]));
+        bottle.querySelector('img').style.transform='none';
+        bottle.style.width=rect.width+'px'; bottle.style.height=rect.height+'px';
+        bottle.style.transform=`translate3d(${rect.left-bounds.left}px,${rect.top-bounds.top}px,0)`;
+        overlay.append(bottle);
+        return {el:bottle,x:rect.left-bounds.left+rect.width/2,y:rect.top-bounds.top+rect.height/2,size:rect.width};
+      });
+      app.append(overlay); center.inert=true; center.classList.add('is-returning');
+      try {
+        await motionFrames(140,progress=>{ center.style.opacity=1-progress; });
+        prepareFavorites();
+        const destinations=[scentScene.querySelector('.scene-target'),...sceneFavorites].map(node=>{
+          const rect=node.getBoundingClientRect();
+          return {x:rect.left-bounds.left+rect.width/2,y:rect.top-bounds.top+rect.height/2,size:rect.width};
+        });
+        await motionFrames(780,progress=>{
+          const ease=progress*progress*(3-2*progress);
+          center.style.opacity=Math.max(0,(progress-.6)/.4);
+          bottles.forEach((bottle,index)=>{
+            const destination=destinations[index];
+            const size=bottle.size+(destination.size-bottle.size)*ease;
+            const x=bottle.x+(destination.x-bottle.x)*ease;
+            const y=bottle.y+(destination.y-bottle.y)*ease;
+            bottle.el.style.width=size+'px'; bottle.el.style.height=size+'px';
+            bottle.el.style.transform=`translate3d(${x-size/2}px,${y-size/2}px,0)`;
+            if(index===0) bottle.el.querySelector('img').style.transform=`scale(${1+.08*ease})`;
+            else bottle.el.style.padding=(4*ease)+'px';
+          });
+        });
+      } finally {
+        overlay.remove(); center.style.removeProperty('opacity'); center.inert=false;
+        center.classList.remove('is-returning'); comparing=false;
+        focusSearch();
+      }
+    }
+    document.getElementById('editFavorites').addEventListener('click',editFavorites);
+    document.getElementById('resultBack').addEventListener('click',editFavorites);
   </script>
 </body>
 </html>
-

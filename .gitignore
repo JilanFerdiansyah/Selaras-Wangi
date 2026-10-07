@@ -10,3 +10,7 @@ Desktop.ini
 .env
 .env.*
 !.env.example
+
+# Python import checks
+__pycache__/
+*.pyc

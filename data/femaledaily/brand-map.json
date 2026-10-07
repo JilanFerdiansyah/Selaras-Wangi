@@ -1,0 +1,750 @@
+{
+  "aamoparfums": {
+    "name": "Aamo Parfums",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "aamodini": {
+    "name": "Aamodini",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "afternotes": {
+    "name": "Afternotes",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "alchemist": {
+    "name": "Alchemist",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "alienobjects": {
+    "name": "Alien Objects",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "allegoria": {
+    "name": "Allegoria",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "altperfumery": {
+    "name": "Alt Perfumery",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "altarscents": {
+    "name": "Altar Scents",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "amthra": {
+    "name": "Amthra",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "anamcara": {
+    "name": "Anamcara",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "andorstudio": {
+    "name": "And Or Studio",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "anntumma": {
+    "name": "Anntumma",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "anscentry": {
+    "name": "Anscentry",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "aoera": {
+    "name": "Aoera",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "argve": {
+    "name": "ARGVE",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "astree": {
+    "name": "Astree",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "ataraksia": {
+    "name": "Ataraksia",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "atsiri": {
+    "name": "ATSIRI",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "avalanche": {
+    "name": "Avalanche",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "balisurfers": {
+    "name": "Bali Surfers",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "blackstag": {
+    "name": "Blackstag",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "blancodor": {
+    "name": "Blanc Odor",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "bodibreze": {
+    "name": "Bodibreze",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "botanicalessentials": {
+    "name": "Botanical Essentials",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "byfrags": {
+    "name": "Byfrags",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "careso": {
+    "name": "Careso",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "citizensoftheworld": {
+    "name": "Citizens of The World",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "compoundedby": {
+    "name": "Compounded By",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "constant": {
+    "name": "Constant",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "crusita": {
+    "name": "Crusita",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "deantoine": {
+    "name": "De Antoine",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "deocna": {
+    "name": "Deocna",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "dicium": {
+    "name": "Dicium",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "diewithoutsmell": {
+    "name": "Die Without Smell",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "diellfragrance": {
+    "name": "Diell Fragrance",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "earthlovelife": {
+    "name": "Earth Love Life",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "earthora": {
+    "name": "Earthora",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "eeloh": {
+    "name": "Eeloh",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "elaya": {
+    "name": "Elaya",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "elvicto": {
+    "name": "Elvicto",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "eser": {
+    "name": "Eser",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "etre": {
+    "name": "Etre",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "evesol": {
+    "name": "Evesol",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "evoste": {
+    "name": "Evoste",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "exeau": {
+    "name": "Exeau",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "fermo": {
+    "name": "Fermo",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "filosophia": {
+    "name": "Filosophia",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "flnc": {
+    "name": "FLNC",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "fonce": {
+    "name": "Fonce",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "fordive": {
+    "name": "Fordive",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "forsol": {
+    "name": "Forsol",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "fraghead": {
+    "name": "Fraghead",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "fragrancebypetals": {
+    "name": "Fragrance By Petals",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "ghaier": {
+    "name": "Ghaier",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "gioiafragrances": {
+    "name": "Gioia Fragrances",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "hindsight": {
+    "name": "HINDSIGHT",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "hint": {
+    "name": "Hint",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "hiraeth": {
+    "name": "Hiraeth",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "hmns": {
+    "name": "HMNS",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "honino": {
+    "name": "Honino",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "honorperfume": {
+    "name": "Honor Perfume",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "houseofdappers": {
+    "name": "House of Dappers",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "houseofmedici": {
+    "name": "House of Medici",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "jayrosse": {
+    "name": "Jayrosse",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "kitraka": {
+    "name": "kitraka",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "laboratorisemplice": {
+    "name": "Laboratori Semplice",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "layr": {
+    "name": "Layr",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "locoscent": {
+    "name": "Loco Scent",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "maisongarnet": {
+    "name": "Maison Garnet",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "makeit": {
+    "name": "Make It",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "mandalika": {
+    "name": "Mandalika",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "meetthemakers": {
+    "name": "Meet The Makers",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "merahpoetih": {
+    "name": "Merah Poetih",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "mineperfumery": {
+    "name": "Mine Perfumery",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "mykonos": {
+    "name": "MYKONOS",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "nevernot": {
+    "name": "Nevernot",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "nostalgy": {
+    "name": "Nostalgy",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "notts": {
+    "name": "Notts",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "oakenlab": {
+    "name": "Oaken Lab",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "olmorva": {
+    "name": "Olmorva",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "ouru": {
+    "name": "OURU",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "peculiar": {
+    "name": "Peculiar",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "periodic": {
+    "name": "Periodic",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "permenent": {
+    "name": "Permenent",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "personalchemistry": {
+    "name": "Personal Chemistry",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "predire": {
+    "name": "Predire",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "project1945": {
+    "name": "Project 1945",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "rahasia": {
+    "name": "Rahasia",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "raine": {
+    "name": "Raine",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "readyset": {
+    "name": "Readyset",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "reboura": {
+    "name": "REBOURA",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "royalfragrance": {
+    "name": "Royal Fragrance",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "saffandco": {
+    "name": "SAFF & Co.",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "sakaperfumery": {
+    "name": "SAKA Perfumery",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "sansoe": {
+    "name": "Sansoe",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "sarcasmfragrance": {
+    "name": "Sarcasm Fragrance",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "satelliteofglow": {
+    "name": "Satellite of Glow",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "saudadeolfactory": {
+    "name": "Saudade Olfactory",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "scensology": {
+    "name": "Scensology",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "scentofjarte": {
+    "name": "Scent of Jarte",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "scentalgiafragrance": {
+    "name": "Scentalgia Fragrance",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "scentco": {
+    "name": "ScentCo",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "scentnario": {
+    "name": "Scentnario",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "scentoriumfragrance": {
+    "name": "Scentorium Fragrance",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "scentrail": {
+    "name": "Scentrail",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "scentrum": {
+    "name": "Scentrum",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "scentsofpluto": {
+    "name": "Scents of Pluto",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "scuseme": {
+    "name": "Scuse Me",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "sianc": {
+    "name": "Sianc",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "sighnil": {
+    "name": "SIGHNIL",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "smellsgood": {
+    "name": "Smellsgood",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "somne": {
+    "name": "Somne",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "sonderscents": {
+    "name": "Sonder Scents",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "speakstome": {
+    "name": "Speaks to Me",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "studiosable": {
+    "name": "Studio Sable",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "sumu": {
+    "name": "SUMU",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "tempt": {
+    "name": "TEMPT",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "thebodytale": {
+    "name": "The Body Tale",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "titiknadi": {
+    "name": "Titik Nadi",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "unkenaru": {
+    "name": "Unke Naru",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "unspoken": {
+    "name": "Unspoken",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "velixir": {
+    "name": "Velixir",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "vlagioperfume": {
+    "name": "Vlagio Perfume",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "voie": {
+    "name": "Voie",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "whspr": {
+    "name": "WHSPR",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "wonderlustfragrance": {
+    "name": "Wonderlust Fragrance",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "worldofmakescents": {
+    "name": "World of Make Scents",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "ynperfumery": {
+    "name": "YN Perfumery",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "zataru": {
+    "name": "Zataru",
+    "evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+  },
+  "aamo": {
+    "name": "Aamo",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "alt": {
+    "name": "Alt",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "altar": {
+    "name": "Altar",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "bohe": {
+    "name": "Bohe",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "carlclaire": {
+    "name": "Carl Claire",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "dappers": {
+    "name": "Dappers",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "deepti": {
+    "name": "Deepti",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "harumine": {
+    "name": "Harumine",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "heichhome": {
+    "name": "Heich Home",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "heura": {
+    "name": "Heura",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "homhaute": {
+    "name": "HoM Haute",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "indischeartisan": {
+    "name": "Indische Artisan",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "kahf": {
+    "name": "Kahf",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "kitschy": {
+    "name": "Kitschy",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "lesecre": {
+    "name": "Lesecre",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "macaria": {
+    "name": "Macaria",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "marsonearth": {
+    "name": "Mars On Earth",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "melloculab": {
+    "name": "Melloculab",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "meru": {
+    "name": "Meru",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "mine": {
+    "name": "Mine Perfumery",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "moen": {
+    "name": "Moen",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "mussera": {
+    "name": "Mussera",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "myra": {
+    "name": "Myra",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "naisday": {
+    "name": "Naisday",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "nappadeparfum": {
+    "name": "Nappa De Parfum",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "normalestate": {
+    "name": "Normal Estate",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "noulab": {
+    "name": "Noulab",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "onlynvsa": {
+    "name": "Onlynvsa",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "pattuo": {
+    "name": "Pattuo",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "polka": {
+    "name": "Polka",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "remar": {
+    "name": "Remar",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "rumahatsiri": {
+    "name": "ATSIRI",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "saka": {
+    "name": "Saka",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "sarcasm": {
+    "name": "Sarcasm",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "saudade": {
+    "name": "Saudade",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "scentalgia": {
+    "name": "Scentalgia",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "secretgarden": {
+    "name": "Secret Garden",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "skinouru": {
+    "name": "OURU",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "tomolab": {
+    "name": "Tomolab",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "unboundnarrative": {
+    "name": "Unbound Narrative",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "usual": {
+    "name": "Usual",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "xociety": {
+    "name": "Xociety",
+    "evidence": "https://dadidupe.com/brands"
+  },
+  "hmnsperfume": {
+    "name": "HMNS",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "alchemistfragrance": {
+    "name": "Alchemist",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "layrfragrance": {
+    "name": "Layr",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "etreparfums": {
+    "name": "Etre",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "readysetperfumery": {
+    "name": "Readyset",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "rahasiabeauty": {
+    "name": "Rahasia",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "polkacosmetics": {
+    "name": "Polka",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "astreeparfumerie": {
+    "name": "Astree",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "nevernotofficial": {
+    "name": "Nevernot",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "carlandclaire": {
+    "name": "Carl Claire",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "balisurfersperfume": {
+    "name": "Bali Surfers",
+    "evidence": "Reviewed label alias of Indonesian catalog brand"
+  },
+  "evangeline": {
+    "name": "Evangeline",
+    "evidence": "https://editorial.femaledaily.com/blog/2023/11/18/5-rekomendasi-parfum-lokal-tahan-lama-yang-layak-kamu-coba"
+  },
+  "avicenna": {
+    "name": "Avicenna",
+    "evidence": "https://editorial.femaledaily.com/blog/2022/03/31/avicenna-brand-parfum-dengan-konsep-minimalis-yang-elegan"
+  },
+  "msglow": {
+    "name": "MS Glow",
+    "evidence": "https://editorial.femaledaily.com/blog/2021/12/14/rekomendasi-skincare-lokal-cowok"
+  },
+  "mercredi": {
+    "name": "Mercredi",
+    "evidence": "https://editorial.femaledaily.com/blog/2023/08/23/memiliki-nama-unik-deretan-brand-lokal-ini-sering-dikira-dari-luar-negeri"
+  },
+  "bonavie": {
+    "name": "Bonavie",
+    "evidence": "https://brandwiki.lazada.co.id/bonavie/"
+  }
+}

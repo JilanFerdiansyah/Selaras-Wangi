@@ -1,0 +1,4236 @@
+{
+  "metadata": {
+    "source": "Female Daily via Wangi CSV",
+    "source_url": "https://github.com/syariefsq/wangi-perfume-recommender/tree/main/data",
+    "imported_at": "2026-10-07T12:24:12.584545+00:00",
+    "description_rows": 1020,
+    "eligible_pyramids": 136,
+    "input_sha256": {
+      "descriptions": "25b100a94c62935a04cbabb1c8da39f5d339985c30913612a87f52680a790428",
+      "identities": "002000316ad06eab87bf174d5c033a8d3914f30c6ae776537bcc403c997102c4"
+    }
+  },
+  "perfumes": [
+    {
+      "id": "6776fbcb3399bc7b",
+      "brand": "Hint",
+      "name": "Fatale",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "blackpepper",
+          "nutmeg"
+        ],
+        "middle": [
+          "cinnamon",
+          "red fruit",
+          "olibanum"
+        ],
+        "base": [
+          "tobacco",
+          "patchouli Indonesia",
+          "vanilla",
+          "Java vetiver"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/fatale-extrait-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "HINT",
+        "product_name": "Fatale Extrait de Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "50e37797c5fb5cf4",
+      "brand": "Olmorva",
+      "name": "Major Icon",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Grapefruit",
+          "May Rose",
+          "Pink Pepper",
+          "Damascena Rose"
+        ],
+        "middle": [
+          "Labdanum",
+          "Amberwood"
+        ],
+        "base": [
+          "Patchouli",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/olmorva/major-icon-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "OLMORVA",
+        "product_name": "Major Icon EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "0594328389249cec",
+      "brand": "Olmorva",
+      "name": "Sparkling Escape",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Mandarin",
+          "Pear"
+        ],
+        "middle": [
+          "White Amber",
+          "Amberwood"
+        ],
+        "base": [
+          "Violet Leaves",
+          "Sandalwood cream",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/olmorva/sparkling-escape-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "OLMORVA",
+        "product_name": "Sparkling Escape EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "fa17388d71ca5b7f",
+      "brand": "Olmorva",
+      "name": "Duchess Charm",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Lavender",
+          "Pepper",
+          "Orange Zest"
+        ],
+        "middle": [
+          "Fresh Flower",
+          "Powdery",
+          "Sandalwood"
+        ],
+        "base": [
+          "Amberwood",
+          "Lorenox"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/olmorva/duchess-charm-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "OLMORVA",
+        "product_name": "Duchess Charm EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "d9511cb2fca762cd",
+      "brand": "Olmorva",
+      "name": "Weekend Daydream",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Transparent Flower"
+        ],
+        "middle": [
+          "Orris",
+          "Rose",
+          "Jasmine"
+        ],
+        "base": [
+          "Orcanox (Ambergris)",
+          "Lorenox",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/olmorva/weekend-daydream-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "OLMORVA",
+        "product_name": "Weekend Daydream EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "46dfffcb1242a2c6",
+      "brand": "Olmorva",
+      "name": "Feels Like Romance",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Coconut",
+          "Honeysuckle",
+          "Lemon"
+        ],
+        "middle": [
+          "Tuberose",
+          "Jasmine",
+          "Gardenia",
+          "Ambrette",
+          "Musk"
+        ],
+        "base": [
+          "Vanilla",
+          "Sandalwood",
+          "Musk",
+          "Patchouli"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/olmorva/feels-like-romance-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "OLMORVA",
+        "product_name": "Feels Like Romance EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "8dba0b7155f30fc3",
+      "brand": "Alchemist",
+      "name": "Pink Laundry",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "fresh watery accord",
+          "rose",
+          "pink pepper"
+        ],
+        "middle": [
+          "violet",
+          "orange blossom",
+          "peony"
+        ],
+        "base": [
+          "musky notes",
+          "marine notes",
+          "sandalwood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/pink-laundry-eau-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Alchemist Fragrance",
+        "product_name": "Pink Laundry Eau de Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "4eaad110b088fd35",
+      "brand": "MYKONOS",
+      "name": "Enchanted",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Mandarin Orange"
+        ],
+        "middle": [
+          "Peony",
+          "Rose",
+          "Violet",
+          "Peach"
+        ],
+        "base": [
+          "Iris",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/enchanted-extrait-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Enchanted Extrait De Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "a653383c84022c34",
+      "brand": "Alchemist",
+      "name": "Got My Mojo Back",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "chocolate",
+          "blackcurrant",
+          "almond"
+        ],
+        "middle": [
+          "cedarwood",
+          "tuberose",
+          "sambac",
+          "jasmine"
+        ],
+        "base": [
+          "praline HS",
+          "sandalwood",
+          "amber"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/got-my-mojo-back-eau-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Alchemist Fragrance",
+        "product_name": "Got My Mojo Back Eau de Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "864cc84e92743f3c",
+      "brand": "Alchemist",
+      "name": "Powder Room",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Cape Jasmine",
+          "Plum"
+        ],
+        "middle": [
+          "Tuberose",
+          "Oiellet"
+        ],
+        "base": [
+          "Honey",
+          "Redwood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/powder-room-eau-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Alchemist Fragrance",
+        "product_name": "Powder Room Eau de Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "fffd380f6b4b1fa2",
+      "brand": "MYKONOS",
+      "name": "Vanilla Clouds Dreamer's Collection",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Vanilla",
+          "heliotrope",
+          "white floral accord"
+        ],
+        "middle": [
+          "vanilla",
+          "marshmallow",
+          "iris"
+        ],
+        "base": [
+          "Caramel",
+          "white musk",
+          "vanilla"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/dreamers-collection-edp-vanilla-clouds-1",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Vanilla Clouds Dreamer's Collection EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "317f226bc6658104",
+      "brand": "Carl Claire",
+      "name": "Black Dahlia (Reformulasi in November 2022)",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "White Floral",
+          "Gourmand",
+          "Coffee"
+        ],
+        "middle": [
+          "Vanilla",
+          "Floral",
+          "Woody"
+        ],
+        "base": [
+          "Ambery",
+          "Musky",
+          "Sweet"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/black-orchid-53",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Carl & Claire",
+        "product_name": "Black Dahlia EDP",
+        "product_variant": "Reformulasi in November 2022"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "bbef9e08c74aa6c2",
+      "brand": "Hint",
+      "name": "Noble",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "tuberose",
+          "tulip",
+          "green"
+        ],
+        "middle": [
+          "muguet",
+          "ylang-ylang",
+          "jasmine",
+          "fruity"
+        ],
+        "base": [
+          "musk",
+          "sandalwood",
+          "vetiver"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/noble-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "HINT",
+        "product_name": "Noble EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "b0e734244d898b7d",
+      "brand": "Evangeline",
+      "name": "Selection Raw Almond",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Butter Accord",
+          "Grapefruit",
+          "Pear",
+          "Mandarin"
+        ],
+        "middle": [
+          "Orange Blossom",
+          "Lily of The Valley",
+          "Jasmine",
+          "Peach"
+        ],
+        "base": [
+          "Sandalwood",
+          "Musks",
+          "Vanilla",
+          "Caramel"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/selection-eau-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Evangeline",
+        "product_name": "Selection Eau De Parfum",
+        "product_variant": "Raw Almond"
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2023/11/18/5-rekomendasi-parfum-lokal-tahan-lama-yang-layak-kamu-coba"
+    },
+    {
+      "id": "5acfe8414d1677ad",
+      "brand": "Carl Claire",
+      "name": "Delicate Embrace (Reformulation in November 2022)",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Citrus",
+          "Freesia",
+          "Fruity",
+          "Pear"
+        ],
+        "middle": [
+          "Lily of The Valley",
+          "Rose"
+        ],
+        "base": [
+          "Ambery",
+          "Musky"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfum-57",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Carl & Claire",
+        "product_name": "Delicate Embrace EDP",
+        "product_variant": "Reformulation in November 2022"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "9fdd9b0af300dce1",
+      "brand": "Alchemist",
+      "name": "Galleria",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Cape Jasmine",
+          "Plum"
+        ],
+        "middle": [
+          "Tuberose",
+          "Oiellet"
+        ],
+        "base": [
+          "Honey",
+          "Redwood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/galleria-eau-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Alchemist Fragrance",
+        "product_name": "Galleria Eau de Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "62e613b1fa219725",
+      "brand": "MYKONOS",
+      "name": "Coconut Dreams Dreamer's Collection",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Coconut",
+          "aloe vera",
+          "lily of the valley"
+        ],
+        "middle": [
+          "Coconut cream",
+          "Vanilla",
+          "sweet rice"
+        ],
+        "base": [
+          "Vanilla",
+          "cashmere wood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/dreamers-collection-edp-coconut-dreams-1",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Coconut Dreams Dreamer's Collection EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "72ff1ad8d01f5033",
+      "brand": "Alchemist",
+      "name": "Out West",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "yuzu",
+          "bergamot",
+          "green apple"
+        ],
+        "middle": [
+          "cedarwood",
+          "rose",
+          "plum"
+        ],
+        "base": [
+          "musk",
+          "patchouli",
+          "vetiver"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/out-west-extrait-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Alchemist Fragrance",
+        "product_name": "Out West Extrait De Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "013db0dad52893e7",
+      "brand": "MYKONOS",
+      "name": "Utopia",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Calabrian Bergamot",
+          "White Tea",
+          "Fruits",
+          "Citrus"
+        ],
+        "middle": [
+          "Iris",
+          "Jasmine Sambac",
+          "Ylang-Ylang"
+        ],
+        "base": [
+          "Cedarwood",
+          "White Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/utopia-extrait-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Utopia Extrait De Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "a0b2b6e20e99f80e",
+      "brand": "MYKONOS",
+      "name": "Satin Blanc",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Black pepper",
+          "Green Apple"
+        ],
+        "middle": [
+          "Cedar Wood",
+          "Jasmin Tea",
+          "Floral Bouquet",
+          "Aquatic"
+        ],
+        "base": [
+          "White Amber",
+          "Tonca Bean",
+          "Vanilla"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/satin-blanc-extrait-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Satin Blanc Extrait De Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "337097ab884edde4",
+      "brand": "Carl Claire",
+      "name": "Spring Sonata (Reformulation in November 2022)",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Citrus",
+          "Rose",
+          "Peony",
+          "Jasmine",
+          "Fruity"
+        ],
+        "middle": [
+          "Floral",
+          "Fruity",
+          "Lactonic"
+        ],
+        "base": [
+          "Ambery",
+          "Floral",
+          "Musky"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfume-rollerball-19-2",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Carl & Claire",
+        "product_name": "Spring Sonata EDP",
+        "product_variant": "Reformulation in November 2022"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "9070d463d4cf2d63",
+      "brand": "Kitschy",
+      "name": "Feels Forever Vacation",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Marshmallow",
+          "Pink Pepper"
+        ],
+        "middle": [
+          "Jasmine",
+          "Iris",
+          "Vanilla"
+        ],
+        "base": [
+          "Musk",
+          "Wood",
+          "Orange",
+          "Patchouli"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/kitschy/feels-forever-vacation",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Kitschy",
+        "product_name": "Feels Forever Vacation",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://dadidupe.com/brands"
+    },
+    {
+      "id": "393b788dd592ae1c",
+      "brand": "Alt Perfumery",
+      "name": "Moroccan Sunset",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Neroli",
+          "bergamot",
+          "red fruits"
+        ],
+        "middle": [
+          "orange blossom",
+          "jasmine",
+          "cinnamon",
+          "resin"
+        ],
+        "base": [
+          "Vanilla",
+          "caramel",
+          "musk",
+          "cedarwood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alt-perfumery/moroccan-sunset-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Alt Perfumery",
+        "product_name": "Moroccan Sunset EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "8c04d0297bb50891",
+      "brand": "Carl Claire",
+      "name": "Morning Glory (Reformulation in November 2022)",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Citrus",
+          "White Floral",
+          "Fruity"
+        ],
+        "middle": [
+          "Floral",
+          "Jasmine",
+          "Lily of The Valley"
+        ],
+        "base": [
+          "Moss",
+          "Musky",
+          "Oriental"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfume-rollerball-17",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Carl & Claire",
+        "product_name": "Morning Glory EDP",
+        "product_variant": "Reformulation in November 2022"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "eb2c641379e13c8e",
+      "brand": "Carl Claire",
+      "name": "Take My Hand (Reformulation in November 2022)",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Fruity",
+          "Floral"
+        ],
+        "middle": [
+          "Floral",
+          "Patchouli"
+        ],
+        "base": [
+          "Ambery",
+          "Animalic"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfum-27",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Carl & Claire",
+        "product_name": "Take My Hand EDP",
+        "product_variant": "Reformulation in November 2022"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "d1022f3aa9b37f68",
+      "brand": "MYKONOS",
+      "name": "Blossom",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "green notes",
+          "orange",
+          "jasmine"
+        ],
+        "middle": [
+          "tuberose",
+          "honeysuckle",
+          "jasmine"
+        ],
+        "base": [
+          "vanilla",
+          "sandalwood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/mykonos-blossom-2",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Blossom EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "23317f60d791d800",
+      "brand": "Carl Claire",
+      "name": "Song of the Youth (Reformulation in November 2022)",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Citrus",
+          "Floral",
+          "Fruity"
+        ],
+        "middle": [
+          "Magnolia",
+          "Musky",
+          "Iris",
+          "Vanilla"
+        ],
+        "base": [
+          "Ambery",
+          "Animalic",
+          "Moss"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfum-17",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Carl & Claire",
+        "product_name": "Song of the Youth EDP",
+        "product_variant": "Reformulation in November 2022"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "45cd73f94ef64d88",
+      "brand": "MYKONOS",
+      "name": "Caramel Fudge Cookie",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Cookie Dough",
+          "Caramel",
+          "Vanilla"
+        ],
+        "middle": [
+          "Caramel",
+          "Condensed Milk",
+          "Sea Salt"
+        ],
+        "base": [
+          "White Musk",
+          "Vanilla",
+          "Caramel",
+          "Praline"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/mykonos-eau-de-perfume-caramel-fudge-cookie-3",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Caramel Fudge Cookie EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "4afbcea41a2d0900",
+      "brand": "HMNS",
+      "name": "Scent of a Woman",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Turkish rose",
+          "Lychee",
+          "Lemon"
+        ],
+        "middle": [
+          "Lily of the valley",
+          "Jasmine",
+          "White peach"
+        ],
+        "base": [
+          "Vetiver",
+          "Patchouli",
+          "Black Musk",
+          "Amberwood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/scent-of-a-woman",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "HMNS Perfume",
+        "product_name": "Scent of a Woman",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "a7bdfe154b69b1cf",
+      "brand": "Carl Claire",
+      "name": "A Love Like This (Reformulasi in November 2022)",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Lily",
+          "Aromatic",
+          "Eucalyptus",
+          "Ginger"
+        ],
+        "middle": [
+          "Lily",
+          "Ambery",
+          "Jasmine"
+        ],
+        "base": [
+          "Cedarwood",
+          "Musky",
+          "Patchouli"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfum-5",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Carl & Claire",
+        "product_name": "A Love Like This EDP",
+        "product_variant": "Reformulasi in November 2022"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "6d70c5c0e4d6cc07",
+      "brand": "Avicenna",
+      "name": "Sincere",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Blackcurrant",
+          "Mandarin",
+          "Bergamot"
+        ],
+        "middle": [
+          "Lily of the Valley",
+          "Peony",
+          "Jasmine"
+        ],
+        "base": [
+          "Musk",
+          "Violet Bud",
+          "Patchouli"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/sincere",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Avicenna",
+        "product_name": "Sincere",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2022/03/31/avicenna-brand-parfum-dengan-konsep-minimalis-yang-elegan"
+    },
+    {
+      "id": "44021f9368f35122",
+      "brand": "Hint",
+      "name": "Resurrect",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "bergamot",
+          "lavender",
+          "cypress"
+        ],
+        "middle": [
+          "watery",
+          "frankincense"
+        ],
+        "base": [
+          "musk",
+          "suede",
+          "oakmoss"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/resurrect-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "HINT",
+        "product_name": "Resurrect EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "4bd2d859d610d053",
+      "brand": "The Body Tale",
+      "name": "Portrait of Kyoto",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "earl grey tea",
+          "apple",
+          "honey",
+          "mandarin"
+        ],
+        "middle": [
+          "jasmine",
+          "black tea",
+          "fresia",
+          "irish"
+        ],
+        "base": [
+          "musk",
+          "pepper",
+          "sandalwood",
+          "amber"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/the-body-tale/portrait-of-kyoto",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "The Body Tale",
+        "product_name": "Portrait of Kyoto",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "ba30fe5e5bf003b2",
+      "brand": "Evangeline",
+      "name": "Selection Strawberry",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Strawberry",
+          "Pineapple",
+          "Fresh Kiwi"
+        ],
+        "middle": [
+          "Blueberry",
+          "Plum",
+          "Fresh Flowers",
+          "Violet"
+        ],
+        "base": [
+          "Caramel",
+          "Vanilla Beans"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-selection-eau-de-parfum-3",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Evangeline",
+        "product_name": "Selection Eau De Parfum",
+        "product_variant": "Strawberry"
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2023/11/18/5-rekomendasi-parfum-lokal-tahan-lama-yang-layak-kamu-coba"
+    },
+    {
+      "id": "b29cd709aafad46f",
+      "brand": "Carl Claire",
+      "name": "Talking to the Moon (Reformulation in November 2022)",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Fruity",
+          "Orange Blossom"
+        ],
+        "middle": [
+          "Jasmine",
+          "Tuberose",
+          "Woody"
+        ],
+        "base": [
+          "Ambery",
+          "Musky",
+          "Sweet"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfum-10",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Carl & Claire",
+        "product_name": "Talking to the Moon EDP",
+        "product_variant": "Reformulation in November 2022"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "a7d2fea58c3b576b",
+      "brand": "MYKONOS",
+      "name": "Musk Aura",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Yuzu",
+          "Apple"
+        ],
+        "middle": [
+          "Lily of the Valley",
+          "Sambac Jasmine",
+          "Ylang-ylang"
+        ],
+        "base": [
+          "Amber",
+          "Musk",
+          "Citrus",
+          "Nectarine"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/eau-de-perfume-musk-aura-4",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Musk Aura EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "3c434fa7cd460759",
+      "brand": "MYKONOS",
+      "name": "Dark Secret",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Black Cherry",
+          "Saffron",
+          "Bergamot"
+        ],
+        "middle": [
+          "Cinnamon",
+          "Nutmeg",
+          "Marigold",
+          "Jasmine",
+          "Praline"
+        ],
+        "base": [
+          "Amber",
+          "Musk",
+          "Tonka Bean",
+          "Sandalwood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/dark-secret-extrait-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Dark Secret Extrait De Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "6379eb2ed17161c4",
+      "brand": "Evangeline",
+      "name": "Selection Sugar Biscuit",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Green Apple",
+          "Cinnamon",
+          "Almond"
+        ],
+        "middle": [
+          "Coconut",
+          "Butter",
+          "Cookie Accord"
+        ],
+        "base": [
+          "Vanilla Beans",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-selection-eau-de-parfum-6",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Evangeline",
+        "product_name": "Selection Eau De Parfum",
+        "product_variant": "Sugar Biscuit"
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2023/11/18/5-rekomendasi-parfum-lokal-tahan-lama-yang-layak-kamu-coba"
+    },
+    {
+      "id": "d0e933ae3c870fe9",
+      "brand": "Evangeline",
+      "name": "Selection Green Tea",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Tangerine",
+          "Tea Accord"
+        ],
+        "middle": [
+          "Muguet",
+          "Jasmine",
+          "Fig leaves"
+        ],
+        "base": [
+          "Green Moss",
+          "Musk",
+          "Woody",
+          "Ambery"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-selection-eau-de-parfum-1",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Evangeline",
+        "product_name": "Selection Eau De Parfum",
+        "product_variant": "Green Tea"
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2023/11/18/5-rekomendasi-parfum-lokal-tahan-lama-yang-layak-kamu-coba"
+    },
+    {
+      "id": "f55fdb5106699487",
+      "brand": "Mine Perfumery",
+      "name": "TATAMI",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Plum",
+          "Earl Grey",
+          "orange Blossom"
+        ],
+        "middle": [
+          "Peony Rose",
+          "Blackcurrant",
+          "bud Lily of the Valley"
+        ],
+        "base": [
+          "Ambrettolide",
+          "Violet Leaf",
+          "Tea Leaf"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mine/tatami",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mine.",
+        "product_name": "TATAMI",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "593d230c3b224d08",
+      "brand": "MYKONOS",
+      "name": "Pink Drops",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Caramel",
+          "Strawberry Preserve",
+          "Almond"
+        ],
+        "middle": [
+          "Milk",
+          "Heliotrope"
+        ],
+        "base": [
+          "Vanilla",
+          "White Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/pink-drops-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Pink Drops EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "3d3f11dfeb920641",
+      "brand": "MYKONOS",
+      "name": "Senja",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Coffee",
+          "Rum",
+          "Almond"
+        ],
+        "middle": [
+          "Patchouli",
+          "chocolate",
+          "milk"
+        ],
+        "base": [
+          "Sandalwood",
+          "Chocolate",
+          "Vetiver",
+          "Cistus"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/senja-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Senja EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "dcdb0f031d1c9b8c",
+      "brand": "MYKONOS",
+      "name": "Sparkling Rose",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Damask Rose",
+          "Orange",
+          "Geranium"
+        ],
+        "middle": [
+          "May Rose",
+          "Sparkling Red Berries",
+          "Plum",
+          "Sandalwood"
+        ],
+        "base": [
+          "Patchouli",
+          "Amber",
+          "Guaiac wood",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/sparkling-rose-extrait-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Sparkling Rose Extrait De Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "92c1e6bb1ad49ec0",
+      "brand": "Evangeline",
+      "name": "Selection Cherry Blossom",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Green Leaves"
+        ],
+        "middle": [
+          "Rose Petals",
+          "Cherry",
+          "Apple",
+          "Jasmine",
+          "Lily of The Valley"
+        ],
+        "base": [
+          "Musk",
+          "Sandalwood",
+          "Vanilla"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-selection-eau-de-parfum-2",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Evangeline",
+        "product_name": "Selection Eau De Parfum",
+        "product_variant": "Cherry Blossom"
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2023/11/18/5-rekomendasi-parfum-lokal-tahan-lama-yang-layak-kamu-coba"
+    },
+    {
+      "id": "abe0bd4235db72a8",
+      "brand": "Hint",
+      "name": "Realm Main",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "citrus",
+          "apple blossom"
+        ],
+        "middle": [
+          "rose",
+          "orange blossom",
+          "fressia"
+        ],
+        "base": [
+          "amber",
+          "musk",
+          "patchouli"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/realm-main-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "HINT",
+        "product_name": "Realm Main EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "41b8882dc8dc1e28",
+      "brand": "Kitschy",
+      "name": "Skin Symphony",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Magnolia",
+          "Ozone",
+          "Green",
+          "Gardenia",
+          "Neroli",
+          "Cassis",
+          "Davana",
+          "Pink Pepper",
+          "Mandarin",
+          "Apple"
+        ],
+        "middle": [
+          "Tuberose",
+          "Lily",
+          "Ylang",
+          "Carnation",
+          "Honeysuckle",
+          "Rose",
+          "Ozone",
+          "Muguet",
+          "Jasmine",
+          "Violet",
+          "Fruity"
+        ],
+        "base": [
+          "Mush",
+          "Amber",
+          "Orris",
+          "Powdery",
+          "Cedarwood",
+          "Moss",
+          "Vanilla",
+          "Sandalwood",
+          "Peach"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/kitschy/skin-symphony-extrait-de-perfume",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Kitschy",
+        "product_name": "Skin Symphony Extrait de Perfume",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://dadidupe.com/brands"
+    },
+    {
+      "id": "c11a6138110df7a0",
+      "brand": "MYKONOS",
+      "name": "XOXO, Rosy",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Turkish Rose",
+          "Pink Pepper",
+          "green notes"
+        ],
+        "middle": [
+          "Turkish Rose",
+          "Rose Petals",
+          "Orange Jam",
+          "Red Berries"
+        ],
+        "base": [
+          "Amber",
+          "Musk",
+          "Rose"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/xoxo-rosy-2",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "XOXO, Rosy EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "816dd48563ba341c",
+      "brand": "MYKONOS",
+      "name": "Pistachio Cream Cake",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Whipped cream accord",
+          "Pistachio",
+          "Crumble accord"
+        ],
+        "middle": [
+          "Praline",
+          "Ice Cream"
+        ],
+        "base": [
+          "Orcanox",
+          "Musk",
+          "Tonka bean"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/eau-de-parfum-pistachio-cream-cake-1",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Pistachio Cream Cake EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "3f8b6c18e902d1e7",
+      "brand": "Avicenna",
+      "name": "Miracle",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Lemon",
+          "Pear",
+          "Pineapple"
+        ],
+        "middle": [
+          "Fresh Flowers",
+          "Peony",
+          "Violet"
+        ],
+        "base": [
+          "Strawberry",
+          "Vanilla",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/avicenna-premiere",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Avicenna",
+        "product_name": "Miracle",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2022/03/31/avicenna-brand-parfum-dengan-konsep-minimalis-yang-elegan"
+    },
+    {
+      "id": "039b62a735efee3b",
+      "brand": "MYKONOS",
+      "name": "Zora",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Osmanthus",
+          "Jasmine",
+          "May Rose"
+        ],
+        "middle": [
+          "Jasmine",
+          "Rose",
+          "Peach"
+        ],
+        "base": [
+          "Amberwood",
+          "Cedarwood",
+          "Musky",
+          "Milk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/zora-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Zora EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "203b114242050030",
+      "brand": "Avicenna",
+      "name": "Blossom",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Bulgarian Rose",
+          "White Flowers",
+          "Violet"
+        ],
+        "middle": [
+          "Oris",
+          "Opponax",
+          "Balsamic"
+        ],
+        "base": [
+          "Bourbon",
+          "Vanilla",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/blosom",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Avicenna",
+        "product_name": "Blossom",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2022/03/31/avicenna-brand-parfum-dengan-konsep-minimalis-yang-elegan"
+    },
+    {
+      "id": "30063bcd9394cf72",
+      "brand": "MYKONOS",
+      "name": "Violette",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Exotic Berries",
+          "Pink Pepper",
+          "Caramel"
+        ],
+        "middle": [
+          "Osmanthus",
+          "Bulgarian Rose"
+        ],
+        "base": [
+          "Patchouli",
+          "Amber",
+          "Wood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/violette-1",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Violette EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "bd9249387ce70032",
+      "brand": "HMNS",
+      "name": "Essence of The Night",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Tuberose"
+        ],
+        "middle": [
+          "Ylang-Ylang",
+          "Violet Leaves",
+          "Jasmine Absolute"
+        ],
+        "base": [
+          "Amberwood",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/essence-of-the-night",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "HMNS Perfume",
+        "product_name": "Essence of The Night",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "ea9f138d5b6d0a39",
+      "brand": "Carl Claire",
+      "name": "Dancing with My Shadow (Reformulation in November 2022)",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Floral",
+          "Fresh",
+          "Herbaceous"
+        ],
+        "middle": [
+          "Floral",
+          "Oriental",
+          "Rose"
+        ],
+        "base": [
+          "Ambery",
+          "Balsamic",
+          "Musky"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfume-rollerball-33",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Carl & Claire",
+        "product_name": "Dancing with My Shadow EDP",
+        "product_variant": "Reformulation in November 2022"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "93498be190cdd2ed",
+      "brand": "Readyset",
+      "name": "Sheila Arief Collection Memoire 21",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Tuberose",
+          "Honeysuckle",
+          "Mandarin Orange"
+        ],
+        "middle": [
+          "Orchid",
+          "Jasmine"
+        ],
+        "base": [
+          "Wood",
+          "Tonka Bean",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/ready-set-perfumery/sheila-arief-collection-edp-memoire-21",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Ready Set Perfumery",
+        "product_name": "Sheila Arief Collection EDP",
+        "product_variant": "Memoire 21"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "76898fa6bf67d430",
+      "brand": "Hint",
+      "name": "Identity Main",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "lemon",
+          "ozonic",
+          "melon"
+        ],
+        "middle": [
+          "watery",
+          "geranium",
+          "lily of the valley"
+        ],
+        "base": [
+          "amber",
+          "patchouli",
+          "sea-moss",
+          "sandalwood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/identity-main-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "HINT",
+        "product_name": "Identity Main EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "c2537de4abb8c044",
+      "brand": "YN Perfumery",
+      "name": "The Duchess",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Jasmine"
+        ],
+        "middle": [
+          "Tuberose"
+        ],
+        "base": [
+          "Rangoon Creeper"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/yn-perfumery/the-duchess-eau-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "YN Perfumery",
+        "product_name": "The Duchess Eau De Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "389932750d9aa447",
+      "brand": "Smellsgood",
+      "name": "Tulipe",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Freesia",
+          "Cyclamen"
+        ],
+        "middle": [
+          "Pink Tulip"
+        ],
+        "base": [
+          "Green Notes",
+          "Soft Spicy"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/smells-good/tulipe",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Smells Good",
+        "product_name": "Tulipe",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "3419748d6139ac31",
+      "brand": "Hint",
+      "name": "Epitome",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "bergamot",
+          "cardamom",
+          "pepper",
+          "mint"
+        ],
+        "middle": [
+          "fig",
+          "coconut milk",
+          "basil"
+        ],
+        "base": [
+          "atlas cedarwood",
+          "patchouli",
+          "ambery"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/epitome-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "HINT",
+        "product_name": "Epitome EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "9b79c37ac9397f92",
+      "brand": "Evangeline",
+      "name": "Selection Royal Lavender",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Apple",
+          "Green Notes",
+          "Pine",
+          "Rosemary"
+        ],
+        "middle": [
+          "Lavender",
+          "Eucalyptus",
+          "Geranium"
+        ],
+        "base": [
+          "Sage",
+          "Musk",
+          "Tobacco"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-royal-lavender-2",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Evangeline",
+        "product_name": "Selection Eau De Parfum",
+        "product_variant": "Royal Lavender"
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2023/11/18/5-rekomendasi-parfum-lokal-tahan-lama-yang-layak-kamu-coba"
+    },
+    {
+      "id": "3567dd1c1d57b9fc",
+      "brand": "MYKONOS",
+      "name": "Tea Poetry",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Rose",
+          "Jasmine",
+          "Ylang2"
+        ],
+        "middle": [
+          "Candied fruit",
+          "Balsam",
+          "orange flower",
+          "pepper",
+          "smoked black tea"
+        ],
+        "base": [
+          "Honey",
+          "smoked black tea",
+          "Cedarwood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/tea-poetry-extrait-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Tea Poetry Extrait De Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "d611f8ef1713cc89",
+      "brand": "Kitschy",
+      "name": "Feels Day Dream",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Oud",
+          "Pink Pepper",
+          "Cardamon",
+          "Lavender"
+        ],
+        "middle": [
+          "Jasmine",
+          "Patchouli",
+          "Cedar",
+          "Vanilla",
+          "Muguet"
+        ],
+        "base": [
+          "Amber",
+          "Sandalwood",
+          "Tonka Bean",
+          "Musk",
+          "Coconut"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/kitschy/feels-day-dream-extrait-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Kitschy",
+        "product_name": "Feels Day Dream Extrait de Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://dadidupe.com/brands"
+    },
+    {
+      "id": "b835a7d5063fdc2d",
+      "brand": "Crusita",
+      "name": "Scandal",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Wild Berries",
+          "Apricot",
+          "Apple Blossom"
+        ],
+        "middle": [
+          "Cherry Blossom",
+          "Orchid",
+          "Heliotrope"
+        ],
+        "base": [
+          "Vanilla",
+          "Marshmallow",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/crusita/extrait-de-parfum-1-scandal",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Crusita",
+        "product_name": "Extrait De Parfum",
+        "product_variant": "Scandal"
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "a6d6826a34e8d40d",
+      "brand": "HMNS",
+      "name": "Untitled Humans",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Coriander",
+          "Violet Leaves",
+          "Ambrette"
+        ],
+        "middle": [
+          "Figolide",
+          "Velvet Note",
+          "Rose Absolute"
+        ],
+        "base": [
+          "Sandalwood",
+          "Cypriol",
+          "Vanilla Jungle Essence"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/untitled-humans",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "HMNS Perfume",
+        "product_name": "Untitled Humans",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "a415659e4a1405ed",
+      "brand": "Avicenna",
+      "name": "Glam",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Fresh Watery Accord",
+          "Red Fruits"
+        ],
+        "middle": [
+          "Rose",
+          "Peony",
+          "Cyclamen",
+          "Violet"
+        ],
+        "base": [
+          "Musk",
+          "Amber Wood",
+          "Creamy Sandalwood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/avicenna-glam",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Avicenna",
+        "product_name": "Glam",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2022/03/31/avicenna-brand-parfum-dengan-konsep-minimalis-yang-elegan"
+    },
+    {
+      "id": "bab892a336fd44b1",
+      "brand": "MYKONOS",
+      "name": "Down To Earth",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Fig",
+          "Matcha Green Tea",
+          "Bergamot",
+          "Incense",
+          "Cinnamon"
+        ],
+        "middle": [
+          "Cashmere Wood",
+          "Orange",
+          "Figolide",
+          "Milky",
+          "Orcanox"
+        ],
+        "base": [
+          "Vetiver",
+          "Sandalwood",
+          "Santamanol",
+          "Cedar"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/down-to-earth-1",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Down To Earth",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "e3c9546fd0e2ce8c",
+      "brand": "The Body Tale",
+      "name": "Juliette",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Cinnamon",
+          "Cardamom",
+          "Bergamot"
+        ],
+        "middle": [
+          "Jasmine",
+          "Ylang Ylang",
+          "Sage"
+        ],
+        "base": [
+          "Amber",
+          "Woody",
+          "Leather",
+          "Labdanum"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/the-body-tale/juliette",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "The Body Tale",
+        "product_name": "Juliette",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "77983227951e4635",
+      "brand": "Unke Naru",
+      "name": "For You",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Fig",
+          "Pear",
+          "Milky"
+        ],
+        "middle": [
+          "Coconut Tree Leaves",
+          "Clover",
+          "Water Jasmine"
+        ],
+        "base": [
+          "Amberwood",
+          "Orcanox",
+          "White Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/unke-naru/eau-de-parfum-for-you",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Unke Naru",
+        "product_name": "Eau De Parfum",
+        "product_variant": "For You"
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "811eae879626ff64",
+      "brand": "Evangeline",
+      "name": "Selection Mango Temptation",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Mango",
+          "Apricot",
+          "Cassis Bud"
+        ],
+        "middle": [
+          "Mango",
+          "Ozonic",
+          "Apple"
+        ],
+        "base": [
+          "Musky",
+          "Ambery",
+          "Vanilla"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-selection-mango-temptation-1",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Evangeline",
+        "product_name": "Selection Eau De Parfum",
+        "product_variant": "Mango Temptation"
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2023/11/18/5-rekomendasi-parfum-lokal-tahan-lama-yang-layak-kamu-coba"
+    },
+    {
+      "id": "3a36424549ed8452",
+      "brand": "Evangeline",
+      "name": "Selection Juicy Pear",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Strawberry",
+          "Peach",
+          "Pear"
+        ],
+        "middle": [
+          "Jasmine"
+        ],
+        "base": [
+          "Balsamic",
+          "Vanilla",
+          "Musky"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-selection-juicy-pear-1",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Evangeline",
+        "product_name": "Selection Eau De Parfum",
+        "product_variant": "Juicy Pear"
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2023/11/18/5-rekomendasi-parfum-lokal-tahan-lama-yang-layak-kamu-coba"
+    },
+    {
+      "id": "fe8aa5d50501f6ff",
+      "brand": "Avicenna",
+      "name": "Sunshine",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Lemon",
+          "Tangerine",
+          "Grapefruit"
+        ],
+        "middle": [
+          "Jasmine"
+        ],
+        "base": [
+          "Cedarwood",
+          "Musk",
+          "Peach",
+          "Amber"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/avicenna-premier",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Avicenna",
+        "product_name": "Sunshine",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2022/03/31/avicenna-brand-parfum-dengan-konsep-minimalis-yang-elegan"
+    },
+    {
+      "id": "a88e44f34e9a0270",
+      "brand": "The Body Tale",
+      "name": "Teamomile",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Almond"
+        ],
+        "middle": [
+          "Chamomile",
+          "Jasmine",
+          "Musk"
+        ],
+        "base": [
+          "Cedre",
+          "Vanilla",
+          "Bois De Santal"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/the-body-tale/teamomile",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "The Body Tale",
+        "product_name": "Teamomile",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "299ff829d7895be1",
+      "brand": "Bonavie",
+      "name": "Poudre Et Plume",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Berry",
+          "Bergamot",
+          "Violet Leaf"
+        ],
+        "middle": [
+          "Jasmine",
+          "Lily Of The Valley",
+          "Rose"
+        ],
+        "base": [
+          "Patchouli",
+          "Musk",
+          "Vetiver"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/bonavie/poudre-et-plume-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Bonavie",
+        "product_name": "Poudre Et Plume EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://brandwiki.lazada.co.id/bonavie/"
+    },
+    {
+      "id": "52dea92f24b7656a",
+      "brand": "Kitschy",
+      "name": "x Rania De Bloem",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Rose",
+          "Wild Berry",
+          "Scent Garden"
+        ],
+        "middle": [
+          "Woody",
+          "Forest Essence",
+          "Blossom Bouquet"
+        ],
+        "base": [
+          "Amber",
+          "Musky",
+          "Earthy Undertones"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/kitschy/x-rania-de-bloem-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Kitschy",
+        "product_name": "x Rania De Bloem EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://dadidupe.com/brands"
+    },
+    {
+      "id": "b80bb79716fe1f33",
+      "brand": "MYKONOS",
+      "name": "Cafe Drops",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Orchid",
+          "Jasmine",
+          "Coffee"
+        ],
+        "middle": [
+          "Vanilla",
+          "Caramel",
+          "Tonka Bean",
+          "Milk"
+        ],
+        "base": [
+          "Amber",
+          "Musk",
+          "Wood",
+          "Patchouli"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/cafe-drops-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Cafe Drops EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "5e9f30a4aaf3bb97",
+      "brand": "House of Medici",
+      "name": "Fatima La Isabella",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Blue Chamomile",
+          "Cinnamon",
+          "Cacao"
+        ],
+        "middle": [
+          "Turkish Rose",
+          "Tobacco Blossom",
+          "White Honey"
+        ],
+        "base": [
+          "White Chocolate",
+          "Dried Fruits",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/house-of-medici/eau-de-parfum-1-fatima-la-isabella",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "House of Medici",
+        "product_name": "Eau De Parfum",
+        "product_variant": "Fatima La Isabella"
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "2ab44408b9358eed",
+      "brand": "Unke Naru",
+      "name": "Cocoa Mint",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Hazelnut",
+          "Strawberry"
+        ],
+        "middle": [
+          "Cocoa Bean",
+          "Peppermint"
+        ],
+        "base": [
+          "Vanilla",
+          "Milk Chocolate"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/unke-naru/cocoa-mint-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Unke Naru",
+        "product_name": "Cocoa Mint EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "7014591a13ae633e",
+      "brand": "MS Glow",
+      "name": "Bollywood",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Orange Blossom",
+          "Bergamot",
+          "Cinnamon"
+        ],
+        "middle": [
+          "White Jasmine",
+          "Neroli",
+          "Sweet Honey"
+        ],
+        "base": [
+          "Vanilla",
+          "Praline",
+          "White Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/ms-glow/bollywood-eau-de-perfume",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "MS Glow",
+        "product_name": "Bollywood Eau de Perfume",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2021/12/14/rekomendasi-skincare-lokal-cowok"
+    },
+    {
+      "id": "b41eb448afcaf923",
+      "brand": "Personal Chemistry",
+      "name": "Unspoken",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Plum",
+          "Pink Pepper",
+          "Cardamom"
+        ],
+        "middle": [
+          "Damascena Rose",
+          "Incense",
+          "Elemi"
+        ],
+        "base": [
+          "Patchouli",
+          "Gaiac Wood",
+          "Cypriol"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/personal-chemistry/unspoken",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Personal Chemistry",
+        "product_name": "Unspoken",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "dc0c7eaf9d3451fa",
+      "brand": "Alt Perfumery",
+      "name": "Teatime in Kyoto",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Citrus",
+          "Jasmine",
+          "White Floral"
+        ],
+        "middle": [
+          "Eucalyptus",
+          "Green Notes"
+        ],
+        "base": [
+          "Musk",
+          "Sandalwood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alt-perfumery/teatime-in-kyoto",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Alt Perfumery",
+        "product_name": "Teatime in Kyoto",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "6a0aadc2c1767b3a",
+      "brand": "YN Perfumery",
+      "name": "Rose In September",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Peach",
+          "Green Notes",
+          "Blackcurrant"
+        ],
+        "middle": [
+          "May Rose",
+          "Rose",
+          "Turkish Rose",
+          "Iris"
+        ],
+        "base": [
+          "White Musk",
+          "Cedar",
+          "Pepper",
+          "Orris Root",
+          "Violet Leaf"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/yn-perfumery/rose-in-september-eau-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "YN Perfumery",
+        "product_name": "Rose In September Eau De Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "41f5211425417f4f",
+      "brand": "MS Glow",
+      "name": "Revival",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Cardamom"
+        ],
+        "middle": [
+          "Violet"
+        ],
+        "base": [
+          "Sandalwood",
+          "Papyrus",
+          "Musky"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/ms-glow/revival-eau-de-perfume",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "MS Glow",
+        "product_name": "Revival Eau de Perfume",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2021/12/14/rekomendasi-skincare-lokal-cowok"
+    },
+    {
+      "id": "d4f65176e852fe29",
+      "brand": "Hint",
+      "name": "Delicate Topper",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Geranium",
+          "Nagarmotha",
+          "Green",
+          "Pink Pepper"
+        ],
+        "middle": [
+          "Raspberry",
+          "Magnolia",
+          "Rose"
+        ],
+        "base": [
+          "Musk",
+          "Amber",
+          "Woody",
+          "Patchouli"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/delicate-topper-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "HINT",
+        "product_name": "Delicate Topper EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "b4680cbaa1231782",
+      "brand": "Nevernot",
+      "name": "Petite Avenue",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Earl Grey Tea",
+          "Mandarin Orange"
+        ],
+        "middle": [
+          "Freesia",
+          "Rose",
+          "Jasmine"
+        ],
+        "base": [
+          "Iris",
+          "Musk",
+          "Sandalwood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/never-not-official/petite-avenue",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Never Not Official",
+        "product_name": "Petite Avenue",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "adc672f53eea6a80",
+      "brand": "Personal Chemistry",
+      "name": "Velvet Kiss",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Juicy Tangerine",
+          "Davana",
+          "Raspberry"
+        ],
+        "middle": [
+          "Orange Blossom",
+          "Damascena Rose",
+          "Violet",
+          "Cyclamen"
+        ],
+        "base": [
+          "Orris",
+          "Cashmeran",
+          "Cedarwood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/personal-chemistry/velvet-kiss",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Personal Chemistry",
+        "product_name": "Velvet Kiss",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "03e5b254b078c0b6",
+      "brand": "MYKONOS",
+      "name": "Adelina",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Candied Orange",
+          "Bergamot",
+          "Sweet Orange"
+        ],
+        "middle": [
+          "Raspberry",
+          "Blackcurrant",
+          "Vanilla Sugar",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Whipped Cream",
+          "Marshmallow",
+          "White Musk",
+          "Ambrette",
+          "Caramel"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/adelina-4",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Adelina EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "737ea66f2ac10dd1",
+      "brand": "Alchemist",
+      "name": "09 Jatuh Hati",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Mandarin",
+          "Lemon"
+        ],
+        "middle": [
+          "Jasmine",
+          "Ylang-Ylang"
+        ],
+        "base": [
+          "Patchouli",
+          "Musky",
+          "Amberwood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/eau-de-parfum-09-jatuh-hati",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Alchemist Fragrance",
+        "product_name": "Eau De Parfum",
+        "product_variant": "09 Jatuh Hati"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "de51b94d374d59a5",
+      "brand": "Rahasia",
+      "name": "Rahasia x Cinta Laura Goddess Water",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Pear",
+          "Mandarin",
+          "Pineapple"
+        ],
+        "middle": [
+          "Magnolia",
+          "Muguet",
+          "White Floral"
+        ],
+        "base": [
+          "Amber",
+          "Sandalwood",
+          "Vanilla"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/rahasia-beauty/rahasia-x-cinta-laura-goddess-water-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Rahasia Beauty",
+        "product_name": "Rahasia x Cinta Laura Goddess Water EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "38dc580f5b647376",
+      "brand": "Crusita",
+      "name": "Es Teh Manis",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Black Tea",
+          "Chamomile",
+          "Betahydrane"
+        ],
+        "middle": [
+          "Tea Leaves",
+          "Mugane",
+          "Indol",
+          "Sambac Jasmine"
+        ],
+        "base": [
+          "Orange Blossom",
+          "Mate Leaf",
+          "Cane Sugar"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/crusita/extrait-de-parfum-1-es-teh-manis",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Crusita",
+        "product_name": "Extrait De Parfum",
+        "product_variant": "Es Teh Manis"
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "bdf2b3644ad2618f",
+      "brand": "Alchemist",
+      "name": "Musc Laiteux",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Pink Pepper",
+          "Orange Flower"
+        ],
+        "middle": [
+          "Orris Crete Lmr",
+          "Transparent Floral",
+          "Riz Au Lait Accord"
+        ],
+        "base": [
+          "Ambrette Abs",
+          "Patchouli Oil"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/musc-laiteux-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Alchemist Fragrance",
+        "product_name": "Musc Laiteux EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "d76d5e549fb719ae",
+      "brand": "MYKONOS",
+      "name": "Luminos",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Apple",
+          "Java Banana"
+        ],
+        "middle": [
+          "White Florals",
+          "Rose",
+          "Tuberose",
+          "Lily Of The Valley",
+          "Orange Blossom"
+        ],
+        "base": [
+          "Amber",
+          "Edible Notes",
+          "Solar Accord",
+          "Amberwood",
+          "Cashmere"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/luminos-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Luminos EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "e57fb521b0f1c53f",
+      "brand": "MS Glow",
+      "name": "Recharge",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Osmanthus",
+          "Jasmine",
+          "Rose"
+        ],
+        "middle": [
+          "Fruity",
+          "Tuberose",
+          "Narcissus"
+        ],
+        "base": [
+          "Amber",
+          "Cedar"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/ms-glow/recharge-eau-de-perfume",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "MS Glow",
+        "product_name": "Recharge Eau de Perfume",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2021/12/14/rekomendasi-skincare-lokal-cowok"
+    },
+    {
+      "id": "53f33008d532d5e5",
+      "brand": "Alt Perfumery",
+      "name": "Reverie",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Tuberose",
+          "White Flower"
+        ],
+        "middle": [
+          "Black Currant",
+          "Davana"
+        ],
+        "base": [
+          "Vanilla",
+          "Myrrh"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alt-perfumery/reverie-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Alt Perfumery",
+        "product_name": "Reverie EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "f2338a4bb7eaf650",
+      "brand": "Readyset",
+      "name": "Sheila Arief Collection Chateau of Secret",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Sage",
+          "White Tea",
+          "Bergamot"
+        ],
+        "middle": [
+          "Iris"
+        ],
+        "base": [
+          "Amber",
+          "Tiare"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/ready-set-perfumery/sheila-arief-collection-edp-chateau-of-secret",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Ready Set Perfumery",
+        "product_name": "Sheila Arief Collection EDP",
+        "product_variant": "Chateau of Secret"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "f244dda69cdddcb1",
+      "brand": "Kitschy",
+      "name": "Fairytale",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "pistachio",
+          "hazelnut",
+          "cassis"
+        ],
+        "middle": [
+          "peony",
+          "jasmine",
+          "muguet"
+        ],
+        "base": [
+          "vanilla",
+          "maltol"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/kitschy/fairytale-extrait-de-perfume",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Kitschy",
+        "product_name": "Fairytale Extrait de Perfume",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://dadidupe.com/brands"
+    },
+    {
+      "id": "c91cdccac51667dd",
+      "brand": "Evangeline",
+      "name": "Zodiac Series Scorpio",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "buah hutan (forest fruits)",
+          "red currant",
+          "pink grapefruit",
+          "melon"
+        ],
+        "middle": [
+          "frangipani",
+          "freesia",
+          "jasmine"
+        ],
+        "base": [
+          "musk",
+          "woody notes",
+          "patchouli"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-zodiak-series-sagitarius-1",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Evangeline",
+        "product_name": "Eau De Perfume Zodiac Series",
+        "product_variant": "Scorpio"
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2023/11/18/5-rekomendasi-parfum-lokal-tahan-lama-yang-layak-kamu-coba"
+    },
+    {
+      "id": "292a420ca9c4924c",
+      "brand": "Unke Naru",
+      "name": "Suga Bourbon",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Lychee",
+          "Tropical Fruits"
+        ],
+        "middle": [
+          "Peony",
+          "Rose"
+        ],
+        "base": [
+          "Sugar Vanilla",
+          "Woody Notes"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/unke-naru/eau-de-parfum-suga-bourbon",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Unke Naru",
+        "product_name": "Eau De Parfum",
+        "product_variant": "Suga Bourbon"
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "cf6b927e9817c5d3",
+      "brand": "Project 1945",
+      "name": "Samosir",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Green Notes"
+        ],
+        "middle": [
+          "Jasmine",
+          "Honeysuckle",
+          "Green Tea",
+          "Honey"
+        ],
+        "base": [
+          "Labdanum",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/project-1945/samosir-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Project 1945",
+        "product_name": "Samosir EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "88cfc3acd14a9e64",
+      "brand": "The Body Tale",
+      "name": "Summer Splash",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Soda",
+          "Bergamot"
+        ],
+        "middle": [
+          "Amber",
+          "Woody"
+        ],
+        "base": [
+          "Orange Blossom"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/the-body-tale/summer-splash",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "The Body Tale",
+        "product_name": "Summer Splash",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "f8d942db10777a85",
+      "brand": "Evangeline",
+      "name": "Garden Series Alba",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Petitgrain Paraguay",
+          "Neroli",
+          "Bergamot"
+        ],
+        "middle": [
+          "Basil",
+          "Mandarin Blossom",
+          "Mint"
+        ],
+        "base": [
+          "Musks",
+          "Vetiver",
+          "Orange Blossom"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-alba-1",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Evangeline",
+        "product_name": "Garden Series Eau De Parfum",
+        "product_variant": "Alba"
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2023/11/18/5-rekomendasi-parfum-lokal-tahan-lama-yang-layak-kamu-coba"
+    },
+    {
+      "id": "fb805b7c1816ab52",
+      "brand": "Rahasia",
+      "name": "Summerscent x Rahasia Beauty Rose Riot",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Blueberry",
+          "Bergamot",
+          "Ginger"
+        ],
+        "middle": [
+          "Rose",
+          "Jasmine"
+        ],
+        "base": [
+          "Musk",
+          "Cypress",
+          "Patchouli"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/rahasia-beauty/summerscent-x-rahasia-beauty-rose-riot-1",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Rahasia Beauty",
+        "product_name": "Summerscent x Rahasia Beauty",
+        "product_variant": "Rose Riot"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "907ee04b7b5b5535",
+      "brand": "Avicenna",
+      "name": "Diamond",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Rose",
+          "Blackcurrant",
+          "Violet"
+        ],
+        "middle": [
+          "Peach",
+          "Lily of the Valley"
+        ],
+        "base": [
+          "Ambery",
+          "Musky"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/diamond-56",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Avicenna",
+        "product_name": "Diamond",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2022/03/31/avicenna-brand-parfum-dengan-konsep-minimalis-yang-elegan"
+    },
+    {
+      "id": "4f4f2dd5d564ebc7",
+      "brand": "Avicenna",
+      "name": "Solitaire Jade",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Blackcurrant",
+          "Lemon",
+          "Green"
+        ],
+        "middle": [
+          "Lily of the Valley",
+          "White Flower",
+          "Water Lily"
+        ],
+        "base": [
+          "Amber",
+          "Plum",
+          "Lactone"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/solitaire",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Avicenna",
+        "product_name": "Solitaire",
+        "product_variant": "Jade"
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2022/03/31/avicenna-brand-parfum-dengan-konsep-minimalis-yang-elegan"
+    },
+    {
+      "id": "671359bdeb6331c4",
+      "brand": "MYKONOS",
+      "name": "Nashi Pear Garden",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "British Pear",
+          "Melon",
+          "Freesia"
+        ],
+        "middle": [
+          "Rose",
+          "Freesia"
+        ],
+        "base": [
+          "Amber",
+          "Musk",
+          "Patchouli"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/nashi-pear-garden-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "Nashi Pear Garden EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "2e05a3b9974269ba",
+      "brand": "Avicenna",
+      "name": "Starburst",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Coffee",
+          "Orange Blossom"
+        ],
+        "middle": [
+          "Jasmine Sambac",
+          "Bitter Almond"
+        ],
+        "base": [
+          "Vanilla",
+          "Cashmere wood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/starburst-eau-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Avicenna",
+        "product_name": "Starburst Eau De Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2022/03/31/avicenna-brand-parfum-dengan-konsep-minimalis-yang-elegan"
+    },
+    {
+      "id": "e18f0715e06f57b7",
+      "brand": "Crusita",
+      "name": "X Melaney Ricardo First Kiss",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Blackcurrant",
+          "Pepper"
+        ],
+        "middle": [
+          "Jasmine",
+          "Muguet",
+          "Rose"
+        ],
+        "base": [
+          "Ambery",
+          "Musky",
+          "Vanilla"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/crusita/x-melaney-ricardo-extrait-de-parfum-first-kiss",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Crusita",
+        "product_name": "X Melaney Ricardo Extrait De Parfum",
+        "product_variant": "First Kiss"
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "6897eba345f537d2",
+      "brand": "Carl Claire",
+      "name": "Essensa",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Floral",
+          "Green",
+          "Lemon"
+        ],
+        "middle": [
+          "Orange Flower",
+          "Jasmine",
+          "Water Flower"
+        ],
+        "base": [
+          "Musky",
+          "Woody",
+          "Orris"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfume-rollerball-40",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Carl & Claire",
+        "product_name": "Essensa EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "181b264adae86054",
+      "brand": "MYKONOS",
+      "name": "California Dreamer's Collection",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Lemon",
+          "lavender",
+          "cardamom"
+        ],
+        "middle": [
+          "lychee",
+          "coriander",
+          "nutmeg",
+          "geranium"
+        ],
+        "base": [
+          "Tonka bean",
+          "Teak wood",
+          "white musk",
+          "vetiver"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/dreamers-collection-edp-california-1",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "California Dreamer's Collection EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "9e4e183eb42b7c0f",
+      "brand": "Rahasia",
+      "name": "Summerscent x Rahasia Beauty Jasmine Joy",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Pear Blossom",
+          "Red Berries",
+          "Italian Mandarin"
+        ],
+        "middle": [
+          "Gardenia",
+          "Jasmine",
+          "Frangipani"
+        ],
+        "base": [
+          "Brown Sugar",
+          "Patchouli"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/rahasia-beauty/summerscent-x-rahasia-beauty-jasmine-joy-1",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Rahasia Beauty",
+        "product_name": "Summerscent x Rahasia Beauty",
+        "product_variant": "Jasmine Joy"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "b202b1e92f53243d",
+      "brand": "SAFF & Co.",
+      "name": "Morfosia",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Rhubarb",
+          "Yuzu",
+          "Elletaria"
+        ],
+        "middle": [
+          "Shogayu",
+          "Narcissus",
+          "Cape Jasmine"
+        ],
+        "base": [
+          "Amber",
+          "Red Cedar",
+          "haiti Vetiver"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/morfosia-extrait-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Saff & Co.",
+        "product_name": "Morfosia Extrait de Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "eea197f5ba5c2fec",
+      "brand": "Mercredi",
+      "name": "La Poesi",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Rose"
+        ],
+        "middle": [
+          "Saffron",
+          "Bulgarian Rose"
+        ],
+        "base": [
+          "Agarwood",
+          "Black Pepper",
+          "Ambergris"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mercredi/perfumery-la-poesi",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mercredi",
+        "product_name": "Perfumery",
+        "product_variant": "La Poesi"
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2023/08/23/memiliki-nama-unik-deretan-brand-lokal-ini-sering-dikira-dari-luar-negeri"
+    },
+    {
+      "id": "d7517011b81a00f5",
+      "brand": "House of Medici",
+      "name": "Maria De Constantine",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Dark Chocolate",
+          "Charcoal",
+          "Rum"
+        ],
+        "middle": [
+          "Cherry",
+          "Espresso",
+          "Sangria"
+        ],
+        "base": [
+          "Cedarwood",
+          "Bitter Almond",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/house-of-medici/eau-de-parfum-1-maria-de-constantine",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "House of Medici",
+        "product_name": "Eau De Parfum",
+        "product_variant": "Maria De Constantine"
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "53aad77019970f3c",
+      "brand": "House of Medici",
+      "name": "Paradise Reservoir",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Neroli",
+          "Yuzu"
+        ],
+        "middle": [
+          "Blood Orange",
+          "Vetiver Bourbon",
+          "Liatrix"
+        ],
+        "base": [
+          "Fig Tree",
+          "White Musk",
+          "Amber"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/house-of-medici/eau-de-parfum-1-paradise-reservoir",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "House of Medici",
+        "product_name": "Eau De Parfum",
+        "product_variant": "Paradise Reservoir"
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "5724881f29cfb2f4",
+      "brand": "Polka",
+      "name": "Melt Away",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "EARL GREY TEA",
+          "WHITE PEPPER",
+          "MANDARIN ORANGE",
+          "APPLE RICE"
+        ],
+        "middle": [
+          "JASMINE",
+          "LILY OF THE VALLEY",
+          "FREESIA",
+          "HONEYSUCKLE ORANGE BLOSSOM",
+          "ROSE"
+        ],
+        "base": [
+          "PEPPER",
+          "MUSK",
+          "SANDALWOOD",
+          "IRIS",
+          "AMBER"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/polka-cosmetics/eau-de-parfum-1-melt-away",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Polka Cosmetics",
+        "product_name": "Eau de Parfum",
+        "product_variant": "Melt Away"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "50d084ad46bebbf6",
+      "brand": "Polka",
+      "name": "Birth Date",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Cinnamon Bark",
+          "Neroli Lemon",
+          "Orange Raspberry"
+        ],
+        "middle": [
+          "Orange Blossom",
+          "Apple",
+          "Patchoulli Caramel"
+        ],
+        "base": [
+          "Amber",
+          "Cedar",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/polka-cosmetics/birth-date-extrait-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Polka Cosmetics",
+        "product_name": "Birth Date Extrait De Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "2889e27ac839a9de",
+      "brand": "Polka",
+      "name": "Placid Dream",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Lavender",
+          "Mandarin Orange",
+          "Bergamot"
+        ],
+        "middle": [
+          "Tunisian Orange Blossom",
+          "Jasmine Sambac",
+          "Orchid"
+        ],
+        "base": [
+          "Madagascar Vanilla",
+          "Tonka Beans",
+          "Ambergris",
+          "Vetiver"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/polka-cosmetics/eau-de-parfum-1-placid-dream",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Polka Cosmetics",
+        "product_name": "Eau de Parfum",
+        "product_variant": "Placid Dream"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "1f1d67a56e13ccb0",
+      "brand": "Hint",
+      "name": "Delicate",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "geranium",
+          "nagarmotha",
+          "green",
+          "pink pepper"
+        ],
+        "middle": [
+          "raspberry",
+          "magnolia",
+          "rose"
+        ],
+        "base": [
+          "musk",
+          "amber",
+          "woody",
+          "patchouli"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/delicate-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "HINT",
+        "product_name": "Delicate EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "3409d7609e50d93a",
+      "brand": "HMNS",
+      "name": "Untitled Humans Aroma 02",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Annise",
+          "Rose Absolute"
+        ],
+        "middle": [
+          "Violet",
+          "Orris"
+        ],
+        "base": [
+          "Musk mik",
+          "Cashmere"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/untitled-humans-aroma-02",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "HMNS Perfume",
+        "product_name": "Untitled Humans Aroma 02",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "7d08d965e2cce8fd",
+      "brand": "Avicenna",
+      "name": "Rouge",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Orange Blossom",
+          "Ottoman Rose",
+          "Prelude Rose",
+          "Immortelle"
+        ],
+        "middle": [
+          "Blackberry",
+          "Violet",
+          "Jasmine"
+        ],
+        "base": [
+          "Sandalwood",
+          "Patchouli"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/rouge-eau-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Avicenna",
+        "product_name": "Rouge",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2022/03/31/avicenna-brand-parfum-dengan-konsep-minimalis-yang-elegan"
+    },
+    {
+      "id": "5307f3b9a6d4bd94",
+      "brand": "MYKONOS",
+      "name": "It's Not Ella",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Hazelnut",
+          "Praline"
+        ],
+        "middle": [
+          "Creamy",
+          "Praline"
+        ],
+        "base": [
+          "Vanilla Caramel",
+          "Amber",
+          "Cedar"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/eau-de-parfum-4",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mykonos",
+        "product_name": "It's Not Ella EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "c3b5896572500678",
+      "brand": "Crusita",
+      "name": "Busy Day",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Blackcurrant",
+          "Mandarin"
+        ],
+        "middle": [
+          "Lavender",
+          "Geranium",
+          "Powdery"
+        ],
+        "base": [
+          "Patchouli",
+          "Vetiver",
+          "Tonka Bean"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/crusita/extrait-de-parfum-1-busy-day",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Crusita",
+        "product_name": "Extrait De Parfum",
+        "product_variant": "Busy Day"
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "4f6118da7fc043b6",
+      "brand": "The Body Tale",
+      "name": "Spice Nomad",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Apple",
+          "Smoke",
+          "Cinnamon"
+        ],
+        "middle": [
+          "Tobacco",
+          "Moss",
+          "Vetiver"
+        ],
+        "base": [
+          "Vanilla"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/the-body-tale/spice-nomad-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "The Body Tale",
+        "product_name": "Spice Nomad EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "47e8d409bc8d75b4",
+      "brand": "Mercredi",
+      "name": "La Reverie",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Black Cherry",
+          "Bitter Almond",
+          "Liqueur"
+        ],
+        "middle": [
+          "Sour Cherry",
+          "Plum",
+          "Turkish Rose",
+          "Jasmine Sambac"
+        ],
+        "base": [
+          "Tonka Bean",
+          "Vanilla",
+          "Cinnamon",
+          "Peru Balsam",
+          "Benzoin",
+          "Sandalwood",
+          "Cedar",
+          "Patchouli",
+          "Vetiver"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mercredi/perfumery-la-reverie",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Mercredi",
+        "product_name": "Perfumery",
+        "product_variant": "La Reverie"
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2023/08/23/memiliki-nama-unik-deretan-brand-lokal-ini-sering-dikira-dari-luar-negeri"
+    },
+    {
+      "id": "842ec716fb483187",
+      "brand": "Polka",
+      "name": "After Hours",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Calabrian Bergamot",
+          "Orange Blossom",
+          "Aromatic"
+        ],
+        "middle": [
+          "Tuberose",
+          "Spicy",
+          "Jasmine Sambac"
+        ],
+        "base": [
+          "Sandalwood",
+          "Musky",
+          "Ambery"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/polka-cosmetics/eau-de-parfum-1-after-hours",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Polka Cosmetics",
+        "product_name": "Eau de Parfum",
+        "product_variant": "After Hours"
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "bc5a3851f7fc4954",
+      "brand": "Evangeline",
+      "name": "Bloom Series Sophie",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Pineapple",
+          "Pistachio",
+          "Pear",
+          "Mandarin Orange"
+        ],
+        "middle": [
+          "Bitter Almond",
+          "Orange Blossom",
+          "Ylang-Ylang",
+          "Frangipani"
+        ],
+        "base": [
+          "Vanilla",
+          "Patchouli",
+          "Iris"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/eau-de-perfume-bloom-series-sophie",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Evangeline",
+        "product_name": "Eau De Perfume Bloom Series",
+        "product_variant": "Sophie"
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2023/11/18/5-rekomendasi-parfum-lokal-tahan-lama-yang-layak-kamu-coba"
+    },
+    {
+      "id": "8815ccd512a80e20",
+      "brand": "Citizens of The World",
+      "name": "Olympia",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Green Apple",
+          "Tropical Fruit"
+        ],
+        "middle": [
+          "Rose",
+          "Candy"
+        ],
+        "base": [
+          "Raspberry",
+          "Vanilla",
+          "Whipped Cream",
+          "Ambroxan"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/citizens-of-the-world/olympia",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Citizens of The World",
+        "product_name": "Olympia",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "c973dd033451e63e",
+      "brand": "Nevernot",
+      "name": "Date of Birth",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Violet",
+          "Vanilla",
+          "Rose"
+        ],
+        "middle": [
+          "Freesia",
+          "Pear Flowers"
+        ],
+        "base": [
+          "Powder",
+          "White Wood"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/never-not-official/date-of-birth",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Never Not Official",
+        "product_name": "Date of Birth",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "e5670a6634b57119",
+      "brand": "Bonavie",
+      "name": "Madeleine Et Glace",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Red Fruits",
+          "Neroli"
+        ],
+        "middle": [
+          "Tuberose",
+          "Orange Blossom",
+          "Jasmine"
+        ],
+        "base": [
+          "Amber",
+          "White Musk",
+          "Woody"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/bonavie/eau-de-parfum-1-madeleine-et-glace",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Bonavie",
+        "product_name": "Eau De Parfum",
+        "product_variant": "Madeleine Et Glace"
+      },
+      "brand_evidence": "https://brandwiki.lazada.co.id/bonavie/"
+    },
+    {
+      "id": "77c416bd821c9f48",
+      "brand": "Alt Perfumery",
+      "name": "Uptown",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Strawberry",
+          "Black currant",
+          "Red Apple",
+          "Citrus"
+        ],
+        "middle": [
+          "Sweat pea",
+          "fressia",
+          "jasmine",
+          "rose"
+        ],
+        "base": [
+          "Raspberry",
+          "Musk",
+          "Sandalwood",
+          "Amber"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alt-perfumery/uptown-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Alt Perfumery",
+        "product_name": "Uptown EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "2fb609324a14ac17",
+      "brand": "Avicenna",
+      "name": "Crystal",
+      "concentration": null,
+      "notes": {
+        "top": [
+          "Pink Pepper"
+        ],
+        "middle": [
+          "Lilac",
+          "Cardamom"
+        ],
+        "base": [
+          "Amber",
+          "Patchouli",
+          "Powdery",
+          "Musk"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/avicenna-solitaire-crystal",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Avicenna",
+        "product_name": "Crystal",
+        "product_variant": ""
+      },
+      "brand_evidence": "https://editorial.femaledaily.com/blog/2022/03/31/avicenna-brand-parfum-dengan-konsep-minimalis-yang-elegan"
+    },
+    {
+      "id": "7620a3e7a34989ae",
+      "brand": "Carl Claire",
+      "name": "Dream Catcher Night",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Ylang-Ylang",
+          "Warm Spices",
+          "Carnation"
+        ],
+        "middle": [
+          "Muguet",
+          "Jasmine",
+          "Rose"
+        ],
+        "base": [
+          "White Musk",
+          "Sandalwood",
+          "Coconut"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/dream-catcher-night-edp-4",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Carl & Claire",
+        "product_name": "Dream Catcher Night EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "19aab5c26627b5ac",
+      "brand": "House of Medici",
+      "name": "Devil In A New Dress",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "May Rose",
+          "Pink Pepper",
+          "Saffron"
+        ],
+        "middle": [
+          "Bulgarian Rose",
+          "Agarwood",
+          "Incense"
+        ],
+        "base": [
+          "Vanilla",
+          "Patchouli",
+          "Cocoa Powder"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/house-of-medici/eau-de-parfum-1-devil-in-a-new-dress",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "House of Medici",
+        "product_name": "Eau De Parfum",
+        "product_variant": "Devil In A New Dress"
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "d958f6bf21056977",
+      "brand": "Carl Claire",
+      "name": "Hypnotique",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Mandarin",
+          "Elemi"
+        ],
+        "middle": [
+          "Lily of The Valley",
+          "Salicylate"
+        ],
+        "base": [
+          "Hawthorn",
+          "Vanilla"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/carl-and-claire-hypnotique-2",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Carl & Claire",
+        "product_name": "Hypnotique EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "Reviewed label alias of Indonesian catalog brand"
+    },
+    {
+      "id": "e7844e375da90062",
+      "brand": "Elaya",
+      "name": "State of Grace",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Orange",
+          "Cassis Buds"
+        ],
+        "middle": [
+          "Rose",
+          "Jasmine",
+          "Iris"
+        ],
+        "base": [
+          "Cedarwood",
+          "Vetiver",
+          "Amber"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/elaya/state-of-grace-eau-de-parfum",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Elaya",
+        "product_name": "State of Grace Eau De Parfum",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "ea5fc1396286e116",
+      "brand": "Crusita",
+      "name": "Tea Collection Genmaicha",
+      "concentration": "Extrait de Parfum",
+      "notes": {
+        "top": [
+          "Bergamot",
+          "Lemon"
+        ],
+        "middle": [
+          "Genmaicha",
+          "Neroli",
+          "Orange Flower"
+        ],
+        "base": [
+          "Cedarwood",
+          "Musk",
+          "Amber"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/crusita/tea-collection-extrait-de-parfum-genmaicha",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Crusita",
+        "product_name": "Tea Collection Extrait De Parfum",
+        "product_variant": "Genmaicha"
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    },
+    {
+      "id": "27833f2720e4db82",
+      "brand": "Unke Naru",
+      "name": "Ayodhya",
+      "concentration": "Eau de Parfum",
+      "notes": {
+        "top": [
+          "Rose",
+          "Blackcurrant",
+          "Lavender"
+        ],
+        "middle": [
+          "Jasmine",
+          "Cedarwood",
+          "Musk"
+        ],
+        "base": [
+          "Lily of the valley"
+        ]
+      },
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/unke-naru/ayodhya-edp",
+      "image_url": null,
+      "source_identity": {
+        "brand_name": "Unke Naru",
+        "product_name": "Ayodhya EDP",
+        "product_variant": ""
+      },
+      "brand_evidence": "data/app/catalog.json (reviewed Indonesian catalog)"
+    }
+  ]
+}

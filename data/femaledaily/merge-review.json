@@ -1,0 +1,1660 @@
+{
+  "added": [
+    {
+      "source_id": "317f226bc6658104",
+      "brand": "Carl Claire",
+      "name": "Black Dahlia (Reformulasi in November 2022)",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/black-orchid-53",
+      "id": "femaledaily-317f226bc6658104"
+    },
+    {
+      "source_id": "b0e734244d898b7d",
+      "brand": "Evangeline",
+      "name": "Selection Raw Almond",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/selection-eau-de-parfum",
+      "id": "femaledaily-b0e734244d898b7d"
+    },
+    {
+      "source_id": "5acfe8414d1677ad",
+      "brand": "Carl Claire",
+      "name": "Delicate Embrace (Reformulation in November 2022)",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfum-57",
+      "id": "femaledaily-5acfe8414d1677ad"
+    },
+    {
+      "source_id": "337097ab884edde4",
+      "brand": "Carl Claire",
+      "name": "Spring Sonata (Reformulation in November 2022)",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfume-rollerball-19-2",
+      "id": "femaledaily-337097ab884edde4"
+    },
+    {
+      "source_id": "9070d463d4cf2d63",
+      "brand": "Kitschy",
+      "name": "Feels Forever Vacation",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/kitschy/feels-forever-vacation",
+      "id": "femaledaily-9070d463d4cf2d63"
+    },
+    {
+      "source_id": "8c04d0297bb50891",
+      "brand": "Carl Claire",
+      "name": "Morning Glory (Reformulation in November 2022)",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfume-rollerball-17",
+      "id": "femaledaily-8c04d0297bb50891"
+    },
+    {
+      "source_id": "eb2c641379e13c8e",
+      "brand": "Carl Claire",
+      "name": "Take My Hand (Reformulation in November 2022)",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfum-27",
+      "id": "femaledaily-eb2c641379e13c8e"
+    },
+    {
+      "source_id": "d1022f3aa9b37f68",
+      "brand": "MYKONOS",
+      "name": "Blossom",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/mykonos-blossom-2",
+      "id": "femaledaily-d1022f3aa9b37f68"
+    },
+    {
+      "source_id": "23317f60d791d800",
+      "brand": "Carl Claire",
+      "name": "Song of the Youth (Reformulation in November 2022)",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfum-17",
+      "id": "femaledaily-23317f60d791d800"
+    },
+    {
+      "source_id": "4afbcea41a2d0900",
+      "brand": "HMNS",
+      "name": "Scent of a Woman",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/scent-of-a-woman",
+      "id": "femaledaily-4afbcea41a2d0900"
+    },
+    {
+      "source_id": "a7bdfe154b69b1cf",
+      "brand": "Carl Claire",
+      "name": "A Love Like This (Reformulasi in November 2022)",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfum-5",
+      "id": "femaledaily-a7bdfe154b69b1cf"
+    },
+    {
+      "source_id": "6d70c5c0e4d6cc07",
+      "brand": "Avicenna",
+      "name": "Sincere",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/sincere",
+      "id": "femaledaily-6d70c5c0e4d6cc07"
+    },
+    {
+      "source_id": "ba30fe5e5bf003b2",
+      "brand": "Evangeline",
+      "name": "Selection Strawberry",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-selection-eau-de-parfum-3",
+      "id": "femaledaily-ba30fe5e5bf003b2"
+    },
+    {
+      "source_id": "b29cd709aafad46f",
+      "brand": "Carl Claire",
+      "name": "Talking to the Moon (Reformulation in November 2022)",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfum-10",
+      "id": "femaledaily-b29cd709aafad46f"
+    },
+    {
+      "source_id": "6379eb2ed17161c4",
+      "brand": "Evangeline",
+      "name": "Selection Sugar Biscuit",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-selection-eau-de-parfum-6",
+      "id": "femaledaily-6379eb2ed17161c4"
+    },
+    {
+      "source_id": "d0e933ae3c870fe9",
+      "brand": "Evangeline",
+      "name": "Selection Green Tea",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-selection-eau-de-parfum-1",
+      "id": "femaledaily-d0e933ae3c870fe9"
+    },
+    {
+      "source_id": "92c1e6bb1ad49ec0",
+      "brand": "Evangeline",
+      "name": "Selection Cherry Blossom",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-selection-eau-de-parfum-2",
+      "id": "femaledaily-92c1e6bb1ad49ec0"
+    },
+    {
+      "source_id": "41b8882dc8dc1e28",
+      "brand": "Kitschy",
+      "name": "Skin Symphony",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/kitschy/skin-symphony-extrait-de-perfume",
+      "id": "femaledaily-41b8882dc8dc1e28"
+    },
+    {
+      "source_id": "816dd48563ba341c",
+      "brand": "MYKONOS",
+      "name": "Pistachio Cream Cake",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/eau-de-parfum-pistachio-cream-cake-1",
+      "id": "femaledaily-816dd48563ba341c"
+    },
+    {
+      "source_id": "3f8b6c18e902d1e7",
+      "brand": "Avicenna",
+      "name": "Miracle",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/avicenna-premiere",
+      "id": "femaledaily-3f8b6c18e902d1e7"
+    },
+    {
+      "source_id": "203b114242050030",
+      "brand": "Avicenna",
+      "name": "Blossom",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/blosom",
+      "id": "femaledaily-203b114242050030"
+    },
+    {
+      "source_id": "30063bcd9394cf72",
+      "brand": "MYKONOS",
+      "name": "Violette",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/violette-1",
+      "id": "femaledaily-30063bcd9394cf72"
+    },
+    {
+      "source_id": "bd9249387ce70032",
+      "brand": "HMNS",
+      "name": "Essence of The Night",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/essence-of-the-night",
+      "id": "femaledaily-bd9249387ce70032"
+    },
+    {
+      "source_id": "ea9f138d5b6d0a39",
+      "brand": "Carl Claire",
+      "name": "Dancing with My Shadow (Reformulation in November 2022)",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfume-rollerball-33",
+      "id": "femaledaily-ea9f138d5b6d0a39"
+    },
+    {
+      "source_id": "93498be190cdd2ed",
+      "brand": "Readyset",
+      "name": "Sheila Arief Collection Memoire 21",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/ready-set-perfumery/sheila-arief-collection-edp-memoire-21",
+      "id": "femaledaily-93498be190cdd2ed"
+    },
+    {
+      "source_id": "389932750d9aa447",
+      "brand": "Smellsgood",
+      "name": "Tulipe",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/smells-good/tulipe",
+      "id": "femaledaily-389932750d9aa447"
+    },
+    {
+      "source_id": "d611f8ef1713cc89",
+      "brand": "Kitschy",
+      "name": "Feels Day Dream",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/kitschy/feels-day-dream-extrait-de-parfum",
+      "id": "femaledaily-d611f8ef1713cc89"
+    },
+    {
+      "source_id": "b835a7d5063fdc2d",
+      "brand": "Crusita",
+      "name": "Scandal",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/crusita/extrait-de-parfum-1-scandal",
+      "id": "femaledaily-b835a7d5063fdc2d"
+    },
+    {
+      "source_id": "a415659e4a1405ed",
+      "brand": "Avicenna",
+      "name": "Glam",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/avicenna-glam",
+      "id": "femaledaily-a415659e4a1405ed"
+    },
+    {
+      "source_id": "811eae879626ff64",
+      "brand": "Evangeline",
+      "name": "Selection Mango Temptation",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-selection-mango-temptation-1",
+      "id": "femaledaily-811eae879626ff64"
+    },
+    {
+      "source_id": "3a36424549ed8452",
+      "brand": "Evangeline",
+      "name": "Selection Juicy Pear",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-selection-juicy-pear-1",
+      "id": "femaledaily-3a36424549ed8452"
+    },
+    {
+      "source_id": "fe8aa5d50501f6ff",
+      "brand": "Avicenna",
+      "name": "Sunshine",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/avicenna-premier",
+      "id": "femaledaily-fe8aa5d50501f6ff"
+    },
+    {
+      "source_id": "299ff829d7895be1",
+      "brand": "Bonavie",
+      "name": "Poudre Et Plume",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/bonavie/poudre-et-plume-edp",
+      "id": "femaledaily-299ff829d7895be1"
+    },
+    {
+      "source_id": "52dea92f24b7656a",
+      "brand": "Kitschy",
+      "name": "x Rania De Bloem",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/kitschy/x-rania-de-bloem-edp",
+      "id": "femaledaily-52dea92f24b7656a"
+    },
+    {
+      "source_id": "7014591a13ae633e",
+      "brand": "MS Glow",
+      "name": "Bollywood",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/ms-glow/bollywood-eau-de-perfume",
+      "id": "femaledaily-7014591a13ae633e"
+    },
+    {
+      "source_id": "41f5211425417f4f",
+      "brand": "MS Glow",
+      "name": "Revival",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/ms-glow/revival-eau-de-perfume",
+      "id": "femaledaily-41f5211425417f4f"
+    },
+    {
+      "source_id": "03e5b254b078c0b6",
+      "brand": "MYKONOS",
+      "name": "Adelina",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/adelina-4",
+      "id": "femaledaily-03e5b254b078c0b6"
+    },
+    {
+      "source_id": "38dc580f5b647376",
+      "brand": "Crusita",
+      "name": "Es Teh Manis",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/crusita/extrait-de-parfum-1-es-teh-manis",
+      "id": "femaledaily-38dc580f5b647376"
+    },
+    {
+      "source_id": "e57fb521b0f1c53f",
+      "brand": "MS Glow",
+      "name": "Recharge",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/ms-glow/recharge-eau-de-perfume",
+      "id": "femaledaily-e57fb521b0f1c53f"
+    },
+    {
+      "source_id": "f2338a4bb7eaf650",
+      "brand": "Readyset",
+      "name": "Sheila Arief Collection Chateau of Secret",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/ready-set-perfumery/sheila-arief-collection-edp-chateau-of-secret",
+      "id": "femaledaily-f2338a4bb7eaf650"
+    },
+    {
+      "source_id": "f244dda69cdddcb1",
+      "brand": "Kitschy",
+      "name": "Fairytale",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/kitschy/fairytale-extrait-de-perfume",
+      "id": "femaledaily-f244dda69cdddcb1"
+    },
+    {
+      "source_id": "fb805b7c1816ab52",
+      "brand": "Rahasia",
+      "name": "Summerscent x Rahasia Beauty Rose Riot",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/rahasia-beauty/summerscent-x-rahasia-beauty-rose-riot-1",
+      "id": "femaledaily-fb805b7c1816ab52"
+    },
+    {
+      "source_id": "907ee04b7b5b5535",
+      "brand": "Avicenna",
+      "name": "Diamond",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/diamond-56",
+      "id": "femaledaily-907ee04b7b5b5535"
+    },
+    {
+      "source_id": "4f4f2dd5d564ebc7",
+      "brand": "Avicenna",
+      "name": "Solitaire Jade",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/solitaire",
+      "id": "femaledaily-4f4f2dd5d564ebc7"
+    },
+    {
+      "source_id": "671359bdeb6331c4",
+      "brand": "MYKONOS",
+      "name": "Nashi Pear Garden",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/nashi-pear-garden-edp",
+      "id": "femaledaily-671359bdeb6331c4"
+    },
+    {
+      "source_id": "2e05a3b9974269ba",
+      "brand": "Avicenna",
+      "name": "Starburst",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/starburst-eau-de-parfum",
+      "id": "femaledaily-2e05a3b9974269ba"
+    },
+    {
+      "source_id": "e18f0715e06f57b7",
+      "brand": "Crusita",
+      "name": "X Melaney Ricardo First Kiss",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/crusita/x-melaney-ricardo-extrait-de-parfum-first-kiss",
+      "id": "femaledaily-e18f0715e06f57b7"
+    },
+    {
+      "source_id": "6897eba345f537d2",
+      "brand": "Carl Claire",
+      "name": "Essensa",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/eau-de-parfume-rollerball-40",
+      "id": "femaledaily-6897eba345f537d2"
+    },
+    {
+      "source_id": "9e4e183eb42b7c0f",
+      "brand": "Rahasia",
+      "name": "Summerscent x Rahasia Beauty Jasmine Joy",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/rahasia-beauty/summerscent-x-rahasia-beauty-jasmine-joy-1",
+      "id": "femaledaily-9e4e183eb42b7c0f"
+    },
+    {
+      "source_id": "eea197f5ba5c2fec",
+      "brand": "Mercredi",
+      "name": "La Poesi",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mercredi/perfumery-la-poesi",
+      "id": "femaledaily-eea197f5ba5c2fec"
+    },
+    {
+      "source_id": "5724881f29cfb2f4",
+      "brand": "Polka",
+      "name": "Melt Away",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/polka-cosmetics/eau-de-parfum-1-melt-away",
+      "id": "femaledaily-5724881f29cfb2f4"
+    },
+    {
+      "source_id": "7d08d965e2cce8fd",
+      "brand": "Avicenna",
+      "name": "Rouge",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/rouge-eau-de-parfum",
+      "id": "femaledaily-7d08d965e2cce8fd"
+    },
+    {
+      "source_id": "5307f3b9a6d4bd94",
+      "brand": "MYKONOS",
+      "name": "It's Not Ella",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/eau-de-parfum-4",
+      "id": "femaledaily-5307f3b9a6d4bd94"
+    },
+    {
+      "source_id": "47e8d409bc8d75b4",
+      "brand": "Mercredi",
+      "name": "La Reverie",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mercredi/perfumery-la-reverie",
+      "id": "femaledaily-47e8d409bc8d75b4"
+    },
+    {
+      "source_id": "842ec716fb483187",
+      "brand": "Polka",
+      "name": "After Hours",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/polka-cosmetics/eau-de-parfum-1-after-hours",
+      "id": "femaledaily-842ec716fb483187"
+    },
+    {
+      "source_id": "e5670a6634b57119",
+      "brand": "Bonavie",
+      "name": "Madeleine Et Glace",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/bonavie/eau-de-parfum-1-madeleine-et-glace",
+      "id": "femaledaily-e5670a6634b57119"
+    },
+    {
+      "source_id": "2fb609324a14ac17",
+      "brand": "Avicenna",
+      "name": "Crystal",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/avicenna/avicenna-solitaire-crystal",
+      "id": "femaledaily-2fb609324a14ac17"
+    },
+    {
+      "source_id": "7620a3e7a34989ae",
+      "brand": "Carl Claire",
+      "name": "Dream Catcher Night",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/dream-catcher-night-edp-4",
+      "id": "femaledaily-7620a3e7a34989ae"
+    },
+    {
+      "source_id": "d958f6bf21056977",
+      "brand": "Carl Claire",
+      "name": "Hypnotique",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/carl-claire/carl-and-claire-hypnotique-2",
+      "id": "femaledaily-d958f6bf21056977"
+    },
+    {
+      "source_id": "ea5fc1396286e116",
+      "brand": "Crusita",
+      "name": "Tea Collection Genmaicha",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/crusita/tea-collection-extrait-de-parfum-genmaicha",
+      "id": "femaledaily-ea5fc1396286e116"
+    }
+  ],
+  "duplicates": [
+    {
+      "source_id": "6776fbcb3399bc7b",
+      "brand": "Hint",
+      "name": "Fatale",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/fatale-extrait-de-parfum",
+      "existing_ids": [
+        "hint-fatale"
+      ]
+    },
+    {
+      "source_id": "50e37797c5fb5cf4",
+      "brand": "Olmorva",
+      "name": "Major Icon",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/olmorva/major-icon-edp",
+      "existing_ids": [
+        "dadidupe-olmorva-major-icon"
+      ]
+    },
+    {
+      "source_id": "0594328389249cec",
+      "brand": "Olmorva",
+      "name": "Sparkling Escape",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/olmorva/sparkling-escape-edp",
+      "existing_ids": [
+        "dadidupe-olmorva-sparkling-escape"
+      ]
+    },
+    {
+      "source_id": "fa17388d71ca5b7f",
+      "brand": "Olmorva",
+      "name": "Duchess Charm",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/olmorva/duchess-charm-edp",
+      "existing_ids": [
+        "dadidupe-olmorva-duchess-charm"
+      ]
+    },
+    {
+      "source_id": "d9511cb2fca762cd",
+      "brand": "Olmorva",
+      "name": "Weekend Daydream",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/olmorva/weekend-daydream-edp",
+      "existing_ids": [
+        "dadidupe-olmorva-weekend-daydream"
+      ]
+    },
+    {
+      "source_id": "46dfffcb1242a2c6",
+      "brand": "Olmorva",
+      "name": "Feels Like Romance",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/olmorva/feels-like-romance-edp",
+      "existing_ids": [
+        "dadidupe-olmorva-feels-like-romance"
+      ]
+    },
+    {
+      "source_id": "8dba0b7155f30fc3",
+      "brand": "Alchemist",
+      "name": "Pink Laundry",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/pink-laundry-eau-de-parfum",
+      "existing_ids": [
+        "alchemist-pink-laundry"
+      ]
+    },
+    {
+      "source_id": "4eaad110b088fd35",
+      "brand": "MYKONOS",
+      "name": "Enchanted",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/enchanted-extrait-de-parfum",
+      "existing_ids": [
+        "mykonos-enchanted"
+      ]
+    },
+    {
+      "source_id": "a653383c84022c34",
+      "brand": "Alchemist",
+      "name": "Got My Mojo Back",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/got-my-mojo-back-eau-de-parfum",
+      "existing_ids": [
+        "alchemist-got-my-mojo-back"
+      ]
+    },
+    {
+      "source_id": "864cc84e92743f3c",
+      "brand": "Alchemist",
+      "name": "Powder Room",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/powder-room-eau-de-parfum",
+      "existing_ids": [
+        "alchemist-powder-room"
+      ]
+    },
+    {
+      "source_id": "bbef9e08c74aa6c2",
+      "brand": "Hint",
+      "name": "Noble",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/noble-edp",
+      "existing_ids": [
+        "hint-noble",
+        "hint-noble-edp"
+      ]
+    },
+    {
+      "source_id": "9fdd9b0af300dce1",
+      "brand": "Alchemist",
+      "name": "Galleria",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/galleria-eau-de-parfum",
+      "existing_ids": [
+        "alchemist-galleria"
+      ]
+    },
+    {
+      "source_id": "72ff1ad8d01f5033",
+      "brand": "Alchemist",
+      "name": "Out West",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/out-west-extrait-de-parfum",
+      "existing_ids": [
+        "alchemist-out-west"
+      ]
+    },
+    {
+      "source_id": "013db0dad52893e7",
+      "brand": "MYKONOS",
+      "name": "Utopia",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/utopia-extrait-de-parfum",
+      "existing_ids": [
+        "mykonos-utopia"
+      ]
+    },
+    {
+      "source_id": "a0b2b6e20e99f80e",
+      "brand": "MYKONOS",
+      "name": "Satin Blanc",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/satin-blanc-extrait-de-parfum",
+      "existing_ids": [
+        "mykonos-satin-blanc"
+      ]
+    },
+    {
+      "source_id": "393b788dd592ae1c",
+      "brand": "Alt Perfumery",
+      "name": "Moroccan Sunset",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alt-perfumery/moroccan-sunset-edp",
+      "existing_ids": [
+        "alt-perfumery-moroccan-sunset"
+      ]
+    },
+    {
+      "source_id": "45cd73f94ef64d88",
+      "brand": "MYKONOS",
+      "name": "Caramel Fudge Cookie",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/mykonos-eau-de-perfume-caramel-fudge-cookie-3",
+      "existing_ids": [
+        "mykonos-caramel-fudge-cookie"
+      ]
+    },
+    {
+      "source_id": "44021f9368f35122",
+      "brand": "Hint",
+      "name": "Resurrect",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/resurrect-edp",
+      "existing_ids": [
+        "hint-resurrect"
+      ]
+    },
+    {
+      "source_id": "4bd2d859d610d053",
+      "brand": "The Body Tale",
+      "name": "Portrait of Kyoto",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/the-body-tale/portrait-of-kyoto",
+      "existing_ids": [
+        "the-body-tale-portrait-of-kyoto"
+      ]
+    },
+    {
+      "source_id": "a7d2fea58c3b576b",
+      "brand": "MYKONOS",
+      "name": "Musk Aura",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/eau-de-perfume-musk-aura-4",
+      "existing_ids": [
+        "mykonos-musk-aura"
+      ]
+    },
+    {
+      "source_id": "3c434fa7cd460759",
+      "brand": "MYKONOS",
+      "name": "Dark Secret",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/dark-secret-extrait-de-parfum",
+      "existing_ids": [
+        "mykonos-dark-secret"
+      ]
+    },
+    {
+      "source_id": "f55fdb5106699487",
+      "brand": "Mine Perfumery",
+      "name": "TATAMI",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mine/tatami",
+      "existing_ids": [
+        "mine-perfumery-tatami"
+      ]
+    },
+    {
+      "source_id": "593d230c3b224d08",
+      "brand": "MYKONOS",
+      "name": "Pink Drops",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/pink-drops-edp",
+      "existing_ids": [
+        "mykonos-pink-drops"
+      ]
+    },
+    {
+      "source_id": "3d3f11dfeb920641",
+      "brand": "MYKONOS",
+      "name": "Senja",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/senja-edp",
+      "existing_ids": [
+        "mykonos-senja"
+      ]
+    },
+    {
+      "source_id": "dcdb0f031d1c9b8c",
+      "brand": "MYKONOS",
+      "name": "Sparkling Rose",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/sparkling-rose-extrait-de-parfum",
+      "existing_ids": [
+        "mykonos-sparkling-rose"
+      ]
+    },
+    {
+      "source_id": "c11a6138110df7a0",
+      "brand": "MYKONOS",
+      "name": "XOXO, Rosy",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/xoxo-rosy-2",
+      "existing_ids": [
+        "mykonos-xoxo-rosy"
+      ]
+    },
+    {
+      "source_id": "039b62a735efee3b",
+      "brand": "MYKONOS",
+      "name": "Zora",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/zora-edp",
+      "existing_ids": [
+        "dadidupe-mykonos-zora"
+      ]
+    },
+    {
+      "source_id": "c2537de4abb8c044",
+      "brand": "YN Perfumery",
+      "name": "The Duchess",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/yn-perfumery/the-duchess-eau-de-parfum",
+      "existing_ids": [
+        "yn-perfumery-the-duchess"
+      ]
+    },
+    {
+      "source_id": "3419748d6139ac31",
+      "brand": "Hint",
+      "name": "Epitome",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/epitome-edp",
+      "existing_ids": [
+        "hint-epitome"
+      ]
+    },
+    {
+      "source_id": "3567dd1c1d57b9fc",
+      "brand": "MYKONOS",
+      "name": "Tea Poetry",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/tea-poetry-extrait-de-parfum",
+      "existing_ids": [
+        "dadidupe-mykonos-tea-poetry"
+      ]
+    },
+    {
+      "source_id": "bab892a336fd44b1",
+      "brand": "MYKONOS",
+      "name": "Down To Earth",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/down-to-earth-1",
+      "existing_ids": [
+        "mykonos-down-to-earth"
+      ]
+    },
+    {
+      "source_id": "e3c9546fd0e2ce8c",
+      "brand": "The Body Tale",
+      "name": "Juliette",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/the-body-tale/juliette",
+      "existing_ids": [
+        "the-body-tale-juliette"
+      ]
+    },
+    {
+      "source_id": "77983227951e4635",
+      "brand": "Unke Naru",
+      "name": "For You",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/unke-naru/eau-de-parfum-for-you",
+      "existing_ids": [
+        "unke-naru-for-you"
+      ]
+    },
+    {
+      "source_id": "a88e44f34e9a0270",
+      "brand": "The Body Tale",
+      "name": "Teamomile",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/the-body-tale/teamomile",
+      "existing_ids": [
+        "the-body-tale-teamomile"
+      ]
+    },
+    {
+      "source_id": "b80bb79716fe1f33",
+      "brand": "MYKONOS",
+      "name": "Cafe Drops",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/cafe-drops-edp",
+      "existing_ids": [
+        "mykonos-cafe-drops"
+      ]
+    },
+    {
+      "source_id": "5e9f30a4aaf3bb97",
+      "brand": "House of Medici",
+      "name": "Fatima La Isabella",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/house-of-medici/eau-de-parfum-1-fatima-la-isabella",
+      "existing_ids": [
+        "house-of-medici-fatima-la-isabella"
+      ]
+    },
+    {
+      "source_id": "2ab44408b9358eed",
+      "brand": "Unke Naru",
+      "name": "Cocoa Mint",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/unke-naru/cocoa-mint-edp",
+      "existing_ids": [
+        "unke-naru-cocoa-mint"
+      ]
+    },
+    {
+      "source_id": "b41eb448afcaf923",
+      "brand": "Personal Chemistry",
+      "name": "Unspoken",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/personal-chemistry/unspoken",
+      "existing_ids": [
+        "personal-chemistry-unspoken"
+      ]
+    },
+    {
+      "source_id": "dc0c7eaf9d3451fa",
+      "brand": "Alt Perfumery",
+      "name": "Teatime in Kyoto",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alt-perfumery/teatime-in-kyoto",
+      "existing_ids": [
+        "alt-perfumery-teatime-in-kyoto"
+      ]
+    },
+    {
+      "source_id": "6a0aadc2c1767b3a",
+      "brand": "YN Perfumery",
+      "name": "Rose In September",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/yn-perfumery/rose-in-september-eau-de-parfum",
+      "existing_ids": [
+        "yn-perfumery-rose-in-september"
+      ]
+    },
+    {
+      "source_id": "b4680cbaa1231782",
+      "brand": "Nevernot",
+      "name": "Petite Avenue",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/never-not-official/petite-avenue",
+      "existing_ids": [
+        "nevernot-petite-avenue"
+      ]
+    },
+    {
+      "source_id": "adc672f53eea6a80",
+      "brand": "Personal Chemistry",
+      "name": "Velvet Kiss",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/personal-chemistry/velvet-kiss",
+      "existing_ids": [
+        "personal-chemistry-velvet-kiss"
+      ]
+    },
+    {
+      "source_id": "bdf2b3644ad2618f",
+      "brand": "Alchemist",
+      "name": "Musc Laiteux",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/musc-laiteux-edp",
+      "existing_ids": [
+        "alchemist-musc-laiteux"
+      ]
+    },
+    {
+      "source_id": "d76d5e549fb719ae",
+      "brand": "MYKONOS",
+      "name": "Luminos",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/luminos-edp",
+      "existing_ids": [
+        "mykonos-luminos"
+      ]
+    },
+    {
+      "source_id": "53f33008d532d5e5",
+      "brand": "Alt Perfumery",
+      "name": "Reverie",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alt-perfumery/reverie-edp",
+      "existing_ids": [
+        "alt-perfumery-reverie"
+      ]
+    },
+    {
+      "source_id": "292a420ca9c4924c",
+      "brand": "Unke Naru",
+      "name": "Suga Bourbon",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/unke-naru/eau-de-parfum-suga-bourbon",
+      "existing_ids": [
+        "unke-naru-suga-bourbon"
+      ]
+    },
+    {
+      "source_id": "cf6b927e9817c5d3",
+      "brand": "Project 1945",
+      "name": "Samosir",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/project-1945/samosir-edp",
+      "existing_ids": [
+        "project-1945-samosir"
+      ]
+    },
+    {
+      "source_id": "88cfc3acd14a9e64",
+      "brand": "The Body Tale",
+      "name": "Summer Splash",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/the-body-tale/summer-splash",
+      "existing_ids": [
+        "the-body-tale-summer-splash"
+      ]
+    },
+    {
+      "source_id": "b202b1e92f53243d",
+      "brand": "SAFF & Co.",
+      "name": "Morfosia",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/morfosia-extrait-de-parfum",
+      "existing_ids": [
+        "saff-co-morfosia"
+      ]
+    },
+    {
+      "source_id": "d7517011b81a00f5",
+      "brand": "House of Medici",
+      "name": "Maria De Constantine",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/house-of-medici/eau-de-parfum-1-maria-de-constantine",
+      "existing_ids": [
+        "house-of-medici-maria-de-constantine"
+      ]
+    },
+    {
+      "source_id": "53aad77019970f3c",
+      "brand": "House of Medici",
+      "name": "Paradise Reservoir",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/house-of-medici/eau-de-parfum-1-paradise-reservoir",
+      "existing_ids": [
+        "house-of-medici-paradise-reservoir"
+      ]
+    },
+    {
+      "source_id": "1f1d67a56e13ccb0",
+      "brand": "Hint",
+      "name": "Delicate",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/delicate-edp",
+      "existing_ids": [
+        "hint-delicate"
+      ]
+    },
+    {
+      "source_id": "3409d7609e50d93a",
+      "brand": "HMNS",
+      "name": "Untitled Humans Aroma 02",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/untitled-humans-aroma-02",
+      "existing_ids": [
+        "hmns-untitled-humans-aroma-02"
+      ]
+    },
+    {
+      "source_id": "c3b5896572500678",
+      "brand": "Crusita",
+      "name": "Busy Day",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/crusita/extrait-de-parfum-1-busy-day",
+      "existing_ids": [
+        "dadidupe-crusita-busy-day"
+      ]
+    },
+    {
+      "source_id": "4f6118da7fc043b6",
+      "brand": "The Body Tale",
+      "name": "Spice Nomad",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/the-body-tale/spice-nomad-edp",
+      "existing_ids": [
+        "the-body-tale-spice-nomad"
+      ]
+    },
+    {
+      "source_id": "8815ccd512a80e20",
+      "brand": "Citizens of The World",
+      "name": "Olympia",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/citizens-of-the-world/olympia",
+      "existing_ids": [
+        "citizens-of-the-world-olympia"
+      ]
+    },
+    {
+      "source_id": "c973dd033451e63e",
+      "brand": "Nevernot",
+      "name": "Date of Birth",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/never-not-official/date-of-birth",
+      "existing_ids": [
+        "nevernot-date-of-birth"
+      ]
+    },
+    {
+      "source_id": "77c416bd821c9f48",
+      "brand": "Alt Perfumery",
+      "name": "Uptown",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alt-perfumery/uptown-edp",
+      "existing_ids": [
+        "alt-perfumery-uptown"
+      ]
+    },
+    {
+      "source_id": "19aab5c26627b5ac",
+      "brand": "House of Medici",
+      "name": "Devil In A New Dress",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/house-of-medici/eau-de-parfum-1-devil-in-a-new-dress",
+      "existing_ids": [
+        "house-of-medici-devil-in-a-new-dress"
+      ]
+    },
+    {
+      "source_id": "e7844e375da90062",
+      "brand": "Elaya",
+      "name": "State of Grace",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/elaya/state-of-grace-eau-de-parfum",
+      "existing_ids": [
+        "elaya-state-of-grace"
+      ]
+    },
+    {
+      "source_id": "27833f2720e4db82",
+      "brand": "Unke Naru",
+      "name": "Ayodhya",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/unke-naru/ayodhya-edp",
+      "existing_ids": [
+        "unke-naru-ayodhya"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "source_id": "6776fbcb3399bc7b",
+      "brand": "Hint",
+      "name": "Fatale",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/fatale-extrait-de-parfum",
+      "existing_id": "hint-fatale",
+      "only_existing_notes": [
+        "black pepper"
+      ],
+      "only_incoming_notes": [
+        "blackpepper"
+      ]
+    },
+    {
+      "source_id": "50e37797c5fb5cf4",
+      "brand": "Olmorva",
+      "name": "Major Icon",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/olmorva/major-icon-edp",
+      "existing_id": "dadidupe-olmorva-major-icon",
+      "only_existing_notes": [
+        "damask rose"
+      ],
+      "only_incoming_notes": [
+        "damascena rose"
+      ]
+    },
+    {
+      "source_id": "0594328389249cec",
+      "brand": "Olmorva",
+      "name": "Sparkling Escape",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/olmorva/sparkling-escape-edp",
+      "existing_id": "dadidupe-olmorva-sparkling-escape",
+      "only_existing_notes": [
+        "violet leaf",
+        "sandalwood"
+      ],
+      "only_incoming_notes": [
+        "violet leaves",
+        "sandalwood cream"
+      ]
+    },
+    {
+      "source_id": "fa17388d71ca5b7f",
+      "brand": "Olmorva",
+      "name": "Duchess Charm",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/olmorva/duchess-charm-edp",
+      "existing_id": "dadidupe-olmorva-duchess-charm",
+      "only_existing_notes": [
+        "floral"
+      ],
+      "only_incoming_notes": [
+        "fresh flower"
+      ]
+    },
+    {
+      "source_id": "d9511cb2fca762cd",
+      "brand": "Olmorva",
+      "name": "Weekend Daydream",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/olmorva/weekend-daydream-edp",
+      "existing_id": "dadidupe-olmorva-weekend-daydream",
+      "only_existing_notes": [
+        "orcanox"
+      ],
+      "only_incoming_notes": [
+        "orcanox ambergris"
+      ]
+    },
+    {
+      "source_id": "8dba0b7155f30fc3",
+      "brand": "Alchemist",
+      "name": "Pink Laundry",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/pink-laundry-eau-de-parfum",
+      "existing_id": "alchemist-pink-laundry",
+      "only_existing_notes": [
+        "clean aldehydes",
+        "green notes",
+        "chamomile",
+        "jasmine",
+        "lily of the valley",
+        "powdery notes",
+        "patchouli"
+      ],
+      "only_incoming_notes": [
+        "fresh watery accord",
+        "pink pepper",
+        "violet",
+        "orange blossom",
+        "peony",
+        "marine notes"
+      ]
+    },
+    {
+      "source_id": "864cc84e92743f3c",
+      "brand": "Alchemist",
+      "name": "Powder Room",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/powder-room-eau-de-parfum",
+      "existing_id": "alchemist-powder-room",
+      "only_existing_notes": [
+        "pink pepper",
+        "fresh watery accord",
+        "rose",
+        "orange blossom",
+        "violet",
+        "peony",
+        "sandalwood",
+        "marine notes",
+        "musky notes"
+      ],
+      "only_incoming_notes": [
+        "cape jasmine",
+        "plum",
+        "tuberose",
+        "oiellet",
+        "honey",
+        "redwood"
+      ]
+    },
+    {
+      "source_id": "013db0dad52893e7",
+      "brand": "MYKONOS",
+      "name": "Utopia",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/utopia-extrait-de-parfum",
+      "existing_id": "mykonos-utopia",
+      "only_existing_notes": [
+        "fruit"
+      ],
+      "only_incoming_notes": [
+        "fruits"
+      ]
+    },
+    {
+      "source_id": "a0b2b6e20e99f80e",
+      "brand": "MYKONOS",
+      "name": "Satin Blanc",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/satin-blanc-extrait-de-parfum",
+      "existing_id": "mykonos-satin-blanc",
+      "only_existing_notes": [
+        "cedarwood",
+        "jasmine tea",
+        "tonka bean"
+      ],
+      "only_incoming_notes": [
+        "cedar wood",
+        "jasmin tea",
+        "tonca bean"
+      ]
+    },
+    {
+      "source_id": "393b788dd592ae1c",
+      "brand": "Alt Perfumery",
+      "name": "Moroccan Sunset",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alt-perfumery/moroccan-sunset-edp",
+      "existing_id": "alt-perfumery-moroccan-sunset",
+      "only_existing_notes": [
+        "red fruit"
+      ],
+      "only_incoming_notes": [
+        "red fruits"
+      ]
+    },
+    {
+      "source_id": "4bd2d859d610d053",
+      "brand": "The Body Tale",
+      "name": "Portrait of Kyoto",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/the-body-tale/portrait-of-kyoto",
+      "existing_id": "the-body-tale-portrait-of-kyoto",
+      "only_existing_notes": [
+        "freesia",
+        "iris"
+      ],
+      "only_incoming_notes": [
+        "fresia",
+        "irish"
+      ]
+    },
+    {
+      "source_id": "a7d2fea58c3b576b",
+      "brand": "MYKONOS",
+      "name": "Musk Aura",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/eau-de-perfume-musk-aura-4",
+      "existing_id": "mykonos-musk-aura",
+      "only_existing_notes": [
+        "jasmine sambac"
+      ],
+      "only_incoming_notes": [
+        "sambac jasmine"
+      ]
+    },
+    {
+      "source_id": "f55fdb5106699487",
+      "brand": "Mine Perfumery",
+      "name": "TATAMI",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mine/tatami",
+      "existing_id": "mine-perfumery-tatami",
+      "only_existing_notes": [
+        "lily of the valley bud"
+      ],
+      "only_incoming_notes": [
+        "bud lily of the valley"
+      ]
+    },
+    {
+      "source_id": "3d3f11dfeb920641",
+      "brand": "MYKONOS",
+      "name": "Senja",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/senja-edp",
+      "existing_id": "mykonos-senja",
+      "only_existing_notes": [],
+      "only_incoming_notes": [
+        "rum"
+      ]
+    },
+    {
+      "source_id": "dcdb0f031d1c9b8c",
+      "brand": "MYKONOS",
+      "name": "Sparkling Rose",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/sparkling-rose-extrait-de-parfum",
+      "existing_id": "mykonos-sparkling-rose",
+      "only_existing_notes": [
+        "sparkling red berry"
+      ],
+      "only_incoming_notes": [
+        "sparkling red berries"
+      ]
+    },
+    {
+      "source_id": "c11a6138110df7a0",
+      "brand": "MYKONOS",
+      "name": "XOXO, Rosy",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/xoxo-rosy-2",
+      "existing_id": "mykonos-xoxo-rosy",
+      "only_existing_notes": [
+        "green note",
+        "turkish red rose",
+        "rose petal",
+        "red berry"
+      ],
+      "only_incoming_notes": [
+        "green notes",
+        "rose petals",
+        "red berries"
+      ]
+    },
+    {
+      "source_id": "039b62a735efee3b",
+      "brand": "MYKONOS",
+      "name": "Zora",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/zora-edp",
+      "existing_id": "dadidupe-mykonos-zora",
+      "only_existing_notes": [
+        "musk"
+      ],
+      "only_incoming_notes": [
+        "musky"
+      ]
+    },
+    {
+      "source_id": "3567dd1c1d57b9fc",
+      "brand": "MYKONOS",
+      "name": "Tea Poetry",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/tea-poetry-extrait-de-parfum",
+      "existing_id": "dadidupe-mykonos-tea-poetry",
+      "only_existing_notes": [
+        "ylang ylang",
+        "candied fruits"
+      ],
+      "only_incoming_notes": [
+        "ylang2",
+        "candied fruit"
+      ]
+    },
+    {
+      "source_id": "bab892a336fd44b1",
+      "brand": "MYKONOS",
+      "name": "Down To Earth",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/down-to-earth-1",
+      "existing_id": "mykonos-down-to-earth",
+      "only_existing_notes": [
+        "cedarwood"
+      ],
+      "only_incoming_notes": [
+        "cedar"
+      ]
+    },
+    {
+      "source_id": "e3c9546fd0e2ce8c",
+      "brand": "The Body Tale",
+      "name": "Juliette",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/the-body-tale/juliette",
+      "existing_id": "the-body-tale-juliette",
+      "only_existing_notes": [
+        "woody note"
+      ],
+      "only_incoming_notes": [
+        "woody"
+      ]
+    },
+    {
+      "source_id": "77983227951e4635",
+      "brand": "Unke Naru",
+      "name": "For You",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/unke-naru/eau-de-parfum-for-you",
+      "existing_id": "unke-naru-for-you",
+      "only_existing_notes": [
+        "coconut tree leaf"
+      ],
+      "only_incoming_notes": [
+        "coconut tree leaves"
+      ]
+    },
+    {
+      "source_id": "a88e44f34e9a0270",
+      "brand": "The Body Tale",
+      "name": "Teamomile",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/the-body-tale/teamomile",
+      "existing_id": "the-body-tale-teamomile",
+      "only_existing_notes": [
+        "sandalwood",
+        "cedar"
+      ],
+      "only_incoming_notes": [
+        "cedre",
+        "bois de santal"
+      ]
+    },
+    {
+      "source_id": "5e9f30a4aaf3bb97",
+      "brand": "House of Medici",
+      "name": "Fatima La Isabella",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/house-of-medici/eau-de-parfum-1-fatima-la-isabella",
+      "existing_id": "house-of-medici-fatima-la-isabella",
+      "only_existing_notes": [
+        "dried fruit"
+      ],
+      "only_incoming_notes": [
+        "dried fruits"
+      ]
+    },
+    {
+      "source_id": "b41eb448afcaf923",
+      "brand": "Personal Chemistry",
+      "name": "Unspoken",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/personal-chemistry/unspoken",
+      "existing_id": "personal-chemistry-unspoken",
+      "only_existing_notes": [
+        "damask rose",
+        "guaiacwood"
+      ],
+      "only_incoming_notes": [
+        "damascena rose",
+        "gaiac wood"
+      ]
+    },
+    {
+      "source_id": "dc0c7eaf9d3451fa",
+      "brand": "Alt Perfumery",
+      "name": "Teatime in Kyoto",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alt-perfumery/teatime-in-kyoto",
+      "existing_id": "alt-perfumery-teatime-in-kyoto",
+      "only_existing_notes": [
+        "green note"
+      ],
+      "only_incoming_notes": [
+        "green notes"
+      ]
+    },
+    {
+      "source_id": "6a0aadc2c1767b3a",
+      "brand": "YN Perfumery",
+      "name": "Rose In September",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/yn-perfumery/rose-in-september-eau-de-parfum",
+      "existing_id": "yn-perfumery-rose-in-september",
+      "only_existing_notes": [
+        "green note",
+        "cedarwood"
+      ],
+      "only_incoming_notes": [
+        "green notes",
+        "cedar"
+      ]
+    },
+    {
+      "source_id": "adc672f53eea6a80",
+      "brand": "Personal Chemistry",
+      "name": "Velvet Kiss",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/personal-chemistry/velvet-kiss",
+      "existing_id": "personal-chemistry-velvet-kiss",
+      "only_existing_notes": [
+        "tangerine",
+        "pink davana",
+        "damask rose"
+      ],
+      "only_incoming_notes": [
+        "juicy tangerine",
+        "davana",
+        "damascena rose"
+      ]
+    },
+    {
+      "source_id": "d76d5e549fb719ae",
+      "brand": "MYKONOS",
+      "name": "Luminos",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/luminos-edp",
+      "existing_id": "mykonos-luminos",
+      "only_existing_notes": [
+        "banana",
+        "vanilla",
+        "white floral",
+        "ice cream",
+        "edible note"
+      ],
+      "only_incoming_notes": [
+        "java banana",
+        "white florals",
+        "edible notes"
+      ]
+    },
+    {
+      "source_id": "53f33008d532d5e5",
+      "brand": "Alt Perfumery",
+      "name": "Reverie",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alt-perfumery/reverie-edp",
+      "existing_id": "alt-perfumery-reverie",
+      "only_existing_notes": [
+        "blackcurrant"
+      ],
+      "only_incoming_notes": [
+        "black currant"
+      ]
+    },
+    {
+      "source_id": "292a420ca9c4924c",
+      "brand": "Unke Naru",
+      "name": "Suga Bourbon",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/unke-naru/eau-de-parfum-suga-bourbon",
+      "existing_id": "unke-naru-suga-bourbon",
+      "only_existing_notes": [
+        "tropical fruit",
+        "woody note"
+      ],
+      "only_incoming_notes": [
+        "tropical fruits",
+        "woody notes"
+      ]
+    },
+    {
+      "source_id": "cf6b927e9817c5d3",
+      "brand": "Project 1945",
+      "name": "Samosir",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/project-1945/samosir-edp",
+      "existing_id": "project-1945-samosir",
+      "only_existing_notes": [
+        "green note",
+        "ciste labdanum"
+      ],
+      "only_incoming_notes": [
+        "green notes",
+        "labdanum"
+      ]
+    },
+    {
+      "source_id": "b202b1e92f53243d",
+      "brand": "SAFF & Co.",
+      "name": "Morfosia",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/saff-co/morfosia-extrait-de-parfum",
+      "existing_id": "saff-co-morfosia",
+      "only_existing_notes": [
+        "elettaria",
+        "red cedarwood"
+      ],
+      "only_incoming_notes": [
+        "elletaria",
+        "red cedar"
+      ]
+    },
+    {
+      "source_id": "53aad77019970f3c",
+      "brand": "House of Medici",
+      "name": "Paradise Reservoir",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/house-of-medici/eau-de-parfum-1-paradise-reservoir",
+      "existing_id": "house-of-medici-paradise-reservoir",
+      "only_existing_notes": [
+        "bourbon vetiver"
+      ],
+      "only_incoming_notes": [
+        "vetiver bourbon"
+      ]
+    },
+    {
+      "source_id": "3409d7609e50d93a",
+      "brand": "HMNS",
+      "name": "Untitled Humans Aroma 02",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/untitled-humans-aroma-02",
+      "existing_id": "hmns-untitled-humans-aroma-02",
+      "only_existing_notes": [
+        "milk",
+        "musk"
+      ],
+      "only_incoming_notes": [
+        "musk mik"
+      ]
+    },
+    {
+      "source_id": "c973dd033451e63e",
+      "brand": "Nevernot",
+      "name": "Date of Birth",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/never-not-official/date-of-birth",
+      "existing_id": "nevernot-date-of-birth",
+      "only_existing_notes": [
+        "pear flower",
+        "powder note"
+      ],
+      "only_incoming_notes": [
+        "pear flowers",
+        "powder"
+      ]
+    },
+    {
+      "source_id": "77c416bd821c9f48",
+      "brand": "Alt Perfumery",
+      "name": "Uptown",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alt-perfumery/uptown-edp",
+      "existing_id": "alt-perfumery-uptown",
+      "only_existing_notes": [
+        "blackcurrant",
+        "freesia",
+        "sweet pea"
+      ],
+      "only_incoming_notes": [
+        "black currant",
+        "sweat pea",
+        "fressia"
+      ]
+    },
+    {
+      "source_id": "e7844e375da90062",
+      "brand": "Elaya",
+      "name": "State of Grace",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/elaya/state-of-grace-eau-de-parfum",
+      "existing_id": "elaya-state-of-grace",
+      "only_existing_notes": [
+        "cassis bud"
+      ],
+      "only_incoming_notes": [
+        "cassis buds"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "source_id": "fffd380f6b4b1fa2",
+      "brand": "MYKONOS",
+      "name": "Vanilla Clouds Dreamer's Collection",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/dreamers-collection-edp-vanilla-clouds-1",
+      "reason": "possible_duplicate_or_unspecified_variant",
+      "existing_ids": [
+        "mykonos-vanilla-clouds"
+      ]
+    },
+    {
+      "source_id": "62e613b1fa219725",
+      "brand": "MYKONOS",
+      "name": "Coconut Dreams Dreamer's Collection",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/dreamers-collection-edp-coconut-dreams-1",
+      "reason": "possible_duplicate_or_unspecified_variant",
+      "existing_ids": [
+        "mykonos-coconut-dreams"
+      ]
+    },
+    {
+      "source_id": "abe0bd4235db72a8",
+      "brand": "Hint",
+      "name": "Realm Main",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/realm-main-edp",
+      "reason": "possible_duplicate_or_unspecified_variant",
+      "existing_ids": [
+        "hint-realm"
+      ]
+    },
+    {
+      "source_id": "76898fa6bf67d430",
+      "brand": "Hint",
+      "name": "Identity Main",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/identity-main-edp",
+      "reason": "possible_duplicate_or_unspecified_variant",
+      "existing_ids": [
+        "hint-identity"
+      ]
+    },
+    {
+      "source_id": "9b79c37ac9397f92",
+      "brand": "Evangeline",
+      "name": "Selection Royal Lavender",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-royal-lavender-2",
+      "reason": "missing_or_ambiguous_pyramid"
+    },
+    {
+      "source_id": "a6d6826a34e8d40d",
+      "brand": "HMNS",
+      "name": "Untitled Humans",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hmns-perfume/untitled-humans",
+      "reason": "possible_duplicate_or_unspecified_variant",
+      "existing_ids": [
+        "hmns-untitled-humans-aroma-01",
+        "hmns-untitled-humans-aroma-02"
+      ]
+    },
+    {
+      "source_id": "d4f65176e852fe29",
+      "brand": "Hint",
+      "name": "Delicate Topper",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/hint/delicate-topper-edp",
+      "reason": "possible_duplicate_or_unspecified_variant",
+      "existing_ids": [
+        "hint-delicate"
+      ]
+    },
+    {
+      "source_id": "737ea66f2ac10dd1",
+      "brand": "Alchemist",
+      "name": "09 Jatuh Hati",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/alchemist-fragrance/eau-de-parfum-09-jatuh-hati",
+      "reason": "possible_duplicate_or_unspecified_variant",
+      "existing_ids": [
+        "dadidupe-alchemist-jatuh-hati"
+      ]
+    },
+    {
+      "source_id": "de51b94d374d59a5",
+      "brand": "Rahasia",
+      "name": "Rahasia x Cinta Laura Goddess Water",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/rahasia-beauty/rahasia-x-cinta-laura-goddess-water-edp",
+      "reason": "possible_duplicate_or_unspecified_variant",
+      "existing_ids": [
+        "dadidupe-rahasia-goddess-water"
+      ]
+    },
+    {
+      "source_id": "c91cdccac51667dd",
+      "brand": "Evangeline",
+      "name": "Zodiac Series Scorpio",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-zodiak-series-sagitarius-1",
+      "reason": "missing_or_ambiguous_pyramid"
+    },
+    {
+      "source_id": "f8d942db10777a85",
+      "brand": "Evangeline",
+      "name": "Garden Series Alba",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/evangeline-alba-1",
+      "reason": "missing_or_ambiguous_pyramid"
+    },
+    {
+      "source_id": "181b264adae86054",
+      "brand": "MYKONOS",
+      "name": "California Dreamer's Collection",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/mykonos/dreamers-collection-edp-california-1",
+      "reason": "possible_duplicate_or_unspecified_variant",
+      "existing_ids": [
+        "mykonos-california"
+      ]
+    },
+    {
+      "source_id": "50d084ad46bebbf6",
+      "brand": "Polka",
+      "name": "Birth Date",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/polka-cosmetics/birth-date-extrait-de-parfum",
+      "reason": "ambiguous_combined_note_labels"
+    },
+    {
+      "source_id": "2889e27ac839a9de",
+      "brand": "Polka",
+      "name": "Placid Dream",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/polka-cosmetics/eau-de-parfum-1-placid-dream",
+      "reason": "public_notes_mismatch"
+    },
+    {
+      "source_id": "bc5a3851f7fc4954",
+      "brand": "Evangeline",
+      "name": "Bloom Series Sophie",
+      "source_url": "https://reviews.femaledaily.com/products/fragrance/edp/evangeline/eau-de-perfume-bloom-series-sophie",
+      "reason": "missing_or_ambiguous_pyramid"
+    }
+  ]
+}
